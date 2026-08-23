@@ -30,32 +30,32 @@ Everything here is derivative of Prisoners Defenders' underlying documentation. 
 ```
 cuba-prisoners-ontology/
 ├── ontology/
-│   ├── cuban_prisoners_tbox_v3.ttl        # T-Box (schema)
-│   ├── cuban_prisoners_charge_types.ttl   # SKOS vocabulary for the Cuban Penal Code
-│   └── cuban_prisoners_abox.ttl           # A-Box (1,258 individuals)
+│   ├── cuban_prisoners_tbox_v3.ttl         # T-Box (schema)
+│   ├── cuban_prisoners_charge_types.ttl    # SKOS vocabulary for the Cuban Penal Code
+│   └── cuban_prisoners_abox.ttl            # A-Box (1,258 individuals)
 ├── shapes/
-│   └── cuban_prisoners_shapes.ttl         # SHACL validation
+│   └── cuban_prisoners_shapes.ttl          # SHACL validation
 ├── policy/
-│   └── cuban_prisoners_policy.ttl         # DPV + ODRL ethics overlay
+│   └── cuban_prisoners_policy.ttl          # DPV + ODRL ethics overlay
 ├── scripts/
-│   ├── 01_scrape_prisoners.py             # Data collection (Prisoners Defenders)
-│   ├── 02_scrape_perpetrators.py          # Data collection (Represores Cubanos)
-│   ├── 03_build_abox.py                   # CSV/JSONL to RDF
-│   ├── 04_run_pipeline.py                 # Load, validate, infer
-│   └── 05_analyze.py                      # Statistical analysis + CSV output
+│   ├── 01_scrape_prisoners.py              # Data collection (Prisoners Defenders)
+│   ├── 02_scrape_perpetrators.py           # Data collection (Represores Cubanos)
+│   ├── 03_build_abox.py                    # CSV/JSONL to RDF
+│   ├── 04_run_pipeline.py                  # Load, validate, infer
+│   └── 05_analyze.py                       # Statistical analysis + CSV output
 ├── data/
-│   ├── prisoners.jsonl                    # Raw scraped records
-│   └── merged.ttl                         # Fully loaded and inferred graph
+│   ├── prisoners.jsonl                     # Raw scraped records
+│   └── merged.ttl                          # Fully loaded and inferred graph
 ├── results/
-│   ├── charge_stacking.csv                # Per-pair co-occurrence with p-values
+│   ├── charge_stacking.csv                 # Per-pair co-occurrence with p-values
 │   ├── facility_colocation.csv
 │   ├── arrest_waves.csv
 │   └── geographic_displacement.csv
 ├── submissions/
-│   ├── wgad_submission.md                 # UN Working Group on Arbitrary Detention
-│   ├── iachr_thematic_report.md           # Inter-American Commission
-│   └── upr_submission.md                  # Universal Periodic Review, Fifth Cycle
-├── two_regimes.html                       # Public-facing report
+│   ├── wgad_submission.md                  # UN Working Group on Arbitrary Detention
+│   ├── iachr_thematic_report.md            # Inter-American Commission
+│   └── upr_submission.md                   # Universal Periodic Review, Fifth Cycle
+├── two_regimes.html                        # Public-facing report
 └── README.md
 ```
 
@@ -202,19 +202,21 @@ And cite the underlying data source:
 
 ## License
 
-- **Ontology, SHACL shapes, and analysis code:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Instance data (A-Box):** derivative of Prisoners Defenders' publicly-maintained registry; attribution to Prisoners Defenders required for any re-use
-- **HTML report and submission documents:** CC BY 4.0
+- **Ontology, SHACL shapes, and analysis code:** [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- **Instance data (A-Box):** Derivative of Prisoners Defenders' publicly-maintained registry; attribution to Prisoners Defenders required for any re-use
+- **HTML report and submission documents:** [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
-Commercial use is prohibited under the ODRL policy overlay in `policy/cuban_prisoners_policy.ttl` regardless of the CC BY-4.0 default. Machine learning training use on individual records is prohibited.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Additional restrictions on commercial reuse, machine learning training on individual records, and privacy boundaries are strictly enforced via the ODRL policy overlay in `policy/cuban_prisoners_policy.ttl`.
 
 ---
 
 ## Contact
 
-Eric Brattin
-[ofcourseitscorrelated@gmail.com]
-[www.linkedin.com/in/ericbrattin]
+**Eric Brattin**
+- Email: [ofcourseitscorrelated@gmail.com](mailto:ofcourseitscorrelated@gmail.com)
+- LinkedIn: [www.linkedin.com/in/ericbrattin](https://www.linkedin.com/in/ericbrattin)
 
 For questions about the underlying case data, contact Prisoners Defenders directly. For questions about the ontology, analysis method, or how to extend the pipeline for a related jurisdiction, open an issue or write.
 
