@@ -213,8 +213,8 @@ Commercial use is prohibited under the ODRL policy overlay in `policy/cuban_pris
 ## Contact
 
 Eric Brattin
-[email address]
-[optional: professional URL / ORCID]
+[ofcourseitscorrelated@gmail.com]
+[www.linkedin.com/in/ericbrattin]
 
 For questions about the underlying case data, contact Prisoners Defenders directly. For questions about the ontology, analysis method, or how to extend the pipeline for a related jurisdiction, open an issue or write.
 
