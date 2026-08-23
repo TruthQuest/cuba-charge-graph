@@ -1,5 +1,7 @@
 # cuba-prisoners-ontology
 
+![Post-Soviet institutional style artwork](images/u5771898551_In_the_style_of_Anna_Jerves_post-Soviet_instituti_5370d816-79da-4276-a8d9-0aca0cbb0461_0.png)
+
 A formal ontology and reproducible analysis pipeline over the public registry of 1,258 Cuban political prisoners maintained by [Prisoners Defenders](https://www.prisonersdefenders.org/). Produces statistical evidence that the Cuban state operates two entirely disjoint prosecutorial charging regimes for political cases.
 
 The primary finding, tested under a permutation null model (n=5,000, p<0.001), is that low-severity charges (Contempt, Public Disorder, Assault, Resistance) cluster into a "street-protest bundle" applied to demonstrators, while high-severity charges (Sedition, Sabotage, Enemy Propaganda) are applied as standalone charges to individuals the state characterizes as regime threats. The two clusters do not overlap. The pattern is stable across the five-year observation window and across every Cuban province.
