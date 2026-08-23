@@ -1,0 +1,31 @@
+charge1,charge2,co_occurrence,charge1_total,charge2_total,conditional_rate_min,null_mean,null_p95,empirical_p_value
+Contempt,Public Disorder,288,378,556,0.7619,94.48,107,0.0000
+Assault,Public Disorder,253,350,556,0.7229,88.19,100,0.0000
+Assault,Contempt,175,350,378,0.5000,62.92,74,0.0000
+Public Disorder,Sabotage,71,556,115,0.6174,30.95,38,0.0000
+Instigación a delinquir,Public Disorder,38,55,556,0.6909,15.09,21,0.0000
+Public Disorder,Resistance,30,556,39,0.7692,10.74,15,0.0000
+Contempt,Instigación a delinquir,29,378,55,0.5273,10.77,16,0.0000
+Contempt,Resistance,26,378,39,0.6667,7.69,12,0.0000
+Daños,Public Disorder,22,26,556,0.8462,7.22,11,0.0000
+Assault,Resistance,22,350,39,0.5641,7.19,11,0.0000
+Assault,Daños,20,350,26,0.7692,4.77,8,0.0000
+Assault,Instigación a delinquir,20,350,55,0.3636,10.06,15,0.0014
+Public Disorder,Robo con fuerza,17,556,33,0.5152,9.08,13,0.0022
+Assault,Propagación de epidemia,15,350,19,0.7895,3.49,6,0.0000
+Contempt,Propagación de epidemia,15,378,19,0.7895,3.75,7,0.0000
+Contempt,Sabotage,14,378,115,0.1217,22.14,29,0.9850
+Contempt,Desobediencia,14,378,28,0.5000,5.54,9,0.0002
+Propagación de epidemia,Public Disorder,14,19,556,0.7368,5.24,9,0.0002
+Assault,Sabotage,12,350,115,0.1043,20.60,27,0.9922
+Public Disorder,Sedition,10,556,218,0.0459,57.01,67,1.0000
+Assault,Sedition,9,350,218,0.0413,38.06,47,1.0000
+Desobediencia,Public Disorder,8,28,556,0.2857,7.70,12,0.5300
+Portación y tenencia ilegal de armas o explosivos,Public Disorder,7,11,556,0.6364,3.05,6,0.0136
+Otros delitos arbitrarios contra la administración y la jurisdicción,Public Disorder,7,7,556,1.0000,1.97,4,0.0000
+Public Disorder,Ultraje sexual,7,556,8,0.8750,2.22,4,0.0006
+Assault,Difamación de las instituciones y organizaciones y de los héroes y mártires,7,350,15,0.4667,2.77,5,0.0100
+Contempt,Difamación de las instituciones y organizaciones y de los héroes y mártires,7,378,15,0.4667,2.96,6,0.0156
+Contempt,Propaganda Against Constitutional Order,6,378,61,0.0984,11.91,17,0.9888
+Instigación a delinquir,Resistance,6,55,39,0.1538,1.20,3,0.0006
+Assault,Evasión de presos o detenidos,6,350,6,1.0000,1.11,3,0.0000

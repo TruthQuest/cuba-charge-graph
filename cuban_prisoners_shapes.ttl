@@ -1,0 +1,213 @@
+# =============================================================================
+# CUBAN POLITICAL PRISONERS ONTOLOGY: SHACL VALIDATION SHAPES v1.0
+# Run with pyshacl or Apache Jena SHACL against the merged T-Box + A-Box graph.
+# =============================================================================
+
+@prefix :        <http://prisoners.defenders.org/ontology#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# =============================================================================
+# PERSON / POLITICAL PRISONER
+# =============================================================================
+
+:PoliticalPrisonerShape a sh:NodeShape ;
+    sh:targetClass :PoliticalPrisoner ;
+    rdfs:comment "Every asserted political prisoner must have identity, at least one arrest, and full provenance."@en ;
+
+    sh:property [
+        sh:path :fullName ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 2 ;
+        sh:message "Every PoliticalPrisoner requires exactly one fullName."@en
+    ] ;
+    sh:property [
+        sh:path :arrested ;
+        sh:minCount 1 ;
+        sh:class :Arrest ;
+        sh:severity sh:Warning ;
+        sh:message "PoliticalPrisoner should have at least one asserted Arrest; source lacks parseable arrest_date."@en
+    ] ;
+    sh:property [
+        sh:path :sourceURL ;
+        sh:minCount 1 ;
+        sh:datatype xsd:anyURI ;
+        sh:pattern "^https?://" ;
+        sh:message "Every PoliticalPrisoner requires at least one sourceURL for provenance."@en
+    ] ;
+    sh:property [
+        sh:path :scrapedAt ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:dateTime ;
+        sh:message "Every PoliticalPrisoner requires exactly one scrapedAt timestamp."@en
+    ] ;
+    sh:property [
+        sh:path :ageAtArrest ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 120 ;
+        sh:message "ageAtArrest must be between 0 and 120."@en
+    ] ;
+    sh:property [
+        sh:path :currentAge ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 120
+    ] ;
+    sh:property [
+        sh:path :residesInProvince ;
+        sh:maxCount 1 ;
+        sh:class :Province ;
+        sh:severity sh:Warning ;
+        sh:message "Person should have a home province distinct from detention location; needed for displacement analysis."@en
+    ] .
+
+# =============================================================================
+# ARREST
+# =============================================================================
+
+:ArrestShape a sh:NodeShape ;
+    sh:targetClass :Arrest ;
+    sh:property [
+        sh:path :arrestDate ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:datatype xsd:date ;
+        sh:message "Every Arrest requires exactly one arrestDate."@en
+    ] ;
+    sh:property [
+        sh:path :arrestOf ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class :Person ;
+        sh:message "Every Arrest must be linked to exactly one Person."@en
+    ] ;
+    sh:property [
+        sh:path :occurredInProvince ;
+        sh:maxCount 1 ;
+        sh:class :Province ;
+        sh:severity sh:Warning
+    ] .
+
+# =============================================================================
+# CHARGE
+# =============================================================================
+
+:ChargeShape a sh:NodeShape ;
+    sh:targetClass :Charge ;
+    sh:property [
+        sh:path :hasChargeType ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class :ChargeType ;
+        sh:message "Every Charge must reference exactly one ChargeType from the SKOS vocabulary."@en
+    ] ;
+    sh:property [
+        sh:path :filedAgainst ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class :Person ;
+        sh:message "Every Charge must be filed against exactly one Person."@en
+    ] .
+
+# =============================================================================
+# SENTENCE
+# =============================================================================
+
+:SentenceShape a sh:NodeShape ;
+    sh:targetClass :Sentence ;
+    sh:property [
+        sh:path :sentenceLengthYears ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 100 ;
+        sh:message "sentenceLengthYears must be a non-negative decimal at most 100."@en
+    ] .
+
+# =============================================================================
+# STATUS PERIOD (temporal binding)
+# =============================================================================
+
+:StatusPeriodShape a sh:NodeShape ;
+    sh:targetClass :StatusPeriod ;
+    sh:property [
+        sh:path :statusOf ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class :Person ;
+        sh:message "Every StatusPeriod must bind to exactly one Person."@en
+    ] ;
+    sh:property [
+        sh:path :penalStatusInPeriod ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class :PenalStatus ;
+        sh:message "Every StatusPeriod must reference exactly one PenalStatus."@en
+    ] ;
+    sh:property [
+        sh:path :periodInterval ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:message "Every StatusPeriod must reference a time:Interval."@en
+    ] .
+
+# =============================================================================
+# DETENTION FACILITY
+# =============================================================================
+
+:DetentionFacilityShape a sh:NodeShape ;
+    sh:targetClass :DetentionFacility ;
+    sh:property [
+        sh:path :facilityName ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string
+    ] ;
+    sh:property [
+        sh:path :locatedInProvince ;
+        sh:maxCount 1 ;
+        sh:class :Province ;
+        sh:severity sh:Warning ;
+        sh:message "Facility should be geocoded to a Province to support displacement analysis."@en
+    ] .
+
+# =============================================================================
+# REPORTED PRACTICE (analytical assertions require evidence)
+# This is the core defensibility shape. No evidence, no assertion.
+# =============================================================================
+
+:ReportedPracticeShape a sh:NodeShape ;
+    sh:targetClass :ReportedPractice ;
+    rdfs:comment "Every reported abusive practice must cite at least one evidentiary source via prov:wasDerivedFrom."@en ;
+
+    sh:property [
+        sh:path prov:wasDerivedFrom ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "A ReportedPractice without prov:wasDerivedFrom is defamatory. Rejected."@en
+    ] ;
+    sh:property [
+        sh:path dcterms:date ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:date
+    ] .
+
+# =============================================================================
+# CHARGE TYPE (SKOS integrity)
+# =============================================================================
+
+:ChargeTypeShape a sh:NodeShape ;
+    sh:targetClass :ChargeType ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:uniqueLang true ;
+        sh:message "Each ChargeType requires at least one skos:prefLabel, unique per language."@en
+    ] ;
+    sh:property [
+        sh:path skos:inScheme ;
+        sh:minCount 1 ;
+        sh:hasValue :CubanPenalCode
+    ] .

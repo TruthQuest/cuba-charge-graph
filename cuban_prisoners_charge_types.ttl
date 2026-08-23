@@ -1,0 +1,134 @@
+# =============================================================================
+# CUBAN PENAL CODE: SKOS CHARGE TYPES VOCABULARY v1.0
+# Extracted from cuban_prisoners_v2_1.ttl. Imported by the T-Box.
+# =============================================================================
+
+@prefix :        <http://prisoners.defenders.org/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# --- Concept Scheme -----------------------------------------------------------
+
+:CubanPenalCode a skos:ConceptScheme ;
+    rdfs:label "Cuban Penal Code Charges"@en , "Cargos del Código Penal Cubano"@es ;
+    dcterms:description "Controlled vocabulary of criminal charges under Cuban law as applied to political prisoners."@en ;
+    dcterms:source <https://www.gacetaoficial.gob.cu/> ;
+    skos:hasTopConcept :PoliticalCrime , :CommonCrime .
+
+:PoliticalCrime a skos:Concept ;
+    skos:prefLabel "Political Crime"@en , "Delito Político"@es ;
+    skos:definition "Criminal charges explicitly targeting political activities, expression, or state security."@en ;
+    skos:definition "Cargos criminales que explícitamente atacan actividades políticas, expresión o seguridad del estado."@es ;
+    skos:inScheme :CubanPenalCode ;
+    skos:narrower :SedicionType , :PropagandaContraOrdenType , :PropagandaEnemigaType , :SabotajeType .
+
+:CommonCrime a skos:Concept ;
+    skos:prefLabel "Common Crime"@en , "Delito Común"@es ;
+    skos:definition "Criminal charges applicable to general conduct but frequently applied to political actions."@en ;
+    skos:definition "Cargos criminales aplicables a conducta general pero frecuentemente aplicados a acciones políticas."@es ;
+    skos:inScheme :CubanPenalCode ;
+    skos:narrower :AtentadoType , :DesacatoType , :DesordenesPublicosType , :ResistenciaType .
+
+# --- Charge Types -------------------------------------------------------------
+
+:SedicionType a :ChargeType ;
+    skos:prefLabel "Sedición"@es , "Sedition"@en ;
+    skos:altLabel "Sedición contra el Estado"@es , "Incitación a la sedición"@es ,
+                  "Sedition against the State"@en , "Incitement to sedition"@en ;
+    skos:definition "Incitar, promover o ejecutar actos destinados a subvertir el orden constitucional o derrocar al gobierno por medios violentos o ilegales."@es ;
+    skos:definition "Inciting, promoting, or executing acts intended to subvert the constitutional order or overthrow the government by violent or illegal means."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 100. Sanción de 7-15 años de prisión o pena de muerte en casos agravados."@es ;
+    skos:scopeNote "Cuban Penal Code Article 100. Penalty ranges from 7-15 years imprisonment or death penalty in aggravated cases."@en ;
+    skos:editorialNote "In practice, applied broadly to peaceful political expression, protest participation, and dissent, in violation of ICCPR Article 19."@en ;
+    skos:broader :PoliticalCrime ;
+    skos:related :DesordenesPublicosType , :AtentadoType ;
+    skos:inScheme :CubanPenalCode .
+
+:DesacatoType a :ChargeType ;
+    skos:prefLabel "Desacato"@es , "Contempt"@en ;
+    skos:altLabel "Desacato a la autoridad"@es , "Falta de respeto"@es ,
+                  "Contempt of authority"@en , "Disrespect"@en ;
+    skos:definition "Mostrar falta de respeto, ofender o amenazar a funcionarios públicos en ejercicio de sus funciones."@es ;
+    skos:definition "Showing disrespect, offending, or threatening public officials in the exercise of their duties."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 144. Sanción de 3 meses a 1 año de prisión o multa."@es ;
+    skos:scopeNote "Cuban Penal Code Article 144. Penalty ranges from 3 months to 1 year imprisonment or fine."@en ;
+    skos:editorialNote "Used to criminalize criticism of government officials or policies."@en ;
+    skos:broader :CommonCrime ;
+    skos:inScheme :CubanPenalCode .
+
+:DesordenesPublicosType a :ChargeType ;
+    skos:prefLabel "Desórdenes Públicos"@es , "Public Disorder"@en ;
+    skos:altLabel "Alteración del orden público"@es , "Disturbios"@es ,
+                  "Public disturbance"@en , "Riots"@en ;
+    skos:definition "Participar en reuniones, manifestaciones o actos que alteren el orden público."@es ;
+    skos:definition "Participating in gatherings, demonstrations, or acts that disturb public order."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 200. Sanción de 3 meses a 1 año de prisión o multa."@es ;
+    skos:scopeNote "Cuban Penal Code Article 200. Penalty ranges from 3 months to 1 year imprisonment or fine."@en ;
+    skos:editorialNote "Applied to peaceful protests and unauthorized assemblies in violation of freedom of assembly."@en ;
+    skos:broader :CommonCrime ;
+    skos:related :SedicionType , :AtentadoType ;
+    skos:inScheme :CubanPenalCode .
+
+:AtentadoType a :ChargeType ;
+    skos:prefLabel "Atentado"@es , "Assault"@en ;
+    skos:altLabel "Atentado contra la autoridad"@es , "Agresión"@es ,
+                  "Assault on authority"@en , "Attack"@en ;
+    skos:definition "Acometer, agredir o usar violencia contra personas, especialmente autoridades."@es ;
+    skos:definition "Attacking, assaulting, or using violence against persons, especially authorities."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 271. Sanción varía según gravedad."@es ;
+    skos:scopeNote "Cuban Penal Code Article 271. Penalty varies by severity."@en ;
+    skos:editorialNote "Often charged alongside public disorder to increase sentence severity."@en ;
+    skos:broader :CommonCrime ;
+    skos:related :DesordenesPublicosType ;
+    skos:inScheme :CubanPenalCode .
+
+:SabotajeType a :ChargeType ;
+    skos:prefLabel "Sabotaje"@es , "Sabotage"@en ;
+    skos:altLabel "Sabotaje económico"@es , "Daños a la economía"@es ,
+                  "Economic sabotage"@en , "Damage to economy"@en ;
+    skos:definition "Destruir, dañar o inutilizar bienes o recursos de importancia económica o social."@es ;
+    skos:definition "Destroying, damaging, or disabling goods or resources of economic or social importance."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 91. Sanción de 7-15 años de prisión o pena de muerte en casos agravados."@es ;
+    skos:scopeNote "Cuban Penal Code Article 91. Penalty ranges from 7-15 years imprisonment or death penalty in aggravated cases."@en ;
+    skos:editorialNote "Applied to property damage during protests, regardless of economic significance."@en ;
+    skos:broader :PoliticalCrime ;
+    skos:inScheme :CubanPenalCode .
+
+:ResistenciaType a :ChargeType ;
+    skos:prefLabel "Resistencia"@es , "Resistance"@en ;
+    skos:altLabel "Resistencia a la autoridad"@es , "Desobediencia"@es ,
+                  "Resisting authority"@en , "Disobedience"@en ;
+    skos:definition "Resistir o desobedecer órdenes de autoridades o impedir su ejecución."@es ;
+    skos:definition "Resisting or disobeying orders from authorities or preventing their execution."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 160. Sanción de 3 meses a 1 año."@es ;
+    skos:scopeNote "Cuban Penal Code Article 160. Penalty ranges from 3 months to 1 year."@en ;
+    skos:editorialNote "Routinely charged alongside other offenses to compound sentences."@en ;
+    skos:broader :CommonCrime ;
+    skos:inScheme :CubanPenalCode .
+
+:PropagandaEnemigaType a :ChargeType ;
+    skos:prefLabel "Propaganda Enemiga"@es , "Enemy Propaganda"@en ;
+    skos:altLabel "Propaganda subversiva"@es , "Difusión enemiga"@es ,
+                  "Subversive propaganda"@en , "Enemy dissemination"@en ;
+    skos:definition "Difundir propaganda falsa contra el Estado cubano o propagar noticias falsas o predicciones alarmistas."@es ;
+    skos:definition "Disseminating false propaganda against the Cuban State or spreading false news or alarmist predictions."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 103. Sanción de 1-8 años de prisión."@es ;
+    skos:scopeNote "Cuban Penal Code Article 103. Penalty ranges from 1-8 years imprisonment."@en ;
+    skos:editorialNote "Applied to independent journalism, social media posts critical of government."@en ;
+    skos:broader :PoliticalCrime ;
+    skos:inScheme :CubanPenalCode .
+
+:PropagandaContraOrdenType a :ChargeType ;
+    skos:prefLabel "Propaganda Contra el Orden Constitucional"@es , "Propaganda Against Constitutional Order"@en ;
+    skos:altLabel "Propaganda contra el orden socialista"@es , "Propaganda against socialist order"@en ;
+    skos:definition "Incitar contra el orden socialista mediante propaganda oral, escrita o de cualquier forma."@es ;
+    skos:definition "Inciting against the socialist order through oral, written, or any form of propaganda."@en ;
+    skos:scopeNote "Código Penal Cubano Artículo 115. Sanción de 1-8 años de prisión."@es ;
+    skos:scopeNote "Cuban Penal Code Article 115. Penalty ranges from 1-8 years imprisonment."@en ;
+    skos:editorialNote "Criminalizes political speech protected under ICCPR Article 19."@en ;
+    skos:broader :PoliticalCrime ;
+    skos:related :PropagandaEnemigaType ;
+    skos:inScheme :CubanPenalCode .

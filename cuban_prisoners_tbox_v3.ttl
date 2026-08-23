@@ -1,0 +1,294 @@
+# =============================================================================
+# CUBAN POLITICAL PRISONERS ONTOLOGY: T-BOX v3.0
+# Schema only. Instance data (A-Box) lives in a separate file and imports this.
+# =============================================================================
+
+@prefix :        <http://prisoners.defenders.org/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix bfo:     <http://purl.obolibrary.org/obo/> .
+@prefix time:    <http://www.w3.org/2006/time#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+# =============================================================================
+# ONTOLOGY METADATA
+# =============================================================================
+
+<http://prisoners.defenders.org/ontology> a owl:Ontology ;
+    dcterms:title "Cuban Political Prisoners Ontology (T-Box)"@en ,
+                  "Ontología de Presos Políticos Cubanos (T-Box)"@es ;
+    dcterms:description "Schema for modeling political detention, judicial persecution, and coercive labor in Cuba, with SKOS separation of official terminology from analytical assessment."@en ;
+    dcterms:creator <http://prisoners.defenders.org/agent/project> ;
+    dcterms:created "2026-05-16"^^xsd:date ;
+    dcterms:modified "2026-08-22"^^xsd:date ;
+    dcterms:source <https://lista.prisonersdefenders.org/> ;
+    owl:versionIRI <http://prisoners.defenders.org/ontology/3.0-tbox> ;
+    owl:versionInfo "3.0 (T-Box): corrected BFO alignment, reified temporal status, TortureFacility restructured as reported-practice pattern, disjointness extended." ;
+    rdfs:comment "T-Box only. Import this from your A-Box file via owl:imports."@en ;
+    owl:imports <http://purl.obolibrary.org/obo/bfo.owl> ,
+                <http://www.w3.org/ns/prov-o> .
+
+<http://prisoners.defenders.org/agent/project> a foaf:Organization , prov:Organization ;
+    foaf:name "Cuban Political Prisoners Ontology Project" ;
+    dcterms:description "Independent project for accountability journalism and human rights documentation." .
+
+# =============================================================================
+# CLASS HIERARCHY (BFO-aligned, corrected)
+# =============================================================================
+
+# Person is a material entity (BFO_0000040), NOT a role (BFO_0000023).
+:Person a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000040 ;
+    rdfs:label "Person"@en , "Persona"@es ;
+    skos:definition "An individual human being who may be subject to state detention or judicial proceedings."@en .
+
+# PoliticalPrisoner is a Person bearing a PoliticalPrisonerRole.
+# Kept as a class for convenience, but the analytical assertion is really about the role.
+:PoliticalPrisoner a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Political Prisoner"@en , "Preso Político"@es ;
+    skos:definition "A Person who bears a PoliticalPrisonerRole documented by at least one credible source."@en ;
+    skos:editorialNote "Membership is an analytical assessment by the data producer, not a legal determination by any court."@en .
+
+# --- Processes (BFO_0000015) ---
+
+:Arrest a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000015 ;
+    rdfs:label "Arrest"@en , "Arresto"@es ;
+    skos:definition "A process in which a Person is taken into state custody."@en .
+
+:ArrestWave a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000015 ;
+    rdfs:label "Arrest Wave"@en , "Ola de Arrestos"@es ;
+    skos:definition "A temporally and spatially clustered set of Arrests inferred by rule, not manually asserted."@en ;
+    skos:scopeNote "Inference rule: >=5 arrests within 7 days within one Province."@en .
+
+:JudicialProceeding a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000015 ;
+    rdfs:label "Judicial Proceeding"@en , "Proceso Judicial"@es .
+
+# --- Generically dependent continuants (BFO_0000031): documents, charges, sentences ---
+
+:Charge a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000031 ;
+    rdfs:label "Charge"@en , "Cargo"@es ;
+    skos:definition "A specific instance of a formal criminal accusation filed by the state against an individual."@en .
+
+:ChargeType a owl:Class ;
+    rdfs:label "Charge Type"@en , "Tipo de Cargo"@es ;
+    skos:definition "A classification of criminal charges under Cuban law."@en .
+
+:Sentence a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000031 ;
+    rdfs:label "Sentence"@en , "Sentencia"@es ;
+    skos:definition "A judicial determination of punishment type and duration."@en .
+
+# --- Roles (BFO_0000023): what a Person bears while in the penal system ---
+
+:PenalStatus a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000023 ;
+    rdfs:label "Penal Status"@en , "Estado Penal"@es ;
+    skos:definition "A role borne by a Person that reflects their legal and custodial condition under state authority."@en .
+
+:Imprisoned                  a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Imprisoned"@en , "Encarcelado"@es .
+:ProvisionalDetention        a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Provisional Detention"@en , "Detención Provisional"@es ;
+    skos:scopeNote "Extended provisional detention may violate ICCPR Art. 9."@en .
+:ConditionalRelease          a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Conditional Release"@en , "Libertad Condicional"@es .
+:HouseArrest                 a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "House Arrest"@en , "Arresto Domiciliario"@es .
+:ForcedLaborWithoutInternment a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Forced Labor Without Internment"@en , "Trabajo Forzoso sin Internamiento"@es .
+:UnderThreats                a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Under Threats"@en , "Bajo Amenazas"@es .
+:PoliticalPrisonerRole       a owl:Class ; rdfs:subClassOf :PenalStatus ; rdfs:label "Political Prisoner Role"@en .
+
+# All PenalStatus subclasses are pairwise disjoint per StatusPeriod (see below).
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Imprisoned :ProvisionalDetention :ConditionalRelease
+                  :HouseArrest :ForcedLaborWithoutInternment :UnderThreats ) .
+
+# --- StatusPeriod: reified temporal binding of a Person to a PenalStatus ---
+
+:StatusPeriod a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000015 ;
+    rdfs:label "Status Period"@en , "Período de Estado"@es ;
+    skos:definition "A temporal interval during which a specific Person bears a specific PenalStatus at (optionally) a specific facility."@en .
+
+# --- Material entities: facilities and administrative regions ---
+
+:DetentionFacility a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000040 ;
+    rdfs:label "Detention Facility"@en , "Centro de Detención"@es ;
+    skos:definition "A physical location where prisoners are held by the state."@en ;
+    skos:editorialNote "No analytical labels (e.g., 'torture facility') are attached at the class level. Attach them per-instance via :hasReportedPractice."@en .
+
+:Prison                    a owl:Class ; rdfs:subClassOf :DetentionFacility ; rdfs:label "Prison"@en , "Prisión"@es .
+:PretrialDetentionCenter   a owl:Class ; rdfs:subClassOf :DetentionFacility ; rdfs:label "Pretrial Detention Center"@en , "Centro de Detención Preventiva"@es .
+:LaborCamp                 a owl:Class ; rdfs:subClassOf :DetentionFacility ; rdfs:label "Labor Camp"@en , "Campo de Trabajo"@es ;
+    skos:editorialNote "Neutral facility class. Forced-labor conditions are asserted per instance via :hasReportedPractice :ForcedLabor."@en .
+
+# Reported practices: analytical, per-instance, with mandatory evidence.
+:ReportedPractice a owl:Class ;
+    rdfs:subClassOf bfo:BFO_0000015 ;
+    rdfs:label "Reported Practice"@en , "Práctica Reportada"@es ;
+    skos:definition "An asserted practice reported to occur at a specific DetentionFacility, requiring at least one prov:wasDerivedFrom evidentiary source."@en .
+
+:ForcedLabor         a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Forced Labor"@en ;
+    skos:scopeNote "Definition per ILO Convention 29 Art. 2."@en .
+:SleepDeprivation    a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Sleep Deprivation"@en .
+:ProlongedIsolation  a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Prolonged Isolation"@en .
+:PhysicalAbuse       a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Physical Abuse"@en .
+:ThreatsAgainstFamily a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Threats Against Family"@en .
+:MedicalNeglect      a owl:Class ; rdfs:subClassOf :ReportedPractice ; rdfs:label "Medical Neglect"@en .
+
+# --- Geography (BFO_0000029 = site) ---
+
+:Province     a owl:Class ; rdfs:subClassOf bfo:BFO_0000029 ; rdfs:label "Province"@en , "Provincia"@es .
+:Municipality a owl:Class ; rdfs:subClassOf bfo:BFO_0000029 ; rdfs:label "Municipality"@en , "Municipio"@es .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Person :DetentionFacility :Arrest :Charge :Sentence
+                  :Province :Municipality :StatusPeriod :ReportedPractice ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Province :Municipality ) .
+
+# =============================================================================
+# OBJECT PROPERTIES
+# =============================================================================
+
+# --- Person relations ---
+
+:arrested a owl:ObjectProperty ;
+    rdfs:domain :Person ; rdfs:range :Arrest ;
+    rdfs:label "arrested"@en .
+
+:chargedWith a owl:ObjectProperty ;
+    rdfs:domain :Person ; rdfs:range :Charge ;
+    rdfs:label "charged with"@en ;
+    owl:inverseOf :filedAgainst .
+
+:filedAgainst a owl:ObjectProperty ;
+    rdfs:domain :Charge ; rdfs:range :Person ;
+    rdfs:label "filed against"@en .
+
+:sentenced a owl:ObjectProperty ;
+    rdfs:domain :Person ; rdfs:range :Sentence ;
+    rdfs:label "sentenced"@en .
+
+# Home province: where the Person resides.
+:residesInProvince a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :Person ; rdfs:range :Province ;
+    rdfs:label "resides in province"@en ;
+    rdfs:comment "Person's home province, distinct from detention location."@en .
+
+# --- StatusPeriod pattern (temporal binding) ---
+
+:hasStatusPeriod a owl:ObjectProperty ;
+    rdfs:domain :Person ; rdfs:range :StatusPeriod ;
+    rdfs:label "has status period"@en .
+
+:statusOf a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :StatusPeriod ; rdfs:range :Person ;
+    rdfs:label "status of"@en ;
+    owl:inverseOf :hasStatusPeriod .
+
+:penalStatusInPeriod a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :StatusPeriod ; rdfs:range :PenalStatus ;
+    rdfs:label "penal status in period"@en .
+
+:detainedAtDuringPeriod a owl:ObjectProperty ;
+    rdfs:domain :StatusPeriod ; rdfs:range :DetentionFacility ;
+    rdfs:label "detained at during period"@en .
+
+:periodInterval a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :StatusPeriod ; rdfs:range time:Interval ;
+    rdfs:label "period interval"@en .
+
+# --- Arrest relations ---
+
+:arrestOf a owl:ObjectProperty ;
+    rdfs:domain :Arrest ; rdfs:range :Person ;
+    rdfs:label "arrest of"@en ;
+    owl:inverseOf :arrested .
+
+:occurredInProvince a owl:ObjectProperty ;
+    rdfs:domain :Arrest ; rdfs:range :Province ;
+    rdfs:label "occurred in province"@en .
+
+:partOfWave a owl:ObjectProperty ;
+    rdfs:domain :Arrest ; rdfs:range :ArrestWave ;
+    rdfs:label "part of wave"@en ;
+    rdfs:comment "Populated by SPARQL CONSTRUCT rule, not manually asserted."@en .
+
+# --- Charge relations ---
+
+:hasChargeType a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :Charge ; rdfs:range :ChargeType ;
+    rdfs:label "has charge type"@en .
+
+# --- Facility relations ---
+
+:locatedInProvince a owl:ObjectProperty ;
+    rdfs:domain :DetentionFacility ; rdfs:range :Province ;
+    rdfs:label "located in province"@en .
+
+:locatedInMunicipality a owl:ObjectProperty ;
+    rdfs:domain :DetentionFacility ; rdfs:range :Municipality ;
+    rdfs:label "located in municipality"@en .
+
+:administeredBy a owl:ObjectProperty ;
+    rdfs:domain :DetentionFacility ; rdfs:range foaf:Organization ;
+    rdfs:label "administered by"@en .
+
+:hasReportedPractice a owl:ObjectProperty ;
+    rdfs:domain :DetentionFacility ; rdfs:range :ReportedPractice ;
+    rdfs:label "has reported practice"@en ;
+    rdfs:comment "Analytical assertion. Requires at least one prov:wasDerivedFrom evidence source on the ReportedPractice instance (enforced by SHACL)."@en .
+
+:containsMunicipality a owl:ObjectProperty , owl:TransitiveProperty ;
+    rdfs:domain :Province ; rdfs:range :Municipality ;
+    rdfs:label "contains municipality"@en .
+
+# =============================================================================
+# DATATYPE PROPERTIES
+# =============================================================================
+
+:fullName             a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Person ; rdfs:range xsd:string .
+:currentAge           a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Person ; rdfs:range xsd:nonNegativeInteger .
+:ageAtArrest          a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Person ; rdfs:range xsd:nonNegativeInteger .
+:arrestDate           a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Arrest ; rdfs:range xsd:date .
+:sentenceLengthYears  a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Sentence ; rdfs:range xsd:decimal .
+:facilityName         a owl:DatatypeProperty ; rdfs:domain :DetentionFacility ; rdfs:range xsd:string ;
+    rdfs:comment "Common name; not necessarily official designation."@en .
+:officialDesignation  a owl:DatatypeProperty ; rdfs:domain :DetentionFacility ; rdfs:range xsd:string .
+:provinceName         a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Province ; rdfs:range xsd:string .
+:municipalityName     a owl:DatatypeProperty , owl:FunctionalProperty ; rdfs:domain :Municipality ; rdfs:range xsd:string .
+
+:sourceURL a owl:DatatypeProperty ; rdfs:range xsd:anyURI ;
+    rdfs:domain [ owl:unionOf ( :Person :Arrest :Charge :Sentence :ReportedPractice ) ] .
+
+:scrapedAt a owl:DatatypeProperty ; rdfs:range xsd:dateTime ;
+    rdfs:domain [ owl:unionOf ( :Person :Arrest :Charge :Sentence ) ] .
+
+# =============================================================================
+# SKOS CONCEPT SCHEME (Charge Types)
+# Full instance vocabulary lives in a separate charge_types.ttl for clarity.
+# =============================================================================
+
+:CubanPenalCode a skos:ConceptScheme ;
+    rdfs:label "Cuban Penal Code Charges"@en , "Cargos del Código Penal Cubano"@es ;
+    dcterms:description "Controlled vocabulary of criminal charges under Cuban law as applied to political prisoners."@en ;
+    dcterms:source <https://www.gacetaoficial.gob.cu/> ;
+    skos:hasTopConcept :PoliticalCrime , :CommonCrime .
+
+:PoliticalCrime a skos:Concept ;
+    skos:prefLabel "Political Crime"@en , "Delito Político"@es ;
+    skos:inScheme :CubanPenalCode .
+
+:CommonCrime a skos:Concept ;
+    skos:prefLabel "Common Crime"@en , "Delito Común"@es ;
+    skos:inScheme :CubanPenalCode .
