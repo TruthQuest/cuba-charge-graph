@@ -1,0 +1,122 @@
+2026-05-16 18:14:43,119 - __main__ - INFO - ================================================================================
+2026-05-16 18:14:43,119 - __main__ - INFO - CUBAN POLITICAL PRISONERS NETWORK ANALYSIS
+2026-05-16 18:14:43,119 - __main__ - INFO - Production-Grade Implementation
+2026-05-16 18:14:43,119 - __main__ - INFO - ================================================================================
+2026-05-16 18:14:43,119 - __main__ - INFO - Initializing analyzer with cuban_prisoners_final_skos.ttl
+2026-05-16 18:14:43,119 - __main__ - INFO - Loading RDF graph from TTL
+2026-05-16 18:14:43,773 - __main__ - INFO - Loaded 29,819 RDF triples
+2026-05-16 18:14:43,773 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:14:43,773 - __main__ - INFO - STEP 1: Building Heterogeneous Network
+2026-05-16 18:14:43,773 - __main__ - INFO - ================================================================================
+2026-05-16 18:14:43,773 - __main__ - INFO - Building heterogeneous network graph
+2026-05-16 18:19:18,241 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:18,241 - __main__ - INFO - CUBAN POLITICAL PRISONERS NETWORK ANALYSIS
+2026-05-16 18:19:18,241 - __main__ - INFO - Direct Triple Iteration - NO SPARQL
+2026-05-16 18:19:18,241 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:18,241 - __main__ - INFO - Initializing analyzer with cuban_prisoners_final_skos.ttl
+2026-05-16 18:19:18,241 - __main__ - INFO - Loading RDF graph from TTL
+2026-05-16 18:19:18,787 - __main__ - INFO - Loaded 29,819 RDF triples
+2026-05-16 18:19:18,787 - __main__ - INFO - Building triple indices...
+2026-05-16 18:19:18,940 - __main__ - INFO - Indexed 67 unique predicates
+2026-05-16 18:19:18,941 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:19:18,941 - __main__ - INFO - STEP 1: Building Heterogeneous Network
+2026-05-16 18:19:18,941 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:18,941 - __main__ - INFO - Building heterogeneous network graph (direct triple iteration)
+2026-05-16 18:19:18,946 - __main__ - INFO - Found 1258 political prisoners
+2026-05-16 18:19:18,949 - __main__ - INFO - Processing prisoner 100/1258...
+2026-05-16 18:19:18,951 - __main__ - INFO - Processing prisoner 200/1258...
+2026-05-16 18:19:18,953 - __main__ - INFO - Processing prisoner 300/1258...
+2026-05-16 18:19:18,955 - __main__ - INFO - Processing prisoner 400/1258...
+2026-05-16 18:19:18,958 - __main__ - INFO - Processing prisoner 500/1258...
+2026-05-16 18:19:18,960 - __main__ - INFO - Processing prisoner 600/1258...
+2026-05-16 18:19:18,962 - __main__ - INFO - Processing prisoner 700/1258...
+2026-05-16 18:19:18,964 - __main__ - INFO - Processing prisoner 800/1258...
+2026-05-16 18:19:18,967 - __main__ - INFO - Processing prisoner 900/1258...
+2026-05-16 18:19:18,969 - __main__ - INFO - Processing prisoner 1000/1258...
+2026-05-16 18:19:18,971 - __main__ - INFO - Processing prisoner 1100/1258...
+2026-05-16 18:19:18,973 - __main__ - INFO - Processing prisoner 1200/1258...
+2026-05-16 18:19:18,977 - __main__ - INFO - Graph construction complete: 4,696 nodes, 7,577 edges
+2026-05-16 18:19:18,977 - __main__ - INFO - Computing network metrics...
+2026-05-16 18:19:19,061 - __main__ - INFO - Metrics computed: {'node_count': 4696, 'edge_count': 7577, 'person_nodes': 1258, 'charge_instances': 2138, 'facilities': 135, 'arrest_events': 1139, 'density': 0.000687, 'avg_degree': 3.23, 'components': 1, 'largest_component_size': 4696}
+2026-05-16 18:19:19,061 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:19:19,061 - __main__ - INFO - STEP 2: Co-Detention Network Analysis
+2026-05-16 18:19:19,061 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:19,061 - __main__ - INFO - Starting co-detention analysis
+2026-05-16 18:19:19,063 - __main__ - INFO - Found 135 facilities with inmates
+2026-05-16 18:19:19,069 - __main__ - INFO - Co-detention analysis complete: {'edge_count': 7089, 'node_count': 629, 'largest_cluster_size': 82, 'avg_shared_facilities': 1.0, 'max_shared_facilities': 1}
+2026-05-16 18:19:19,069 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:19:19,069 - __main__ - INFO - STEP 3: Charge Stacking Analysis
+2026-05-16 18:19:19,069 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:19,069 - __main__ - INFO - Starting charge stacking analysis
+2026-05-16 18:19:19,073 - __main__ - INFO - Charge stacking analysis complete: 21 co-occurrences
+2026-05-16 18:19:19,073 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:19:19,073 - __main__ - INFO - STEP 4: Geographic Displacement Analysis
+2026-05-16 18:19:19,073 - __main__ - INFO - ================================================================================
+2026-05-16 18:19:19,073 - __main__ - INFO - Starting geographic displacement analysis
+2026-05-16 18:19:19,078 - __main__ - INFO - Calculated displacement for 0 cases
+2026-05-16 18:19:19,079 - __main__ - INFO - Metrics exported to network_analysis_results.json
+2026-05-16 18:19:19,079 - __main__ - INFO - 
+================================================================================
+2026-05-16 18:19:19,079 - __main__ - INFO - ANALYSIS COMPLETE
+2026-05-16 18:19:19,079 - __main__ - INFO - ================================================================================
+2026-05-16 18:42:47,290 - INFO - ================================================================================
+2026-05-16 18:42:47,290 - INFO - CUBAN POLITICAL PRISONERS: NETWORK ANALYSIS
+2026-05-16 18:42:47,290 - INFO - ================================================================================
+2026-05-16 18:42:47,290 - INFO - Loading cuban_prisoners_final_skos.ttl
+2026-05-16 18:42:47,724 - INFO - Loaded 29,819 triples
+2026-05-16 18:42:47,784 - INFO - Indices built
+2026-05-16 18:42:47,785 - INFO - 
+================================================================================
+2026-05-16 18:42:47,785 - INFO - ANALYSIS 1: Co-Detention Clusters
+2026-05-16 18:42:47,785 - INFO - ================================================================================
+2026-05-16 18:42:47,785 - INFO - Analyzing co-detention clusters...
+2026-05-16 18:42:47,795 - INFO - Found 1258 prisoners
+2026-05-16 18:42:47,864 - INFO - Found 72 co-detention clusters
+2026-05-16 18:42:47,864 - INFO - Largest cluster: 82 people
+2026-05-16 18:42:47,864 - INFO - Exported to network_analysis_results/codetention_clusters.csv
+2026-05-16 18:42:47,865 - INFO - 
+================================================================================
+2026-05-16 18:42:47,865 - INFO - ANALYSIS 2: Charge Stacking Patterns
+2026-05-16 18:42:47,865 - INFO - ================================================================================
+2026-05-16 18:42:47,865 - INFO - Analyzing charge stacking patterns...
+2026-05-16 18:42:47,874 - INFO - Exported to network_analysis_results/charge_stacking.csv
+2026-05-16 18:42:47,874 - INFO - 
+================================================================================
+2026-05-16 18:42:47,874 - INFO - ANALYSIS 3: Arrest Waves
+2026-05-16 18:42:47,874 - INFO - ================================================================================
+2026-05-16 18:42:47,874 - INFO - Analyzing arrest waves...
+2026-05-16 18:42:48,290 - INFO - Found 37 mass arrest days
+2026-05-16 18:42:48,290 - INFO - Exported to network_analysis_results/arrest_waves.csv
+2026-05-16 18:42:48,290 - INFO - 
+================================================================================
+2026-05-16 18:42:48,290 - INFO - Generating Summary Report
+2026-05-16 18:42:48,290 - INFO - ================================================================================
+2026-05-16 18:42:48,290 - INFO - Generating summary report...
+2026-05-16 18:42:48,290 - INFO - Summary exported to network_analysis_results/SUMMARY_REPORT.txt
+2026-05-16 18:42:48,290 - INFO - 
+================================================================================
+2026-05-16 18:42:48,290 - INFO - ANALYSIS COMPLETE
+2026-05-16 18:42:48,290 - INFO - ================================================================================
+2026-05-16 18:42:48,291 - INFO - 
+Results directory: /Users/weisheit/pythonProject/PoliticalPrisoners/network_analysis_results
+2026-05-16 18:42:48,291 - INFO - 
+Generated files:
+2026-05-16 18:42:48,291 - INFO -   - SUMMARY_REPORT.txt
+2026-05-16 18:42:48,291 - INFO -   - arrest_waves.csv
+2026-05-16 18:42:48,291 - INFO -   - charge_stacking.csv
+2026-05-16 18:42:48,291 - INFO -   - codetention_clusters.csv
+2026-05-16 18:42:48,291 - INFO -   - geographic_displacement.csv
+2026-05-16 18:42:48,291 - INFO -   - sedition_torture_july2021.csv
+2026-05-16 18:42:48,291 - INFO - 
+================================================================================
+2026-05-16 18:42:48,291 - INFO - KEY RESULTS:
+2026-05-16 18:42:48,291 - INFO - ================================================================================
+2026-05-16 18:42:48,291 - INFO -   Largest co-detention cluster: 82 people
+2026-05-16 18:42:48,291 - INFO -   Top charge combination: Contempt + Public Disorder (286 cases)
+2026-05-16 18:42:48,291 - INFO -   July 11, 2021 arrests: 267 people (single day)
+2026-05-16 18:42:48,291 - INFO - ================================================================================

@@ -1,0 +1,623 @@
+{
+  "metadata": {
+    "script": "09_community_detection.py",
+    "timestamp": "2026-08-25T03:50:39.425452+00:00",
+    "corpus_size": 1133,
+    "graph_nodes": 73,
+    "graph_edges": 200,
+    "graph_density": 0.076104,
+    "method": "Louvain (Blondel et al. 2008)",
+    "resolution": 1.0,
+    "stability_seeds": 100
+  },
+  "primary_result": {
+    "n_communities": 17,
+    "modularity": 0.1274,
+    "sedicion_community": 0,
+    "regime_a_community": 1,
+    "sedicion_separate_from_regime_a": true,
+    "all_regime_a_charges_in_same_community": true
+  },
+  "stability": {
+    "n_runs": 100,
+    "sedicion_separate": {
+      "count": 100,
+      "pct": 100.0
+    },
+    "regime_a_together": {
+      "count": 100,
+      "pct": 100.0
+    }
+  },
+  "resolution_sweep": [
+    {
+      "resolution": 0.3,
+      "n_communities": 24,
+      "modularity": 0.08361613005570251,
+      "sedicion_separate": false,
+      "regime_a_together": true,
+      "sedicion_community": 3,
+      "regime_a_community": 3
+    },
+    {
+      "resolution": 0.5,
+      "n_communities": 26,
+      "modularity": 0.08230444411423597,
+      "sedicion_separate": false,
+      "regime_a_together": true,
+      "sedicion_community": 3,
+      "regime_a_community": 3
+    },
+    {
+      "resolution": 0.8,
+      "n_communities": 16,
+      "modularity": 0.10653281624482543,
+      "sedicion_separate": false,
+      "regime_a_together": true,
+      "sedicion_community": 0,
+      "regime_a_community": 0
+    },
+    {
+      "resolution": 1.0,
+      "n_communities": 17,
+      "modularity": 0.1273995329782255,
+      "sedicion_separate": true,
+      "regime_a_together": true,
+      "sedicion_community": 0,
+      "regime_a_community": 1
+    },
+    {
+      "resolution": 1.2,
+      "n_communities": 19,
+      "modularity": 0.10511782862094705,
+      "sedicion_separate": true,
+      "regime_a_together": false,
+      "sedicion_community": 4,
+      "regime_a_community": 2
+    },
+    {
+      "resolution": 1.5,
+      "n_communities": 21,
+      "modularity": 0.09956876567653238,
+      "sedicion_separate": true,
+      "regime_a_together": false,
+      "sedicion_community": 5,
+      "regime_a_community": 3
+    },
+    {
+      "resolution": 2.0,
+      "n_communities": 24,
+      "modularity": -0.07467194464636241,
+      "sedicion_separate": true,
+      "regime_a_together": false,
+      "sedicion_community": 0,
+      "regime_a_community": 4
+    },
+    {
+      "resolution": 3.0,
+      "n_communities": 27,
+      "modularity": -0.07730334862555212,
+      "sedicion_separate": true,
+      "regime_a_together": false,
+      "sedicion_community": 7,
+      "regime_a_community": 4
+    }
+  ],
+  "communities": {
+    "0": [
+      {
+        "charge": "Sedición",
+        "count": 218
+      },
+      {
+        "charge": "Sabotaje",
+        "count": 115
+      },
+      {
+        "charge": "Propaganda contra el orden constitucional",
+        "count": 61
+      },
+      {
+        "charge": "Otros actos contra la seguridad del estado",
+        "count": 28
+      },
+      {
+        "charge": "Propaganda enemiga",
+        "count": 22
+      },
+      {
+        "charge": "Asociaciones reuniones y manifestaciones ilícitas",
+        "count": 6
+      },
+      {
+        "charge": "Corrupción de menores",
+        "count": 5
+      },
+      {
+        "charge": "Denegación de auxilio y desobediencia",
+        "count": 2
+      },
+      {
+        "charge": "Difamación",
+        "count": 2
+      },
+      {
+        "charge": "Incumplimiento del deber de denunciar",
+        "count": 1
+      },
+      {
+        "charge": "Motín",
+        "count": 1
+      },
+      {
+        "charge": "Ejercicio arbitrario de derechos",
+        "count": 1
+      },
+      {
+        "charge": "Difusión de noticias falsas",
+        "count": 1
+      }
+    ],
+    "1": [
+      {
+        "charge": "Desórdenes públicos",
+        "count": 554
+      },
+      {
+        "charge": "Desacato",
+        "count": 376
+      },
+      {
+        "charge": "Atentado",
+        "count": 350
+      },
+      {
+        "charge": "Instigación a delinquir",
+        "count": 55
+      },
+      {
+        "charge": "Resistencia",
+        "count": 39
+      },
+      {
+        "charge": "Daños",
+        "count": 26
+      },
+      {
+        "charge": "Propagación de epidemia",
+        "count": 19
+      },
+      {
+        "charge": "Portación y tenencia ilegal de armas o explosivos",
+        "count": 11
+      },
+      {
+        "charge": "Otros delitos arbitrarios contra la administración y la jurisdicción",
+        "count": 7
+      },
+      {
+        "charge": "Espionaje",
+        "count": 5
+      },
+      {
+        "charge": "Evasión de presos",
+        "count": 3
+      },
+      {
+        "charge": "Ultraje a los símbolos de la patria",
+        "count": 3
+      },
+      {
+        "charge": "Asociación para delinquir",
+        "count": 2
+      },
+      {
+        "charge": "Obstrucción de la vía pública",
+        "count": 1
+      },
+      {
+        "charge": "Malversación",
+        "count": 1
+      },
+      {
+        "charge": "Otros",
+        "count": 1
+      },
+      {
+        "charge": "Negación de auxilio",
+        "count": 1
+      },
+      {
+        "charge": "Delitos contra el orden constitucional",
+        "count": 1
+      }
+    ],
+    "12": [
+      {
+        "charge": "Robo con fuerza",
+        "count": 33
+      },
+      {
+        "charge": "Terrorismo",
+        "count": 13
+      },
+      {
+        "charge": "Robo con violencia",
+        "count": 8
+      },
+      {
+        "charge": "Hurto",
+        "count": 7
+      },
+      {
+        "charge": "Evasión de presos o detenidos",
+        "count": 6
+      },
+      {
+        "charge": "Sacrificio ilegal de ganado mayor",
+        "count": 5
+      },
+      {
+        "charge": "Lesiones",
+        "count": 4
+      },
+      {
+        "charge": "Receptación",
+        "count": 3
+      },
+      {
+        "charge": "Financiación del terrorismo",
+        "count": 3
+      },
+      {
+        "charge": "Privación de libertad",
+        "count": 1
+      }
+    ],
+    "11": [
+      {
+        "charge": "Desobediencia",
+        "count": 28
+      },
+      {
+        "charge": "Difamación de las instituciones y organizaciones y de los héroes y mártires",
+        "count": 15
+      },
+      {
+        "charge": "Ultraje sexual",
+        "count": 8
+      },
+      {
+        "charge": "Tráfico Ilícito de drogas",
+        "count": 5
+      },
+      {
+        "charge": "Amenazas",
+        "count": 5
+      },
+      {
+        "charge": "Peligrosidad social predelictiva",
+        "count": 5
+      },
+      {
+        "charge": "Daños a bienes del patrimonio cultural",
+        "count": 4
+      },
+      {
+        "charge": "Trata de personas",
+        "count": 4
+      },
+      {
+        "charge": "Impago de multas",
+        "count": 3
+      },
+      {
+        "charge": "Desorden penitenciario",
+        "count": 2
+      },
+      {
+        "charge": "Proxenetismo",
+        "count": 2
+      }
+    ],
+    "4": [
+      {
+        "charge": "Intento de salida ilegal del territorio",
+        "count": 9
+      },
+      {
+        "charge": "Asesinato",
+        "count": 6
+      },
+      {
+        "charge": "Asesinato en grado de tentativa",
+        "count": 5
+      },
+      {
+        "charge": "Uso de armas de fuego y otros medios",
+        "count": 4
+      },
+      {
+        "charge": "Deserción",
+        "count": 4
+      },
+      {
+        "charge": "Infracción de normas de guardia",
+        "count": 4
+      }
+    ],
+    "6": [
+      {
+        "charge": "Artículo 91",
+        "count": 4
+      },
+      {
+        "charge": "Actividades económicas ilícitas",
+        "count": 1
+      }
+    ],
+    "7": [
+      {
+        "charge": "Coacción",
+        "count": 1
+      }
+    ],
+    "8": [
+      {
+        "charge": "metales y piedras preciosas",
+        "count": 2
+      },
+      {
+        "charge": "divisas",
+        "count": 2
+      },
+      {
+        "charge": "Tráfico ilegal de moneda",
+        "count": 2
+      }
+    ],
+    "9": [
+      {
+        "charge": "Actos contra la seguridad del Estado",
+        "count": 1
+      }
+    ],
+    "10": [
+      {
+        "charge": "Desórdenes públicos|Desacato",
+        "count": 2
+      }
+    ],
+    "13": [
+      {
+        "charge": "Tenencia de drogas",
+        "count": 1
+      }
+    ],
+    "14": [
+      {
+        "charge": "Tentativa de asesinato",
+        "count": 1
+      }
+    ],
+    "15": [
+      {
+        "charge": "Cohecho",
+        "count": 1
+      }
+    ],
+    "16": [
+      {
+        "charge": "Encubrimiento",
+        "count": 1
+      }
+    ],
+    "2": [
+      {
+        "charge": "Instigación a la rebelión",
+        "count": 1
+      }
+    ],
+    "3": [
+      {
+        "charge": "Desacato a la figura del presidente y otros altos funcionarios públicos",
+        "count": 1
+      }
+    ],
+    "5": [
+      {
+        "charge": "Estrago",
+        "count": 1
+      }
+    ]
+  },
+  "sedicion_isolation": {
+    "total_prisoners_with_sedicion": 218,
+    "sedicion_standalone": 197,
+    "sedicion_standalone_pct": 90.4,
+    "sedicion_combined": 21,
+    "sedicion_degree": 11,
+    "sedicion_weighted_degree": 34,
+    "desacato_weighted_degree": 633,
+    "cooccurrences": [
+      {
+        "charge": "Desórdenes públicos",
+        "weight": 10,
+        "is_regime_a": true
+      },
+      {
+        "charge": "Atentado",
+        "weight": 9,
+        "is_regime_a": true
+      },
+      {
+        "charge": "Desacato",
+        "weight": 4,
+        "is_regime_a": true
+      },
+      {
+        "charge": "Sabotaje",
+        "weight": 2,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Propagación de epidemia",
+        "weight": 2,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Hurto",
+        "weight": 2,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Resistencia",
+        "weight": 1,
+        "is_regime_a": true
+      },
+      {
+        "charge": "Daños",
+        "weight": 1,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Portación y tenencia ilegal de armas o explosivos",
+        "weight": 1,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Otros actos contra la seguridad del estado",
+        "weight": 1,
+        "is_regime_a": false
+      },
+      {
+        "charge": "Propaganda enemiga",
+        "weight": 1,
+        "is_regime_a": false
+      }
+    ]
+  },
+  "algebraic_connectivity": {
+    "connected": false,
+    "n_components": 11,
+    "fiedler_value_largest_component": 0.37849118770384105,
+    "largest_component_size": 63,
+    "sedicion_component": 0,
+    "sedicion_component_size": 63,
+    "desacato_component": 0,
+    "desacato_component_size": 63
+  },
+  "top_cooccurrences": [
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Desacato",
+      "weight": 286
+    },
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Atentado",
+      "weight": 253
+    },
+    {
+      "charge_1": "Desacato",
+      "charge_2": "Atentado",
+      "weight": 175
+    },
+    {
+      "charge_1": "Sabotaje",
+      "charge_2": "Desórdenes públicos",
+      "weight": 71
+    },
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Instigación a delinquir",
+      "weight": 38
+    },
+    {
+      "charge_1": "Resistencia",
+      "charge_2": "Desórdenes públicos",
+      "weight": 30
+    },
+    {
+      "charge_1": "Desacato",
+      "charge_2": "Instigación a delinquir",
+      "weight": 29
+    },
+    {
+      "charge_1": "Resistencia",
+      "charge_2": "Desacato",
+      "weight": 26
+    },
+    {
+      "charge_1": "Resistencia",
+      "charge_2": "Atentado",
+      "weight": 22
+    },
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Daños",
+      "weight": 22
+    },
+    {
+      "charge_1": "Daños",
+      "charge_2": "Atentado",
+      "weight": 20
+    },
+    {
+      "charge_1": "Atentado",
+      "charge_2": "Instigación a delinquir",
+      "weight": 20
+    },
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Robo con fuerza",
+      "weight": 17
+    },
+    {
+      "charge_1": "Propagación de epidemia",
+      "charge_2": "Desacato",
+      "weight": 15
+    },
+    {
+      "charge_1": "Propagación de epidemia",
+      "charge_2": "Atentado",
+      "weight": 15
+    },
+    {
+      "charge_1": "Sabotaje",
+      "charge_2": "Desacato",
+      "weight": 14
+    },
+    {
+      "charge_1": "Propagación de epidemia",
+      "charge_2": "Desórdenes públicos",
+      "weight": 14
+    },
+    {
+      "charge_1": "Desacato",
+      "charge_2": "Desobediencia",
+      "weight": 14
+    },
+    {
+      "charge_1": "Sabotaje",
+      "charge_2": "Atentado",
+      "weight": 12
+    },
+    {
+      "charge_1": "Desórdenes públicos",
+      "charge_2": "Sedición",
+      "weight": 10
+    }
+  ],
+  "prisoner_classification_agreement": {
+    "total_classified": 1133,
+    "total_match": 970,
+    "match_pct": 85.6,
+    "regime_a_analysts": 694,
+    "regime_a_match": 678,
+    "regime_a_match_pct": 97.7,
+    "regime_b_analysts": 203,
+    "regime_b_match": 201,
+    "regime_b_match_pct": 99.0
+  }
+}

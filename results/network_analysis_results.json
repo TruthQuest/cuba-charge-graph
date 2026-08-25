@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-05-16T18:19:19.078827",
+  "source_file": "cuban_prisoners_final_skos.ttl",
+  "basic_metrics": {
+    "node_count": 4696,
+    "edge_count": 7577,
+    "person_nodes": 1258,
+    "charge_instances": 2138,
+    "facilities": 135,
+    "arrest_events": 1139,
+    "density": 0.000687,
+    "avg_degree": 3.23,
+    "components": 1,
+    "largest_component_size": 4696
+  }
+}

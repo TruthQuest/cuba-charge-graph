@@ -1,0 +1,1134 @@
+id,name,charges,arrest_date,province,analyst_regime,algo_regime,match,primary_community
+abdel-alfonso-cardenas,Abdel Alfonso Cárdenas,Sabotaje,31/03/2021,La Habana,other,B_algo,False,0
+abdiel-cedeno-martinez,Abdiel Cedeño Martínez,"Desacato,Desórdenes públicos,Propagación de epidemia,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+abel-lazaro-machado-conde,Abel Lázaro Machado Conde,"Desórdenes públicos,Resistencia,Sabotaje",25/08/2021,Mayabeque,A,A_algo,True,1
+abel-quevedo-miranda,Abel Quevedo Miranda,"Atentado,Daños,Desórdenes públicos",,Granma,A,A_algo,True,1
+ada-iris-miranda-leyva,Ada Iris Miranda Leyva,"Desacato,Desórdenes públicos",16/11/2022,Holguín,A,A_algo,True,1
+adael-jesus-leyva-diaz,Adael Jesús Leyva Díaz,Sedición,22/07/2021,La Habana,B,B_algo,True,0
+adain-barreiro-perez,Adain Barreiro Pérez,Atentado,10/07/2023,Villa Clara,A,A_algo,True,1
+adalberto-antonio-navarro-asprilla,Adalberto Antonio Navarro Asprilla,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+adan-kuibel-castillo-echevarria,Adán Kiubel Castillo Echevarría,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+adel-de-la-torre-hernandez,Adel De la Torre Hernández,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+adelicio-alcime-zayas,Adelicio Alcime Zayas,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+adian-echegoyen-espineira,Adián Echegoyen Espiñeira,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+adiane-hernandez-calderon,Adiane Hernández Calderón,Desórdenes públicos,08/11/2024,Ciego de Ávila,A,A_algo,True,1
+adisbel-mendoza-barroso,Adisbel Mendoza Barroso,Propaganda contra el orden constitucional,28/03/2024,Las Tunas,other,B_algo,False,0
+adonay-lopez-lopez,Adonay López López,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+adonis-alvaro-nunez-valdes,Adonis Álvaro Núñez Valdés,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+adonis-garvizo-otero,Adonis Garvizo Otero,"Atentado,Desórdenes públicos",15/07/2021,La Habana,A,A_algo,True,1
+adonis-ruiz-medina,Adonis Ruiz Medina,"Desacato,Desórdenes públicos",22/05/2025,Granma,A,A_algo,True,1
+adrian-cao-tejera,Adrián Cao Tejera,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+adrian-curuneaux-steven,Adrián Curuneaux Steven,"Atentado,Desacato,Lesiones",17/07/2023,La Habana,A,A_algo,True,1
+adrian-daniel-portal-gonzales,Adrián Daniel Portal Gonzales,Desacato,22/05/2022,Villa Clara,A,A_algo,True,1
+adrian-fernando-dominguez-hidalgo,Adrián Fernando Domínguez Hidalgo,"Desórdenes públicos,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+adrian-gonzalez-perez,Adrián González Pérez,"Desobediencia,Resistencia",12/08/2025,Guantánamo,A,other_algo,False,11
+adrian-michel-chinea-cabrera,Adrian Michel Chinea Cabrera,"Atentado,Desacato,Desórdenes públicos",21/07/2021,Artemisa,A,A_algo,True,1
+adrian-morales-ojeda,Adrián Morales Ojeda,Desacato,28/05/2024,Cienfuegos,A,A_algo,True,1
+adrian-oljales-mora,Adrian Oljales Mora,Sedición,22/07/2021,La Habana,B,B_algo,True,0
+adrian-quesada-flores,Adrián Quesada Flores,"Atentado,Desacato",10/03/2021,Camagüey,A,A_algo,True,1
+adrian-rodriguez-morera,Adrián Rodríguez Morera,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+agustin-jonathan-vargas-diaz,Agustín Jonathan Vargas Díaz,Sedición,18/07/2021,Artemisa,B,B_algo,True,0
+agustin-raul-linares,Agustín Raúl Linares,"Corrupción de menores,Propaganda enemiga",01/03/2021,Pinar del Río,other,B_algo,False,0
+alain-forbes-lamoru,Alain Forbes Lamorú,"Asesinato,Deserción,Infracción de normas de guardia,Intento de salida ilegal del territorio,Uso de armas de fuego y otros medios",28/04/2007,Camagüey,other,other_algo,True,4
+alain-rosello-fernandez,Alain Roselló Fernández,"Atentado,Desórdenes públicos,Robo con fuerza",11/07/2021,Matanzas,A,A_algo,True,1
+alain-yamil-sanchez-baluja,Alain Yamil Sánchez Baluja,"Desacato,Desórdenes públicos,Sabotaje",17/07/2021,Mayabeque,A,A_algo,True,1
+alberto-donald-serpa,Alberto Donald Serpa,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+alberto-lara-rojo,Alberto Lara Rojo,Robo con fuerza,29/07/2021,Mayabeque,other,other_algo,True,12
+alberto-vazquez-gonzalez,Alberto Vázquez González,"Desórdenes públicos,Instigación a delinquir,Resistencia",12/07/2021,Matanzas,A,A_algo,True,1
+alcides-pero-cando,Alcides Peró Candó,Sedición,,La Habana,B,B_algo,True,0
+aldo-delgado-romero,Aldo Delgado Romero,Sedición,22/12/2021,La Habana,B,B_algo,True,0
+aleandry-lechuga-junco,Aleandry Lechuga Junco,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+alejaime-lambert-reyes,Alejaime Lambert Reyes,"Desórdenes públicos,Sedición",12/07/2021,La Habana,mixed,A_algo,False,1
+alejandro-becquer-arias,Alejandro Becquer Arias,Sedición,19/07/2021,La Habana,B,B_algo,True,0
+alejandro-flores-rubio,Alejandro Flores Rubio,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+alejandro-gonzalez-barthelemy,Alejandro González Barthelemy,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+alejandro-guilleuma-ibanez,Alejandro Guilleuma Ibáñez,"Desacato,Desórdenes públicos",01/10/2022,La Habana,A,A_algo,True,1
+alejandro-melendi-hernandez,Alejandro Melendi Hernández,Sabotaje,15/11/2019,Villa Clara,other,B_algo,False,0
+alejandro-morales-pereira,Alejandro Morales Pereira,"Desobediencia,Propaganda contra el orden constitucional",19/02/2025,Villa Clara,other,other_algo,True,11
+alejandro-padron-guerra,Alejandro Padrón Guerra,Sabotaje,16/07/2021,La Habana,other,B_algo,False,0
+alejandro-portales-vega,Alejandro Portales Vega,"Atentado,Desórdenes públicos",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+alejandro-reyes-nunez,Alejandro Reyes Núñez,Atentado,22/07/2021,La Habana,A,A_algo,True,1
+alejandro-roque-prado,Alejandro Roque Prado,Otros actos contra la seguridad del estado,24/11/2023,Cienfuegos,other,B_algo,False,0
+alejandro-salazar-blanco,Alejandro Salazar Blanco,"Desacato,Desórdenes públicos",22/05/2025,Granma,A,A_algo,True,1
+alex-lahera,Alex Lahera,Atentado,,Holguín,A,A_algo,True,1
+alexander-ayllon-carvajal,Alexander Ayllón Carvajal,Sedición,18/07/2021,La Habana,B,B_algo,True,0
+alexander-diaz-rodriguez,Alexander Díaz Rodríguez,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+alexander-elido-taylor-de-armas,Alexander Elido Taylor de Armas,"Desórdenes públicos,Resistencia",,Matanzas,A,A_algo,True,1
+alexander-guillermo-martinez-amoroso,Alexander Guillermo Martínez Amoroso,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+alexander-guzman-silva,Alexander Guzmán Silva,Desórdenes públicos,23/05/2025,Granma,A,A_algo,True,1
+alexander-lore-martinez,Alexander Lores Martínez,Asesinato,27/05/2021,Artemisa,other,other_algo,True,4
+alexander-mario-fabregas-milanes,Alexander Mario Fabregas Milanés,Propaganda contra el orden constitucional,27/07/2024,Villa Clara,other,B_algo,False,0
+alexander-paredes-collado,Alexánder Paredes Collado,"Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+alexander-peraza-garcia,Alexander Peraza García,Propaganda contra el orden constitucional,07/12/2024,Villa Clara,other,B_algo,False,0
+alexander-ufielder-ramos-fernandez,Alexander Ufielder Ramos Fernández,Desórdenes públicos,15/07/2021,La Habana,A,A_algo,True,1
+alexander-verdecia-rodriguez,Alexander Verdecia Rodríguez,Propaganda contra el orden constitucional,07/02/2025,Granma,other,B_algo,False,0
+alexei-martinez-rojas,Alexei Martínez Rojas,Desacato,17/09/2024,Villa Clara,A,A_algo,True,1
+alexeis-serrano-aguila,Alexeis Serrano Águila,Desacato,13/04/2026,Santiago de Cuba,A,A_algo,True,1
+alexis-borges-wilson,Alexis Borges Wilson,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+alexis-pedro-acosta-hernandez,Alexis Pedro Acosta Hernández,"Atentado,Desacato,Desórdenes públicos,Resistencia",11/07/2021,Mayabeque,A,A_algo,True,1
+alexis-sosa-ruiz,Alexis Sosa Ruiz,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+alfredo-pupo-pena,Alfredo Pupo Peña,"Atentado,Desacato,Desobediencia,Desórdenes públicos,Difamación de las instituciones y organizaciones y de los héroes y mártires",11/07/2021,Las Tunas,A,A_algo,True,1
+alfredo-rodriguez-nunez,Alfredo Rodríguez Núñez,"Desacato,Desórdenes públicos",22/05/2025,Granma,A,A_algo,True,1
+alfredo-tomas-hernandez-padilla,Alfredo Tomás Hernández Padilla,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+alien-molina-castell,Alien Molina Castell,"Desacato,Desórdenes públicos",17/07/2021,Mayabeque,A,A_algo,True,1
+alieski-calderin-acosta,Alieski Calderín Acosta,Sabotaje,27/10/2012,Camagüey,other,B_algo,False,0
+alina-barbara-lopez-hernandez,Alina Bárbara López Hernández,Atentado,18/06/2024,Matanzas,A,A_algo,True,1
+alina-lopez-miyares,Alina López Miyares,Espionaje,01/01/2017,La Habana,other,A_algo,False,1
+alvaro-ramos-rosabal,Álvaro Ramos Rosabal,"Atentado,Desórdenes públicos",,Camagüey,A,A_algo,True,1
+amalio-alvarez-gonzalez,Amalio Álvarez González,Sedición,12/07/2021,Cienfuegos,B,B_algo,True,0
+amauris-arrate-hernandez,Amauris Arrate Hernández,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+amaury-diaz-garcia,Amaury Díaz García,Propaganda contra el orden constitucional,27/11/2024,Sancti Spíritus,other,B_algo,False,0
+amaury-fernandez-martinez,Amaury Fernández Martínez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+amaury-leyva-prieto,Amaury Leyva Prieto,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+ana-ibis-trista-padilla,Ana Ibis Tristá Padilla,"Otros actos contra la seguridad del estado,Propaganda contra el orden constitucional",07/11/2023,Las Tunas,other,B_algo,False,0
+ana-iris-miranda-leyva,Ana Iris Miranda Leyva,"Desacato,Desórdenes públicos",16/11/2022,Holguín,A,A_algo,True,1
+andres-lugo-perez,Andrés Lugo Pérez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+andres-quinta-torres,Andrés Quinta Torres,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+andriu-lopez-fragosa,Andriu López Fragosa,Sedición,14/07/2021,La Habana,B,B_algo,True,0
+andro-ledesma-prieto,Andro Ledesma Prieto,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+andy-alexis-martin-perez,Andy Alexis Martín Pérez,"Desórdenes públicos,Robo con fuerza,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+andy-andres-oviedo-fernandez,Andy Andrés Oviedo Fernández,"Desórdenes públicos,Robo con fuerza,Sabotaje",12/07/2021,La Habana,A,A_algo,True,1
+andy-boza-padron,Andy Boza Padrón,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+andy-gabriel-gonzalez-fuentes,Andy Gabriel González Fuentes,Atentado,10/07/2023,Villa Clara,A,A_algo,True,1
+andy-lazaro-garcia-mas,Andy Lázaro García Más,Sedición,29/07/2021,Matanzas,B,B_algo,True,0
+andy-luis-garcia-montero,Andy Luis García Montero,"Atentado,Desacato,Instigación a delinquir",15/07/2022,Guantánamo,A,A_algo,True,1
+andy-ortega-murgado,Andy Ortega Murgado,"Desórdenes públicos,Robo con fuerza",22/07/2021,Matanzas,A,A_algo,True,1
+andy-perez-medero,Andy Pérez Medero,Desórdenes públicos,07/11/2024,Villa Clara,A,A_algo,True,1
+angel-baldomero-quintana-martinez,Ángel Baldomero Quintana Martínez,Desórdenes públicos,11/03/2026,La Habana,A,A_algo,True,1
+angel-bismaury-herrera-londres,Ángel Bismaury Herrera Londres,"Desacato,Desórdenes públicos,Instigación a delinquir",22/07/2021,Artemisa,A,A_algo,True,1
+angel-castro-carrera,Ángel Castro Carrera,"Desacato,Sabotaje",28/08/2020,La Habana,A,A_algo,True,1
+angel-jesus-veliz-marcano,Ángel Jesús Véliz Marcano,"Atentado,Desórdenes públicos",18/07/2021,Camagüey,A,A_algo,True,1
+angel-juan-moya-acosta__trashed,Ángel Juan Moya Acosta,"Actividades económicas ilícitas,Artículo 91",19/03/2003,La Habana,other,other_algo,True,6
+angel-luis-cespedes-cruz,Ángel Luis Céspedes Cruz,"Desacato,Desórdenes públicos,Instigación a delinquir",17/03/2024,Granma,A,A_algo,True,1
+angel-maria-mesa-rodriguez,Ángel María Mesa Rodríguez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+angel-mario-pena-aguilera,Ángel Mario Peña Aguilera,Desacato,04/10/2025,Las Tunas,A,A_algo,True,1
+angel-miguel-martin-caro,Angel Miguel Martín Caro,"Desacato,Desórdenes públicos,Sabotaje,Ultraje sexual",12/07/2021,Mayabeque,A,A_algo,True,1
+angel-rolando-castillo-sanchez,Ángel Rolando Castillo Sánchez,Coacción,05/05/2022,La Habana,other,other_algo,True,7
+angel-serrano-hernandez,Ángel Serrano Hernández,Sedición,25/07/2021,La Habana,B,B_algo,True,0
+anibal-boloy-martinez,Aníbal Boloy Martínez,Atentado,27/11/2023,Santiago de Cuba,A,A_algo,True,1
+anibal-ribiaux-figueredo,Anibal Ribeaux Figueredo,Atentado,01/10/2023,Santiago de Cuba,A,A_algo,True,1
+anibal-yasiel-palau-jacinto,Aníbal Yasiel Palau Jacinto,"Atentado,Desórdenes públicos,Robo con fuerza",12/07/2021,Mayabeque,A,A_algo,True,1
+aniel-manuel-martin-barroso,Aniel Manuel Martín Barroso,"Daños,Desacato,Propaganda contra el orden constitucional",25/02/2025,Sancti Spíritus,A,A_algo,True,1
+ankely-de-la-caridad-guerra-fis,Ankeily de la Caridad Guerra Fis,Propaganda contra el orden constitucional,14/01/2026,La Habana,other,B_algo,False,0
+annie-simpson-del-prado,Annie Simpson Del Prado,"Atentado,Desacato,Desórdenes públicos",28/01/2022,La Habana,A,A_algo,True,1
+annier-alejandro-varona-morales,Annier Alejandro Varona Morales,"Atentado,Desórdenes públicos",15/01/2022,Camagüey,A,A_algo,True,1
+anthony-williams-jules-perez,Anthony Williams Jules Pérez,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+antonio-bacallao-bandinez,Antonio Bacallao Bandinez,Robo con fuerza,11/06/2021,Matanzas,other,other_algo,True,12
+antonio-zamora-blanco,Antonio Zamora Blanco,"Desórdenes públicos,Resistencia",18/03/2024,Granma,A,A_algo,True,1
+anyelo-ramirez-martinez,Anyelo Ramírez Martínez,Desacato,05/03/2026,Santiago de Cuba,A,A_algo,True,1
+arael-rodriguez-escalante,Arael Rodríguez Escalante,Desórdenes públicos,27/10/2021,Granma,A,A_algo,True,1
+arcell-alvarez-perez,Arcell Álvarez Pérez,Otros actos contra la seguridad del estado,24/11/2023,Cienfuegos,other,B_algo,False,0
+ardenys-alvarez-garcia,Ardenys Álvarez García,Otros actos contra la seguridad del estado,24/11/2023,Cienfuegos,other,B_algo,False,0
+ariadna-stephanie-perez,Ariadna Stephanie Pérez,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",11/07/2021,Camagüey,A,A_algo,True,1
+arianna-lopez-roque,Arianna López Roque,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+ariel-axel-lopez-ramirez,Ariel Axel López Ramírez,"Atentado,Daños,Desórdenes públicos",,Granma,A,A_algo,True,1
+ariel-castellon-lazo,Ariel Castellón Lazo,Sacrificio ilegal de ganado mayor,14/10/2022,Cienfuegos,other,other_algo,True,12
+ariel-denis-valdes-leon,Ariel Denis Valdés León,Desacato,11/07/2021,La Habana,A,A_algo,True,1
+ariel-eugenio-arzuaga-pena,Ariel Eugenio Arzuaga Peña,Atentado,07/12/2024,Granma,A,A_algo,True,1
+ariel-nunez-martinez,Ariel Núñez Martínez,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+ariel-perez-montesino,Ariel Pérez Montesino,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+ariel-rodriguez-dache,Ariel Rodríguez Dache,"Desacato,Desórdenes públicos",12/07/2021,Artemisa,A,A_algo,True,1
+arielvis-rill-baro,Ariolvis Rill Baró,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+aristonico-dalmao-aguilar,Aristonico Dalmao Aguilar,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+arlet-torres-ferrer,Arlet Torres Ferrer,"Desacato,Otros actos contra la seguridad del estado",29/01/2026,Santiago de Cuba,A,A_algo,True,1
+armando-guerra-perez,Armando Guerra Pérez,"Desacato,Sedición",11/07/2021,Villa Clara,mixed,A_algo,False,1
+armando-lazaro-merlan-perez,Armando Lázaro Merlán Pérez,"Desacato,Desórdenes públicos,Propagación de epidemia",12/07/2021,Mayabeque,A,A_algo,True,1
+armando-martinez-luis,Armando Martínez Luis,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Mayabeque,A,A_algo,True,1
+armando-michel-rivera-cortina,Armando Michel Rivera Cortina,"Desobediencia,Difamación de las instituciones y organizaciones y de los héroes y mártires",14/02/2025,Mayabeque,other,other_algo,True,11
+arnaldo-ricaine-mustelier-veranes,Arnaldo Ricaine Mustelier Veranes,"Desacato,Instigación a delinquir",04/10/2023,Matanzas,A,A_algo,True,1
+asdrubal-kindelan-garbey,Asdrúbal Kindelán Garbey,Desacato,17/03/2024,Santiago de Cuba,A,A_algo,True,1
+asley-nelson-cabrera-puente,Asley Nelson Cabrera Puentes,Sedición,18/07/2021,La Habana,B,B_algo,True,0
+ayan-idalberto-jover-cardoza,Ayan Idalberto Jover Cardoza,Sedición,,Holguín,B,B_algo,True,0
+barbara-maria-sanchez-toledo,Bárbara María Sánchez Toledo,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+barbara-yamile-hernandez-cerda,Barbara Yamilé Hernández Cerdá,"Atentado,Desacato",10/10/2022,Mayabeque,A,A_algo,True,1
+barbaro-alberto-ledys-nunez,Bárbaro Alberto Ledys Núñez,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+barbaro-de-la-nuez-ramirez,Bárbaro de la Nuez Ramírez,Sabotaje,22/04/2026,Cienfuegos,other,B_algo,False,0
+bianko-vargas-martin,Bianko Vargas Martín,"Asesinato en grado de tentativa,Atentado,Desacato,Desórdenes públicos",12/11/2016,Santiago de Cuba,A,A_algo,True,1
+brandon-david-becerra-curbelo,Brandon David Becerra Curbelo,Sedición,16/07/2021,La Habana,B,B_algo,True,0
+brayan-eladio-vega-veliz,Brayan Eladio Vega Veliz,"Atentado,Daños,Desórdenes públicos",,Granma,A,A_algo,True,1
+brayan-perez-munoz,Brayan Pérez Muñoz,Desórdenes públicos,13/03/2026,Ciego de Ávila,A,A_algo,True,1
+brayan-piloto-pupo,Brayan Piloto Pupo,Sedición,,La Habana,B,B_algo,True,0
+brenda-originalmente-y-en-sentencia-freddy-luis-diaz-garcia,Brenda Díaz García,"Desacato,Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+brian-amed-ceballo-oreilly,Brian Amed Ceballo O’Reilly,"Desacato,Desórdenes públicos",15/07/2021,Villa Clara,A,A_algo,True,1
+brusnelvis-adrian-cabrera-gutierrez,Brusnelvis Adrián Cabrera Gutiérrez,Sedición,16/12/2021,La Habana,B,B_algo,True,0
+calixto-jose-morales-cabrera,Calixto José Morales Cabrera,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+camilo-suarez-castillo,Camilo Suárez Castillo,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+candido-jesus-quesada-suarez,Cándido Jesús Quesada Suárez,"Atentado,Desórdenes públicos",,Camagüey,A,A_algo,True,1
+carlos-alain-abrahantes-valdes,Carlos Alain Abrahantes Valdés,Sabotaje,10/07/2023,Cienfuegos,other,B_algo,False,0
+carlos-alberto-alvarez-rojas,Carlos Alberto Álvarez Rojas,"Atentado,Impago de multas",19/01/2022,Guantánamo,A,A_algo,True,1
+carlos-alberto-amarales-rondan,Carlos Alberto Amarales Rondán,Instigación a delinquir,16/03/2024,Holguín,other,A_algo,False,1
+carlos-alberto-hernandez-perez,Carlos Alberto Hernández Pérez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+carlos-alberto-mcdonald-ennis,Carlos Alberto MacDonald Ennis,"Atentado,Propaganda contra el orden constitucional",15/03/2024,Las Tunas,A,A_algo,True,1
+carlos-alberto-perez-avila,Carlos Alberto Pérez Ávila,"Desacato,Desobediencia,Desorden penitenciario",29/03/2005,Mayabeque,A,other_algo,False,11
+carlos-alberto-sardinas-martinez,Carlos Alberto Sardiñas Martínez,"Atentado,Desacato,Desórdenes públicos",10/10/2022,Mayabeque,A,A_algo,True,1
+carlos-cabrera-velazquez,Carlos Cabrera Velázquez,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+carlos-dariel-fortun-vital,Carlos Dariel Fortun Vital,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+carlos-hurtado-rodriguez,Carlos Hurtado Rodríguez,Desórdenes públicos,20/10/2024,Villa Clara,A,A_algo,True,1
+carlos-lopez-benitez,Carlos López Benítez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Ciego de Ávila,A,A_algo,True,1
+carlos-luis-aguila-socarras,Carlos Luis Águila Socarrás,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+carlos-manuel-fonseca-borges,Carlos Manuel Fonseca Borges,"Atentado,Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+carlos-manuel-garcia-rodriguez,Carlos Manuel García Rodríguez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+carlos-manuel-pena-marrero,Carlos Manuel Peña Marrero,Intento de salida ilegal del territorio,25/01/2023,Matanzas,other,other_algo,True,4
+carlos-manuel-pupo-rodriguez,Carlos Manuel Pupo Rodríguez,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+carlos-manuel-santiesteban-saavedra,Carlos Manuel Santiesteban Saavedra,Propaganda contra el orden constitucional,14/03/2024,Las Tunas,other,B_algo,False,0
+carlos-paul-michelena-valdes,Carlos Paul Michelena Valdés,Sedición,16/07/2021,La Habana,B,B_algo,True,0
+carlos-perez-cosme,Carlos Pérez Cosme,Sedición,14/07/2021,La Habana,B,B_algo,True,0
+carlos-rafael-ramirez-quinones,Carlos Rafael Ramírez Quiñones,"Atentado,Daños,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+carlos-raul-perdomo-cancio,Carlos Raúl Perdomo Cancio,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+cecilio-valdes-torres,Cecilio Valdés Torres,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+cesar-adrian-delgado-correa,César Adriam Delgado Correa,"Desacato,Desórdenes públicos",15/07/2021,Matanzas,A,A_algo,True,1
+cesar-antonio-granado-perez,César Antonio Granado Pérez,Hurto,15/12/2020,Ciego de Ávila,other,other_algo,True,12
+chadryan-vila-sequin,Chadryán Vila Seguín,"Desórdenes públicos,Sabotaje",17/08/2021,Matanzas,A,A_algo,True,1
+chayan-roque-rodriguez,Chayan Roque Rodríguez,"Sacrificio ilegal de ganado mayor,Receptación",15/08/2022,Mayabeque,other,other_algo,True,12
+christian-de-jesus-crespo-alvarez,Christian de Jesús Crespo Álvarez,Sabotaje,17/03/2026,Ciego de Ávila,other,B_algo,False,0
+christian-de-jesus-pena-aguilera,Christián de Jesús Peña Aguilera,"Otros actos contra la seguridad del estado,Propaganda contra el orden constitucional",09/05/2023,Las Tunas,other,B_algo,False,0
+christian-gonzalez-lopez,Christian González López,"Desacato,Desórdenes públicos,Sabotaje",12/07/2021,Mayabeque,A,A_algo,True,1
+christian-lazaro-gonzalez-avila,Christian Lázaro González Ávila,Sedición,,Matanzas,B,B_algo,True,0
+ciro-alexis-casanova-perez,Ciro Alexis Casanova Pérez,"Desacato,Desórdenes públicos",15/07/2021,Villa Clara,A,A_algo,True,1
+ciro-ernesto-lamoruz-soto,Ciro Ernesto Lamoruz Soto,"Atentado,Desórdenes públicos",22/07/2021,La Habana,A,A_algo,True,1
+claudia-angelica-pena-marquez,Claudia Angélica Peña Márquez,"Atentado,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+claudia-gonzales-amaran,Claudia Gonzáles Amarán,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+cristhian-hernandez-pedro,Cristhian Hernández Pedro,"Atentado,Portación y tenencia ilegal de armas o explosivos,Sedición",12/07/2021,Matanzas,mixed,A_algo,False,1
+cristhian-reyes-perez,Cristhian Reyes Pérez,"Atentado,Desacato,Desórdenes públicos",22/08/2021,Artemisa,A,A_algo,True,1
+cristian-carlos-contreras-matos,Cristian Carlos Contreras Matos,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+cristian-jorge-labrada-fonseca,Cristian Jorge Labrada Fonseca,Desacato,05/07/2024,Sancti Spíritus,A,A_algo,True,1
+cristian-laborde-morgado,Cristian Laborde Morgado,"Tráfico ilegal de moneda,divisas,metales y piedras preciosas",07/12/2024,Camagüey,other,other_algo,True,8
+cristian-kindelan,Cristián Osmauri Kindelán Mora,Atentado,17/03/2024,Santiago de Cuba,A,A_algo,True,1
+cristian-sergio-cruz-mitjans,Cristian Sergio Cruz Mitjans,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+cruz-garcia-dominguez,Cruz García Domínguez,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+cruz-santa-misa-gomez,Cruz Santa Misa Gómez,"Atentado,Desórdenes públicos,Ultraje sexual",,Camagüey,A,A_algo,True,1
+dagoberto-escobar-sosa,Dagoberto Escobar Sosa,"Desacato,Desórdenes públicos",30/07/2022,Cienfuegos,A,A_algo,True,1
+daicel-boza-tase,Daicel Boza Tasé,"Desacato,Desórdenes públicos,Evasión de presos",11/07/2021,Granma,A,A_algo,True,1
+daily-batista-perez,Daily Batista Pérez,"Desacato,Desórdenes públicos",06/11/2022,Mayabeque,A,A_algo,True,1
+daineris-moya-garcia,Daineris Moya García,"Desacato,Desórdenes públicos",21/07/2021,Mayabeque,A,A_algo,True,1
+dainier-flores-oliva,Dainier Flores Oliva,"Atentado,Desórdenes públicos,Robo con fuerza",12/07/2021,Matanzas,A,A_algo,True,1
+dairon-gonzalez-hernandez,Dairon González Hernández,"Desacato,Desórdenes públicos,Instigación a delinquir",,Mayabeque,A,A_algo,True,1
+dairon-yunior-labrada-linares,Dairon Yunior Labrada Linares,"Atentado,Desacato,Desórdenes públicos,Propagación de epidemia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+daisel-gonzalez-alvarez,Daisel González Álvarez,"Desórdenes públicos,Sabotaje",14/07/2021,Artemisa,A,A_algo,True,1
+daisy-rodriguez-alfonso,Daisy Rodríguez Alfonso,Sedición,22/08/2021,La Habana,B,B_algo,True,0
+daiver-leyva-velez,Daiver Leyva Vélez,Sedición,20/08/2022,Camagüey,B,B_algo,True,0
+damian-de-jesus-hechavarria-labrada,Damián de Jesús Hechavarría Labrada,"Atentado,Desacato,Resistencia",21/04/2021,Las Tunas,A,A_algo,True,1
+damian-perez-gutierrez,Damián Pérez Gutiérrez,Desórdenes públicos,01/10/2022,La Habana,A,A_algo,True,1
+damian-velazquez-hernandez,Damián Velázquez Hernández,Atentado,28/05/2024,Cienfuegos,A,A_algo,True,1
+daniel-alejandro-la-rosa-fuentes,Daniel Alejandro La Rosa Fuentes,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+daniel-alfaro-frias,Daniel Alfaro Frías,"Asociaciones reuniones y manifestaciones ilícitas,Propaganda contra el orden constitucional",13/03/2024,Artemisa,other,B_algo,False,0
+daniel-alvarez-gonzalez,Daniel Álvarez González,Instigación a delinquir,06/05/2023,Guantánamo,other,A_algo,False,1
+daniel-antonio-diaz-galvez,Daniel Antonio Díaz Gálvez,"Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+daniel-barrios-figueredo,Daniel Barrios Figueredo,Propaganda contra el orden constitucional,06/11/2024,Granma,other,B_algo,False,0
+daniel-chaviano-castellon,Daniel Chaviano Castellón,Desórdenes públicos,11/07/2021,Cienfuegos,A,A_algo,True,1
+daniel-fernandez-alvarez,Daniel Fernández Álvarez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+daniel-joel-cardenas-diaz,Daniel Joel Cárdenas Díaz,"Desórdenes públicos,Sabotaje",13/07/2021,Matanzas,A,A_algo,True,1
+daniel-moreno-de-la-pena,Daniel Moreno de la Peña,Actos contra la seguridad del Estado,10/01/2023,Santiago de Cuba,other,other_algo,True,9
+daniel-ramos-scull,Daniel Ramos Scull,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+daniellys-jorge-puig,Daniellys Jorge Puig,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+daniorque-lopez-balan,Daniorque López Balán,"Desobediencia,Desórdenes públicos",17/08/2021,Mayabeque,A,other_algo,False,11
+dannis-rafael-castillo-mompie,Dannis Rafael Castillo Mompié,"Atentado,Desórdenes públicos,Resistencia",,Granma,A,A_algo,True,1
+darian-rodriguez-brito,Darian Rodríguez Brito,Sabotaje,,Sancti Spíritus,other,B_algo,False,0
+dariannis-guerra-suarez,Dariannis Guerra Suárez,"Atentado,Instigación a delinquir",16/07/2022,Guantánamo,A,A_algo,True,1
+dariel-bordatto-penalba,Dariel Bordatto Penalba,Sedición,19/07/2021,La Habana,B,B_algo,True,0
+dariel-cruz-garcia,Dariel Cruz García,Sedición,16/07/2021,La Habana,B,B_algo,True,0
+dariel-rosa-perez,Dariel Rosa Pérez,"Desórdenes públicos,Sabotaje",20/07/2021,Artemisa,A,A_algo,True,1
+daril-ochoa-manrresa,Daril Ochoa Manrresa,"Denegación de auxilio y desobediencia,Sabotaje",07/12/2024,Camagüey,other,B_algo,False,0
+david-alexander-tellez-perez,David Alexander Téllez Pérez,"Desacato,Desórdenes públicos,Instigación a delinquir,Resistencia",17/03/2024,Granma,A,A_algo,True,1
+david-rosell,David Rosell Rodríguez,"Desórdenes públicos,Obstrucción de la vía pública",02/10/2024,Pinar del Río,A,A_algo,True,1
+dayami-villavicencio-hernandez,Dayamí Villavicencio Hernández,Atentado,30/09/2022,Villa Clara,A,A_algo,True,1
+dayan-gustavo-flores-brito,Dayan Gustavo Flores Brito (Yan Crey),Sedición,16/07/2021,La Habana,B,B_algo,True,0
+dayan-jesus-ramirez-rondon,Dayan Jesús Ramírez Rondón,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+dayan-ramirez-hidalgo-gato,Dayan Ramírez Hidalgo Gato,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+dayana-camejo-ramos,Dayana Camejo Ramos,Sedición,29/07/2021,La Habana,B,B_algo,True,0
+dayelin-sanchez-fuentes,Dayelín Sánchez Fuentes,"Atentado,Desacato,Desórdenes públicos",29/08/2022,Artemisa,A,A_algo,True,1
+daymelin-abreu-rodriguez,Daymelin Abreu Rodríguez,"Atentado,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+dayron-cueto-capote,Dayron Cueto Capote,Sedición,,Matanzas,B,B_algo,True,0
+dayron-martin-rodriguez,Dayron Martín Rodríguez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+dayron-munoz-camellar,Dayron Muñoz Camellar,Sedición,26/10/2021,Matanzas,B,B_algo,True,0
+denis-hernandez-ramirez,Denis Hernández Ramírez,"Desacato,Desórdenes públicos",19/07/2021,Artemisa,A,A_algo,True,1
+denis-ojeda-alvarez,Denis Ojeda Álvarez,Sedición,15/07/2021,La Habana,B,B_algo,True,0
+deyvis-javier-torres-acosta,Deyvis Javier Torres Acosta,Sedición,,La Habana,B,B_algo,True,0
+dianyi-liriano-fuentes,Dianyi Liriano Fuentes,"Atentado,Desórdenes públicos,Sedición",29/07/2021,La Habana,mixed,A_algo,False,1
+dianyi-warner-ross,Dianyi Warner Ross,Sedición,,La Habana,B,B_algo,True,0
+diego-jesus-fernandez-asin,Diego Jesús Fernández Asin,Desacato,10/07/2022,La Habana,A,A_algo,True,1
+diosbany-almaguer,Diosbany Almaguer,Desórdenes públicos,08/11/2024,Ciego de Ávila,A,A_algo,True,1
+divaldo-valcarcel-gonzalez,Divaldo Valcárcel González,Instigación a delinquir,03/07/2024,Matanzas,other,A_algo,False,1
+dixan-gainza-more,Dixán Gaínza Moré,"Atentado,Desórdenes públicos,Propagación de epidemia",11/07/2021,Camagüey,A,A_algo,True,1
+donaida-perez-paseiro,Donaida Pérez Paseiro,"Atentado,Desacato,Desórdenes públicos",15/07/2021,Villa Clara,A,A_algo,True,1
+donger-soroa-gonzalez,Donger Soroa González,Sedición,11/07/2021,Mayabeque,B,B_algo,True,0
+duannis-dabel-leon-taboada,Duannis Dabel León Taboada,Sedición,16/11/2021,La Habana,B,B_algo,True,0
+eddy-daniel-rodriguez-milian,Eddy Daniel Rodríguez Milian,Atentado,10/07/2023,Villa Clara,A,A_algo,True,1
+eddy-gutierrez-alonso,Eddy Gutiérrez Alonso,"Atentado,Desórdenes públicos,Sabotaje",12/07/2021,Artemisa,A,A_algo,True,1
+edel-cabrera-gonzalez,Edel Cabrera González,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+edel-osvaldo-lopez-nodarse,Edel Osvaldo López Nodarse,Robo con fuerza,29/07/2021,Matanzas,other,other_algo,True,12
+edel-rodriguez-naranjo,Edel Rodríguez Naranjo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+edgar-soto-torres,Edgar Soto Torres,Atentado,11/07/2021,Las Tunas,A,A_algo,True,1
+edilkis-leon-giraudi,Edilkis León Giraudi,"Daños,Desórdenes públicos",15/11/2024,Santiago de Cuba,A,A_algo,True,1
+ediolvis-marin-mora,Ediolvis Marín Mora,"Sabotaje,Sedición",22/08/2022,Camagüey,B,B_algo,True,0
+eduard-bryan-luperon-vega,Eduard Bryan Luperon Vega,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+eduardo-alvarez-rigal,Eduardo Álvarez Rigal,"Atentado,Desórdenes públicos,Sedición",21/07/2021,La Habana,mixed,A_algo,False,1
+eduardo-jorge-hernandez-sanchez,Eduardo Jorge Hernández Sánchez,Otros actos contra la seguridad del estado,24/11/2023,Cienfuegos,other,B_algo,False,0
+eduardo-reynaldo-machado-arocha,Eduardo Reynaldo Machado Arocha,"Atentado,Desacato,Desórdenes públicos,Evasión de presos o detenidos,Propagación de epidemia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+efren-duany-alfonso,Efren Duany Alfonso,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+eglis-heredia-rodriguez,Eglis Heredia Rodríguez,Robo con fuerza,,Santiago de Cuba,other,other_algo,True,12
+eider-frometa-allen,Eider Frómeta Allen,"Desobediencia,Lesiones,Robo con fuerza",17/01/2019,Guantánamo,other,other_algo,True,12
+eidis-jardines-rodriguez,Eidis Jardines Rodríguez,Atentado,29/08/2022,Artemisa,A,A_algo,True,1
+elian-segui-cruz,Elian Segui Cruz,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+eliecer-cruz-tamayo,Eliécer Cruz Tamayo,Corrupción de menores,05/10/2020,Santiago de Cuba,other,B_algo,False,0
+elienay-maresma-mesa,Elienay Maresma Mesa,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+elier-alfonso-fonseca,Elier Alfonso Fonseca,"Desacato,Sedición",30/07/2022,Cienfuegos,mixed,A_algo,False,1
+elier-marrero-borges,Elier Marrero Borges,"Atentado,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+elier-padron-romero,Elier Padrón Romero,Sedición,21/07/2021,La Habana,B,B_algo,True,0
+elieser-gordin-rojas,Elieser Gordín Rojas,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+eliezet-sesma-diago,Eliezet Sesma Diago,"Atentado,Desacato,Desórdenes públicos,Sedición",11/07/2021,La Habana,mixed,A_algo,False,1
+eliober-fuste-zamora,Eliober Fusté Zamora,"Desacato,Desórdenes públicos",13/07/2019,La Habana,A,A_algo,True,1
+elisnaide-martinez-canete,Elisnaide Martínez Cañete,"Desacato,Desórdenes públicos,Robo con fuerza",31/07/2022,Cienfuegos,A,A_algo,True,1
+eloy-barbaro-cardoso-pedroso,Eloy Bárbaro Cardoso Pedroso,"Atentado,Desórdenes públicos",19/07/2021,La Habana,A,A_algo,True,1
+elsa-elisa-solis-barrera,Elsa Elisa Solís Barrera,"Desacato,Desórdenes públicos",08/03/2024,Holguín,A,A_algo,True,1
+elvira-rodriguez-perez,Elvira Rodríguez Pérez,Desórdenes públicos|Desacato,12/03/2026,Granma,other,other_algo,True,10
+emelina-pendas-rodriguez,Emelina Pendás Rodríguez,"Desacato,Desórdenes públicos",11/07/2021,Mayabeque,A,A_algo,True,1
+emeregildo-duvergel-deliz,Emeregildo Duvergel Deliz,"Atentado,Desorden penitenciario,Tráfico Ilícito de drogas",09/06/2021,La Habana,A,other_algo,False,11
+emiyoslan-roman-rodriguez,Emiyoslán Román Rodríguez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+endris-fuentes-zamora,Endris Fuentes Zamora,"Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",12/07/2021,Matanzas,A,A_algo,True,1
+enoc-noe-fernandez-fernandez,Enoc Noe Fernández Fernández,"Desórdenes públicos,Sabotaje",18/07/2021,Matanzas,A,A_algo,True,1
+enrique-ferrer-hechavarria,Enrique Ferrer Hechavarría,"Atentado,Desacato,Desórdenes públicos,Difamación de las instituciones y organizaciones y de los héroes y mártires,Evasión de presos o detenidos,Instigación a delinquir,Propagación de epidemia,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+enrique-gonzalez-infante,Enrique González Infante,Propaganda contra el orden constitucional,28/03/2024,Las Tunas,other,B_algo,False,0
+enrique-la-o-martinez,Enrique La O Martínez,Atentado,11/07/2021,Santiago de Cuba,A,A_algo,True,1
+erian-jose-scull-villa,Erian José Scull Villa,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+eriberto-tellez-reynosa,Eriberto Téllez Reynosa,"Desacato,Desórdenes públicos",11/07/2021,Guantánamo,A,A_algo,True,1
+eric-luis-acea-quevedo,Eric Luis Acea Quevedo,"Daños a bienes del patrimonio cultural,Desórdenes públicos",12/03/2024,Cienfuegos,A,other_algo,False,11
+erick-gonzalez-lima,Erick González Lima,Instigación a delinquir,30/05/2024,Cienfuegos,other,A_algo,False,1
+eris-diogenes-mejias-vinent,Eris Diógenes Mejías Vinent,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+erisbel-acebo-garcia,Erisbel Acebo García,Sabotaje,15/11/2019,Villa Clara,other,B_algo,False,0
+erisbel-alvarez-yanes,Erisbel Álvarez Yanes,Trata de personas,27/08/2022,Matanzas,other,other_algo,True,11
+ernesto-abelardo-martinez-perez,Ernesto Abelardo Martínez Pérez,Sedición,,Holguín,B,B_algo,True,0
+ernesto-brieva-sempe,Ernesto Brieva Sempé,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+ernesto-perez-perez,Ernesto Pérez Pérez,"Atentado,Desacato",26/07/2020,Las Tunas,A,A_algo,True,1
+ernesto-ricardo-medina,Ernesto Ricardo Medina,"Instigación a delinquir,Propaganda contra el orden constitucional",06/02/2026,Holguín,other,A_algo,False,1
+esmerido-galvan-santiesteban,Esmérido Galván Santiesteban,"Atentado,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+eugenio-eduardo-sierra-ortega,Eugenio Eduardo Sierra Ortega,Propaganda enemiga,28/08/2023,La Habana,other,B_algo,False,0
+eulimides-suarez-moreno,Eulimides Suárez Moreno,Otros actos contra la seguridad del estado,07/12/2024,Y sé el primero en recibirlos,other,B_algo,False,0
+evelio-luis-herrera-duvergel,Evelio Luis Herrera Duvergel,"Desórdenes públicos,Sabotaje",24/07/2021,Mayabeque,A,A_algo,True,1
+frederict-otero-angueira,Federict Otero Angueira,Propaganda enemiga,11/07/2023,La Habana,other,B_algo,False,0
+felipe-alexey-vazquez-alonso,Felipe Alexey Vázquez Alonso,Sabotaje,19/04/2023,Villa Clara,other,B_algo,False,0
+felipe-almirall,Felipe Almirall,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+felipe-correa-martinez,Felipe Octavio Correa Martínez,Instigación a delinquir,06/05/2023,Guantánamo,other,A_algo,False,1
+felipe-rodriguez-ledesma,Felipe Rodríguez Ledesma,Propaganda contra el orden constitucional,03/03/2026,Artemisa,other,B_algo,False,0
+felix-daniel-perez-ruiz,Félix Daniel Pérez Ruiz,"Otros actos contra la seguridad del estado,Propaganda contra el orden constitucional",09/05/2023,Las Tunas,other,B_algo,False,0
+felix-dunieski-pelayo-gomez,Félix Dunieski Pelayo Gómez,Sedición,22/07/2021,Matanzas,B,B_algo,True,0
+felix-jesus-armada-garcia,Félix Jesús Armada García,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+felix-martin-milanes-fajardo,Félix Martín Milanés Fajardo,Espionaje,01/12/2016,La Habana,other,A_algo,False,1
+felix-navarro-rodriguez,Félix Navarro Rodríguez,"Artículo 91,Atentado,Desacato,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+felix-palermo-monzon-alvarez,Félix Palermo Monzón Álvarez,"Financiación del terrorismo,Terrorismo",26/04/2014,La Habana,other,other_algo,True,12
+felix-roque-delgado,Félix Roque Delgado,Atentado,24/12/2021,La Habana,A,A_algo,True,1
+fernando-almenares-rivera-nando-obdc,Fernando Almenares Rivera «Nando OBDC»,Propaganda contra el orden constitucional,31/12/2024,La Habana,other,B_algo,False,0
+fernando-eloy-gonzalez-herrera,Fernando Eloy González Herrera,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Ciego de Ávila,A,A_algo,True,1
+fernando-ginarte-mora,Fernando Ginarte Mora,Atentado,20/07/2021,Cienfuegos,A,A_algo,True,1
+fernando-gonzalez-ojeda,Fernando González Ojeda,Intento de salida ilegal del territorio,25/01/2023,Matanzas,other,other_algo,True,4
+fernando-laugart-reyes,Fernando Laugart Reyes,Desacato,11/07/2021,Santiago de Cuba,A,A_algo,True,1
+fernando-michel-barzaga-mompie,Fernando Michel Barzaga Mompié,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+fernando-vazquez-guerra,Fernando Vázquez Guerra,Desacato,13/02/2026,Camagüey,A,A_algo,True,1
+fidel-alexander-castro-martinez,Fidel Alexander Castro Martínez,"Atentado,Daños,Desórdenes públicos,Instigación a delinquir",12/07/2021,La Habana,A,A_algo,True,1
+fidel-manuel-batista-leyva,Fidel Manuel Batista Leyva,"Amenazas,Desacato,Desobediencia,Desórdenes públicos",16/11/2022,Holguín,A,other_algo,False,11
+fray-claro-valladares,Frai Pascual Claro Valladares,Sedición,19/08/2022,Camagüey,B,B_algo,True,0
+francis-daniela-fernandez-del-bono,Francis Daniela Fernández del Bono,Desórdenes públicos,13/07/2021,La Habana,A,A_algo,True,1
+francisco-eduardo-soler-castaneda,Francisco Eduardo Soler Castaneda,Sedición,05/08/2021,La Habana,B,B_algo,True,0
+francisco-jose-candiot-garcia,Francisco José Candiot García,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+francisco-rafael-villa-tamary,Francisco Rafael Villa Tamary,"Desacato,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+francisco-rangel-manzano,Francisco Rangel Manzano,Desórdenes públicos,11/07/2021,Matanzas,A,A_algo,True,1
+francisco-reyes-rodriguez,Francisco Reyes Rodríguez,"Robo con violencia,Terrorismo",10/04/2003,Isla de la Juventud,other,other_algo,True,12
+frandy-gonzalez-leon,Frandy González León,"Desacato,Desórdenes públicos",17/07/2021,La Habana,A,A_algo,True,1
+frank-alberto-carrion-suarez,Frank Alberto Carrión Suárez,Sedición,16/09/2022,Camagüey,B,B_algo,True,0
+frank-aldama-rodriguez,Frank Aldama Rodríguez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+frank-alejandro-felipe-gomez,Frank Alejandro Felipe Gómez,"Atentado,Desórdenes públicos",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+frank-artola,Frank Artola,"Desacato,Desórdenes públicos",01/10/2022,La Habana,A,A_algo,True,1
+frank-daniel-roy-sotolongo,Frank Daniel Roy Sotolongo,Sedición,22/07/2021,La Habana,B,B_algo,True,0
+frank-ernesto-mourlot-speck,Frank Ernesto Mourlot Speck,"Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+frank-ernesto-trujillo-hervis,Frank Ernesto Trujillo Hervis,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+frank-michel-monterrey-pelaez,Frank Michel Monterrey Peláez,Atentado,,La Habana,A,A_algo,True,1
+franklin-reymundo-fernandez-rodriguez,Franklin Reymundo Fernández Rodríguez,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+frankie-carmona-arias,Franky Carmona Arias,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+franyer-abad-dumet,Franyer Abad Dumet,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+freddy-aviles-rodriguez,Freddy Avilés Rodríguez,Atentado,23/05/2025,Granma,A,A_algo,True,1
+freddy-sarquiz-gonzalez,Freddy Sarquiz González,"Desórdenes públicos,Instigación a delinquir",18/05/2023,Guantánamo,A,A_algo,True,1
+fredi-beirut-matos,Fredi Beirut Matos,Sedición,14/07/2021,La Habana,B,B_algo,True,0
+freidel-ramirez-calzado,Freidel Ramírez Calzado,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+frodelian-hernandez-bautista,Frodelián Hernández Bautista,"Atentado,Desacato",12/07/2021,La Habana,A,A_algo,True,1
+gabriel-de-la-concepcion-portal,Gabriel De la Concepción Portal,"Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+geanny-betancourt-leiva,Geanny Betancourt Leiva,"Desacato,Desórdenes públicos,Sabotaje",31/07/2022,Cienfuegos,A,A_algo,True,1
+geobanis-couse-ricardo,Geobanis Couse Ricardo,Propaganda contra el orden constitucional,05/07/2023,Santiago de Cuba,other,B_algo,False,0
+geobel-manzo-lopez,Geobel Manzo López,"Atentado,Resistencia",15/08/2021,Villa Clara,A,A_algo,True,1
+george-ramirez-rodriguez,George Ramírez Rodríguez,"Desacato,Desobediencia,Peligrosidad social predelictiva",20/11/2016,Cienfuegos,A,other_algo,False,11
+geovanis-cepulveda-martinez,Geovanis Cepúlveda Martínez,"Atentado,Desacato",03/05/2021,Camagüey,A,A_algo,True,1
+geovany-garcia-soto,Geovany García Soto,"Atentado,Desacato,Desórdenes públicos",15/07/2021,La Habana,A,A_algo,True,1
+gerardo-garcia-villar,Gerardo García Villar,"Atentado,Desacato,Desórdenes públicos",17/07/2021,Santiago de Cuba,A,A_algo,True,1
+gerardo-ugando-alvarez,Gerardo Ugando Álvarez,"Atentado,Desórdenes públicos",16/07/2021,Matanzas,A,A_algo,True,1
+german-barrenechea-echevarria,Germán Barrenechea Echevarría,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+gilberto-castillo-castillo,Gilberto Castillo Castillo,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yorvis-pardo-del-toro,Giorbis Pardo del Toro,"Atentado,Desacato,Desórdenes públicos,Resistencia",11/07/2021,Mayabeque,A,A_algo,True,1
+giordano-quintanal-diaz,Giordano Quintanal Díaz,Atentado,19/07/2021,La Habana,A,A_algo,True,1
+giuseppe-belaunzaran-guada,Giuseppe Belaunzarán Guada,"Hurto,Sedición",11/07/2021,La Habana,B,other_algo,False,12
+gleidis-lores-brosal,Gleidis Lores Brosal,"Propaganda enemiga,Sabotaje",10/08/2017,La Habana,other,B_algo,False,0
+gregorio-rafael-ocana-garcia,Gregorio Rafael Ocaña García,Sabotaje,,Villa Clara,other,B_algo,False,0
+guillermo-carralero-lopez,Guillermo Carralero López,Propaganda contra el orden constitucional,14/03/2026,Las Tunas,other,B_algo,False,0
+guivuslisel-velazquez-kindelan,Guivuslisel Velázquez Kindelán,"Desacato,Desobediencia,Desórdenes públicos",02/09/2022,Artemisa,A,A_algo,True,1
+gustavo-mena-artola,Gustavo Mena Artola,Desacato,15/09/2023,Villa Clara,A,A_algo,True,1
+hansel-felipe-arbolay-prim,Hansel Felipe Arbolay Prim,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+harlen-oropesa-carrero,Harlen Oropesa Carrero,"Atentado,Desórdenes públicos,Sedición",11/07/2021,La Habana,mixed,A_algo,False,1
+harold-alcala-aramburo,Harold Alcalá Aramburo,Terrorismo,03/04/2003,La Habana,other,other_algo,True,12
+harold-maikel-ruiz-luaces,Harold Maikel Ruíz Luaces,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+harold-michel-mena-nuviola,Harold Michel Mena Nuviola,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+hector-curbelo,Héctor Curbelo,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",19/08/2022,Camagüey,A,A_algo,True,1
+hector-lopez-perez,Héctor López Pérez,Tenencia de drogas,20/01/2017,Guantánamo,other,other_algo,True,13
+hector-luis-olivera-rodriguez,Héctor Luis Olivera Rodríguez,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+henry-diaz-carpio,Henry Díaz Carpio,Desacato,13/07/2021,La Habana,A,A_algo,True,1
+henry-fernandez-pantera,Henry Fernández Pantera,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+hilder-columbie-hernandez,Hilder Columbié Hernández,"Desórdenes públicos,Instigación a delinquir",17/07/2022,Guantánamo,A,A_algo,True,1
+hillary-gutierrez-plasencia,Hillary Gutiérrez Plasencia,"Desacato,Desórdenes públicos",01/10/2022,La Habana,A,A_algo,True,1
+hortensia-oceguera-gonzalez,Hortensia Oceguera González,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+humberto-betancourt-padron,Humberto Betancourt Padrón,Hurto,18/07/2021,Mayabeque,other,other_algo,True,12
+humberto-elias-monrabals-camps,Humberto Elías Monrabals Camps,"Desacato,Desórdenes públicos",12/07/2021,Mayabeque,A,A_algo,True,1
+humberto-michael-gonzalez-zamora,Humberto Michael González Zamora,Resistencia,28/10/2023,La Habana,A,A_algo,True,1
+humberto-paz-gutierrez,Humberto Paz Gutiérrez,"Desacato,Desórdenes públicos",21/07/2021,Ciego de Ávila,A,A_algo,True,1
+ian-gamez-gell,Ian Gámez Gell,Atentado,23/08/2022,La Habana,A,A_algo,True,1
+ibrahim-dominguez-aguilar,Ibrahim Domínguez Aguilar,"Atentado,Desacato,Desórdenes públicos,Ultraje sexual",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+ibrahin-ariel-gonzalez-hodelin,Ibrahín Ariel González Hodelin,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Santiago de Cuba,A,A_algo,True,1
+idael-naranjo-perez,Idael Naranjo Pérez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+idalberto-reyes-saroza,Idalberto Reyes Saroza,"Propaganda enemiga,Sabotaje",,Cienfuegos,other,B_algo,False,0
+idolidia-carrasco-lobo,Idolidia Carrasco Lobo,"Desacato,Desórdenes públicos",10/10/2022,Mayabeque,A,A_algo,True,1
+ienelis-delgado-cue,Ienelis Delgado Cue,Otros actos contra la seguridad del estado,24/04/2025,Camagüey,other,B_algo,False,0
+ihazmell-hernandez-montoto,Ihazmell Hernández Montoto,Sedición,15/11/2021,La Habana,B,B_algo,True,0
+ihosvany-suris-de-la-torre,Ihosvany Surís de la Torre,Otros actos contra la seguridad del estado,26/04/2001,La Habana,other,B_algo,False,0
+iledier-taboada-machado,Iledier Taboada Machado,Atentado,13/03/2026,Ciego de Ávila,A,A_algo,True,1
+iliana-cabrera-jimenez,Iliana Cabrera Jiménez,"Atentado,Desacato",05/09/2022,Artemisa,A,A_algo,True,1
+ilivan-fuentes-fonseca,Iliván Fuentes Fonseca,"Desacato,Desórdenes públicos",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+iran-alvarez-videaux,Irán Álvarez Videaux,Sedición,,Matanzas,B,B_algo,True,0
+irioldis-barrabia-cobas,Irioldis Barrabía Cobas,"Atentado,Desórdenes públicos",17/07/2022,Guantánamo,A,A_algo,True,1
+iris-belkis-oduardo-rodriguez,Iris Belkis Oduardo Rodríguez,Sedición,23/07/2021,Matanzas,B,B_algo,True,0
+irma-del-rosario-moro-cespedes,Irma del Rosario Moro Céspedes,"Atentado,Desacato,Instigación a delinquir",15/09/2023,Las Tunas,A,A_algo,True,1
+isael-hechavarria-arozarena,Isael Hechavarría Arozarena,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+isain-lopez-luna,Isaín López Luna,Atentado,10/04/2020,La Habana,A,A_algo,True,1
+islandy-torres-marchado,Islandy Torres Marchado,"Otros actos contra la seguridad del estado,Sabotaje",,Cienfuegos,other,B_algo,False,0
+ismael-enrique-gorra-peraza,Ismael Enrique Gorra Peraza,"Propaganda enemiga,Sabotaje",,La Habana,other,B_algo,False,0
+ismael-rodriguez-gonzalez,Ismael Rodríguez González,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+ismel-frank-guanche-acosta,Ismel Frank Guanche Acosta,"Atentado,Desórdenes públicos",23/07/2021,La Habana,A,A_algo,True,1
+ivan-arocha-quiala,Iván Arocha Quiala,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir,Propagación de epidemia,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+ivan-colon-suarez,Iván Colón Suárez,Sedición,09/01/2022,Holguín,B,B_algo,True,0
+ivan-hernandez-carrillo,Iván Hernández Carrillo,Artículo 91,18/03/2003,Matanzas,other,other_algo,True,6
+ivan-hernandez-troya,Iván Hernández Troya,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+ivan-mauricio-arocha-arocha,Iván Mauricio Arocha Arocha,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir,Propagación de epidemia,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+jaime-alcide-firdo-rodriguez,Jaime Alcide Firdó Rodríguez,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+jandys-gonzalez-mujica,Jandys González Mújica,"Atentado,Desórdenes públicos",12/10/2021,La Habana,A,A_algo,True,1
+jank-maikol-leguen-lando,Jank Maikol Leguen Landó,"Desacato,Propaganda enemiga",14/07/2021,La Habana,A,A_algo,True,1
+jarol-varona-aguero,Jarol Varona Agüero,"Otros actos contra la seguridad del estado,Propaganda contra el orden constitucional",,Las Tunas,other,B_algo,False,0
+jarolkis-suarez-rojas,Jarolkis Suárez Rojas,Sedición,19/07/2021,La Habana,B,B_algo,True,0
+javier-delgado-torna,Javier Delgado Torna,"Atentado,Daños,Desórdenes públicos",12/07/2021,Villa Clara,A,A_algo,True,1
+javier-ernesto-martin-gutierrez,Javier Ernesto Martín Gutiérrez,Desórdenes públicos,24/04/2026,La Habana,A,A_algo,True,1
+javier-rafael-paneque-oliva,Javier Rafael Paneque Oliva,"Atentado,Desórdenes públicos",21/04/2022,Granma,A,A_algo,True,1
+javier-reyes-pena,Javier Reyes Peña,Propaganda contra el orden constitucional,14/03/2024,Las Tunas,other,B_algo,False,0
+jennifer-pereira-simpson,Jennifer Pereira Simpson,"Atentado,Desacato,Desórdenes públicos",28/01/2022,La Habana,A,A_algo,True,1
+jenny-victoria-pantoja-torres,Jenny Victoria Pantoja Torres,Atentado,18/06/2024,La Habana,A,A_algo,True,1
+jenry-osmar-sanchez-aparicio,Jenry Osmar Sánchez Aparicio,"Atentado,Desacato,Desórdenes públicos",01/09/2021,Granma,A,A_algo,True,1
+jessica-lisbeth-torres-calvo,Jessica Lisbeth Torres Calvo,Sedición,13/07/2021,Holguín,B,B_algo,True,0
+jesus-alejandro-la-rosa-almeida,Jesús Alejandro La Rosa Almeida,Robo con fuerza,11/07/2021,Matanzas,other,other_algo,True,12
+jesus-alfredo-perez-rivas,Jesús Alfredo Pérez Rivas,Propaganda contra el orden constitucional,14/02/2023,La Habana,other,B_algo,False,0
+jesus-de-nazaret-alzuaga-almaguer,Jesús de Nazaret Arzuaga Almaguer,"Desacato,Desórdenes públicos,Instigación a delinquir",17/03/2024,Granma,A,A_algo,True,1
+jesus-enrique-vazquez-cabrera,Jesús Enrique Vázquez Cabrera,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+jesus-fernandez-garnier,Jesús Fernández Garnier,Otros actos contra la seguridad del estado,19/08/2023,Cienfuegos,other,B_algo,False,0
+jesus-gabriel-perez-menocal,Jesús Gabriel Pérez Menocal,Sabotaje,26/08/2022,Villa Clara,other,B_algo,False,0
+jesus-kevin-blanco-mantinan,Jesús Kevin Blanco Mantiñan,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+jesus-miguel-antelo-diaz,Jesús Miguel Antelo Díaz,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+jesus-ramon-rodriguez-perez,Jesús Ramón Rodríguez Pérez,Sedición,30/07/2021,La Habana,B,B_algo,True,0
+jesus-yoel-diaz-hernandez,Jesús Yoel Díaz Hernández,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+jetzel-zayas-roldan,Jetzel Zayas Roldón,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+jhony-perez-martinez,Jhony Pérez Martínez,Intento de salida ilegal del territorio,25/01/2023,Matanzas,other,other_algo,True,4
+jimmi-jhonson-agosto,Jimmi Jhonson Agosto,"Sabotaje,Sedición",06/09/2022,Camagüey,B,B_algo,True,0
+jiordan-marrero-huerta,Jiordán Marrero Huerta,Otros actos contra la seguridad del estado,24/04/2025,Camagüey,other,B_algo,False,0
+joaquin-camejo-corrales,Joaquín Camejo Corrales,"Otros actos contra la seguridad del estado,Sabotaje",11/09/2019,La Habana,other,B_algo,False,0
+joel-jardines-jardines,Joel Jardines Jardines,"Atentado,Evasión de presos o detenidos,Hurto,Receptación,Robo con fuerza,Robo con violencia",22/05/2023,Mayabeque,A,other_algo,False,12
+joel-tor-caballero,Joel Tor Caballero,"Desacato,Desórdenes públicos",13/07/2021,Santiago de Cuba,A,A_algo,True,1
+johander-perez-gomez,Johander Pérez Gómez,"Desacato,Desobediencia,Desórdenes públicos,Ultraje sexual",11/07/2021,Camagüey,A,A_algo,True,1
+john-luis-machado-marrero,John Luis Machado Marrero,"Atentado,Desacato,Desórdenes públicos,Ultraje sexual",12/07/2021,Villa Clara,A,A_algo,True,1
+jonathan-david-muir-burgos,Jonathan David Muir Burgos,Sabotaje,16/03/2026,Ciego de Ávila,other,B_algo,False,0
+jonathan-garcia-aguila,Jonathan García Águila,"Desórdenes públicos,Sabotaje",16/07/2021,Matanzas,A,A_algo,True,1
+jonathan-torres-farrat,Jonathan Torres Farrat,Sedición,13/08/2021,La Habana,B,B_algo,True,0
+jonys-pinon-garcia,Jonys Piñón García,Atentado,11/07/2021,La Habana,A,A_algo,True,1
+jordan-arcia-guerra,Jordan Arcia Guerra,"Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+jorge-alberto-zaya-quintana,Jorge Alberto Zaya Quintana,Desórdenes públicos,15/09/2023,Las Tunas,A,A_algo,True,1
+jorge-alexander-llufrio-perez,Jorge Alexander Llufrio Pérez,"Desacato,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+jorge-alexis-aguero-gomez,Jorge Alexis Agüero Gómez,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+jorge-alexis-milanes-cedeno__trashed,Jorge Alexis Milanés Cedeño,"Atentado,Desórdenes públicos",19/03/2024,Granma,A,A_algo,True,1
+jorge-armando-castaneda-terrero,Jorge Armando Castañeda Terrero,"Desacato,Desórdenes públicos",30/07/2022,Cienfuegos,A,A_algo,True,1
+jorge-bello-dominguez,Jorge Bello Domínguez,"Desacato,Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+jorge-carbonell-barrientos,Jorge Carbonell Barrientos,"Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+jorge-enrique-guerra-garcia,Jorge Enrique Guerra García,Atentado,,Santiago de Cuba,A,A_algo,True,1
+jorge-fernandez-era,Jorge Fernández Era,Desobediencia,04/04/2023,La Habana,other,other_algo,True,11
+jorge-frank-iglesias-fernandez,Jorge Frank Iglesias Fernández,Espionaje,01/02/2015,La Habana,other,A_algo,False,1
+jorge-gabriel-arruebarruena-leon,Jorge Gabriel Arruebarruena León,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+jorge-gilberto-carrillo-isaac,Jorge Gilberto Carrillo Isaac,Robo con fuerza,11/07/2021,Matanzas,other,other_algo,True,12
+jorge-ivan-diaz-puig,Jorge Iván Díaz Puig,"Atentado,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+jorge-luis-arguelles-bayate,Jorge Luis Argüelles Bayate,"Desórdenes públicos,Robo con violencia,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+jorge-luis-boada-valdes,Jorge Luis Boada Valdés,"Otros actos contra la seguridad del estado,Propaganda enemiga",25/02/2022,La Habana,other,B_algo,False,0
+jorge-luis-garcia-garcia,Jorge Luis García García,"Atentado,Desacato,Desórdenes públicos,Evasión de presos o detenidos,Resistencia",13/07/2021,Santiago de Cuba,A,A_algo,True,1
+jorge-luis-hernandez-rabelo,Jorge Luis Hernández Rabelo,Sabotaje,,La Habana,other,B_algo,False,0
+jorge-luis-liriano-alvarez,Jorge Luis Liriano Álvarez,"Desórdenes públicos,Robo con fuerza",14/07/2021,Mayabeque,A,A_algo,True,1
+jorge-luis-lugones-lara,Jorge Luis Lugones Lara,"Desórdenes públicos,Robo con fuerza",11/07/2021,Artemisa,A,A_algo,True,1
+jorge-luis-martinez-garcia,Jorge Luis Martínez García,Sedición,,Holguín,B,B_algo,True,0
+jorge-luis-najarro-hernandez,Jorge Luis Najarro Hernández,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+jorge-luis-perez-puentes,Jorge Luis Pérez Puentes,"Robo con violencia,Terrorismo",10/04/2003,Isla de la Juventud,other,other_algo,True,12
+jorge-luis-rodriguez-valdes,Jorge Luis Rodríguez Valdés,Desacato,27/04/2022,Pinar del Río,A,A_algo,True,1
+jorge-luis-salazar-brioso,Jorge Luis Salazar Brioso,"Atentado,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+jorge-manuel-lopez-bohorgues,Jorge Manuel López Bohórgues,Sedición,16/07/2021,Matanzas,B,B_algo,True,0
+jorge-martin-perdomo,Jorge Martín Perdomo,"Atentado,Desacato,Desórdenes públicos",17/07/2021,Mayabeque,A,A_algo,True,1
+jorge-modesto-valdivia-leon,Jorge Modesto Valdivia León,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",16/07/2021,Villa Clara,A,A_algo,True,1
+jorge-ortiz-jimenez,Jorge Ortiz Jiménez,"Atentado,Desórdenes públicos",19/07/2021,La Habana,A,A_algo,True,1
+jorge-reinier-arias-garcia,Jorge Reinier Arias García,"Atentado,Daños,Denegación de auxilio y desobediencia,Desacato,Desórdenes públicos,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+jorge-serrano-alfonso,Jorge Serrano Alfonso,"Desacato,Desórdenes públicos",16/07/2021,Matanzas,A,A_algo,True,1
+jorge-vallejo-venegas,Jorge Vallejo Venegas,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+jorge-victor-quintana-cala,Jorge Víctor Quintana Cala,"Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+jorge-yenier-ortiz-aguilera,Jorge Yenier Ortiz Aguilera,"Atentado,Desacato,Desórdenes públicos",15/07/2021,Mayabeque,A,A_algo,True,1
+jose-adalberto-canizares,José Adalberto Cañizares,"Desacato,Desórdenes públicos,Resistencia",01/10/2022,La Habana,A,A_algo,True,1
+jose-aguila-ruiz,José Águila Ruiz,Propaganda contra el orden constitucional,24/10/2024,Villa Clara,other,B_algo,False,0
+jose-alberto-oliva-arencibia,José Alberto Oliva Arencibia,"Desórdenes públicos,Robo con fuerza",15/07/2021,Matanzas,A,A_algo,True,1
+jose-alberto-pio-torres,José Alberto Pío Torres,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+jose-angel-cedeno-avila,José Ángel Cedeño Ávila,"Atentado,Desacato,Desórdenes públicos,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+jose-angel-cuba-garcia,José Ángel Cuba García,"Atentado,Desórdenes públicos",16/07/2021,Matanzas,A,A_algo,True,1
+jose-angel-diaz-ortiz,José Ángel Díaz Ortiz,"Robo con violencia,Terrorismo",10/04/2003,Isla de la Juventud,other,other_algo,True,12
+jose-antonio-garces-valdes,José Antonio Garcés Valdés,Desórdenes públicos,15/09/2023,Las Tunas,A,A_algo,True,1
+jose-antonio-gomez-leon,José Antonio Gómez León,Atentado,12/07/2021,La Habana,A,A_algo,True,1
+jose-antonio-gonzalez-guerrero,José Antonio González Guerrero,Sedición,14/07/2021,La Habana,B,B_algo,True,0
+jose-antonio-pompa-lopez,José Antonio Pompa López,"Asociaciones reuniones y manifestaciones ilícitas,Propaganda contra el orden constitucional",26/04/2024,La Habana,other,B_algo,False,0
+jose-antonio-rodriguez-vega,José Antonio Rodríguez Vega,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",19/08/2022,Camagüey,A,A_algo,True,1
+jose-antonio-torres-fernandez,José Antonio Torres Fernández,Espionaje,08/02/2011,Santiago de Cuba,other,A_algo,False,1
+jose-antonio-zamora-enamorado,José Antonio Zamora Enamorado,"Atentado,Desórdenes públicos",19/07/2021,Santiago de Cuba,A,A_algo,True,1
+jose-armando-martinez-blanco,José Armando Martínez Blanco,"Atentado,Desacato,Malversación",14/08/2021,La Habana,A,A_algo,True,1
+jose-armando-torrente-munoz,José Armando Torrente Muñoz,"Atentado,Resistencia,Sedición",19/08/2022,Camagüey,mixed,A_algo,False,1
+jose-carlos-hernandez-barrios,Jose Carlos Hernández Barrios,"Desórdenes públicos,Sabotaje",26/07/2021,Matanzas,A,A_algo,True,1
+jose-david-hernandez-ferrer,José David Hernández Ferrer,Propaganda enemiga,24/08/2024,La Habana,other,B_algo,False,0
+jose-eduardo-jardines-rodriguez,Jose Eduardo Jardines Rodríguez,"Atentado,Desacato,Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",15/11/2021,La Habana,A,A_algo,True,1
+jose-enrique-pablo-oliva,José Enrique Pablo Oliva,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+jose-francisco-cardio-garcia,José Francisco Cardió García,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+jose-francisco-hernandez-rodriguez,José Francisco Hernández Rodríguez,Desacato,29/06/2022,Pinar del Río,A,A_algo,True,1
+jose-gabriel-barrenchea-chavez,José Gabriel Barrenechea Chávez,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+jose-luis-aguirre-baruco,José Luis Aguirre Baruco,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+jose-luis-castillo-bolanos,José Luis Castillo Bolaños,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+jose-luis-castillo-de-la-torre,José Luis Castillo De La Torre,"Atentado,Desórdenes públicos,Propagación de epidemia,Sedición",12/07/2021,La Habana,mixed,A_algo,False,1
+jose-luis-roque-rodriguez,José Luis Roque Rodríguez,"Sacrificio ilegal de ganado mayor,Receptación",23/06/2023,Mayabeque,other,other_algo,True,12
+jose-luis-sanchez-tito,José Luis Sánchez Tito,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+jose-manuel-arias-campo,José Manuel Arias Campo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+manolo-barreiro-rouco,José Manuel Barreiro Rouco,"Desacato,Tráfico ilegal de moneda,divisas,metales y piedras preciosas",15/06/2023,Cienfuegos,A,other_algo,False,8
+jose-manuel-cabrera-perez,José Manuel Cabrera Pérez,"Atentado,Daños,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+jose-manuel-casanova-prieguez,José Manuel Casanova Prieguez,Atentado,14/01/2024,Holguín,A,A_algo,True,1
+jose-ortega-amador,José Ortega Amador,"Financiación del terrorismo,Terrorismo",26/04/2014,La Habana,other,other_algo,True,12
+jose-perez-padron,José Pérez Padrón,"Atentado,Desórdenes públicos",,La Habana,A,A_algo,True,1
+jose-pupo-chaveco,José Pupo Chaveco,"Atentado,Lesiones,Privación de libertad",01/10/2019,Santiago de Cuba,A,other_algo,False,12
+jose-ramon-solano-randiche,José Ramón Solano Randiche,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+josiel-guia-piloto,Josiel Guía Piloto,Propaganda contra el orden constitucional,14/02/2023,La Habana,other,B_algo,False,0
+josue-lazaro-avila-morfa,Josué Lázaro Ávila Morfa,Sabotaje,13/11/2023,Cienfuegos,other,B_algo,False,0
+juan-alberto-matos-maso,Juan Alberto Matos Masó,"Atentado,Daños,Desórdenes públicos",12/07/2021,Granma,A,A_algo,True,1
+juan-carlos-montes-de-oca-santiesteban,Juan Carlos Montes de Oca Santiesteban,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+juan-carlos-morales-herrera,Juan Carlos Morales Herrera,Sedición,18/07/2021,La Habana,B,B_algo,True,0
+juan-carlos-perez-gonzalez-presos-politicos-en-cuba,Juan Carlos Pérez González,"Atentado,Sabotaje,Propaganda contra el orden constitucional",,Villa Clara,A,B_algo,False,0
+juan-emilio-perez-estrada,Juan Emilio Pérez Estrada,Sedición,18/07/2021,La Habana,B,B_algo,True,0
+juan-enrique-perez-sanchez,Juan Enrique Pérez Sánchez,"Desacato,Desórdenes públicos,Sabotaje",11/07/2021,Mayabeque,A,A_algo,True,1
+juan-gainza-alvarez,Juan Gainza Álvarez,Difamación de las instituciones y organizaciones y de los héroes y mártires,,Holguín,other,other_algo,True,11
+juan-luis-zulueta-perez,Juan Luis Zulueta Pérez,Desórdenes públicos,17/07/2021,Matanzas,A,A_algo,True,1
+juan-pablo-martinez-monterrey,Juan Pablo Martínez Monterrey,"Desórdenes públicos,Sabotaje",20/07/2021,Artemisa,A,A_algo,True,1
+juan-piloto-ferro,Juan Piloto Ferro,Amenazas,12/07/2021,La Habana,other,other_algo,True,11
+juan-walberto-verdecia-rodriguez,Juan Walberto Verdecia Rodríguez,Sedición,16/07/2021,La Habana,B,B_algo,True,0
+juan-yanier-antomarchi-nunez,Juan Yanier Antomarchi Núñez,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+julian-manuel-mazola-beltran,Julián Manuel Mazola Beltrán,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+julian-noel-moreno-castillo,Julián Noel Moreno Castillo,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+julian-rodriguez-lopez,Julián Rodríguez López,"Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+julian-samon-quintana,Julián Samon Quintana,Sabotaje,12/07/2021,La Habana,other,B_algo,False,0
+julian-yasmany-diaz-mena,Julián Yasmany Díaz Mena,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+julio-cesar-duque-de-estrada-ferrer,Julio Cesar Duque de Estrada Ferrer,"Atentado,Desobediencia",05/09/2024,Santiago de Cuba,A,A_algo,True,1
+julio-cesar-ruiz-bacot,Julio César Ruiz Bacot,"Desórdenes públicos,Robo con fuerza",16/07/2021,Matanzas,A,A_algo,True,1
+julio-cesar-vega-santiesteban,Julio César Vega Santiesteban,"Proxenetismo,Tráfico Ilícito de drogas,Trata de personas",03/04/2018,Santiago de Cuba,other,other_algo,True,11
+julio-roberto-sanchez-brizuela,Julio Roberto Sánchez Brizuela,Tentativa de asesinato,13/11/2021,Granma,other,other_algo,True,14
+juslid-justiz-lazo,Juslid Justiz Lazo,Atentado,,La Habana,A,A_algo,True,1
+juvier-jimenez-gomez,Juvier Jiménez Gómez,"Atentado,Desacato,Desórdenes públicos",18/07/2021,Villa Clara,A,A_algo,True,1
+kamil-zayas-perez,Kamil Zayas Pérez,"Instigación a delinquir,Propaganda contra el orden constitucional",06/02/2026,Holguín,other,A_algo,False,1
+karel-miranda-rubio-de,Karel Miranda Rubio,"Asesinato,Deserción,Infracción de normas de guardia,Intento de salida ilegal del territorio,Uso de armas de fuego y otros medios",28/04/2007,Camagüey,other,other_algo,True,4
+karen-garcia-merino,Karen García Meriño,Atentado,19/09/2018,Las Tunas,A,A_algo,True,1
+karen-vazquez-perez,Karen Vázquez Pérez,Sedición,14/07/2021,La Habana,B,B_algo,True,0
+katia-beirut-rodriguez,Katia Beirut Rodríguez,Sedición,19/07/2021,La Habana,B,B_algo,True,0
+keiler-navarro-silot,Keiler Navarro Silot,"Desórdenes públicos,Instigación a delinquir",17/07/2022,Guantánamo,A,A_algo,True,1
+keiler-velazquez-medina,Keiler Velázquez Medina,Sedición,20/08/2022,Camagüey,B,B_algo,True,0
+kelvin-edward-charles-matos,Kelvin Edward Charles Matos,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+kendry-lastra-rodriguez,Kendry Lastra Rodríguez,Atentado,11/11/2022,La Habana,A,A_algo,True,1
+kendry-miranda-cardenas,Kendry Miranda Cárdenas,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+kennedy-enrique-moncho-velazquez,Kennedy Enrique Moncho Velazquez,"Atentado,Desacato,Desórdenes públicos",02/09/2022,Artemisa,A,A_algo,True,1
+ketya-capote-garcia,Ketya Capote García,"Propaganda contra el orden constitucional,Sabotaje",24/08/2022,Villa Clara,other,B_algo,False,0
+kevin-angel-alvarez-echevarria,Kevin Ángel Álvarez Echevarría,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+kevin-damian-frometa-castro,Kevin Damián Frómeta Castro,Sedición,27/07/2021,La Habana,B,B_algo,True,0
+kevin-lazaro-pimentel-oduardo,Kevin Lázaro Pimentel Oduardo,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+keyla-roxana-mulet-calderon,Keyla Roxana Mulet Calderón,Sedición,,Holguín,B,B_algo,True,0
+kiocel-suarez-rondon,Kiocel Suárez Rondón,Desacato,14/02/2023,La Habana,A,A_algo,True,1
+kleider-torres-bacallao,Kleider Torres Bacallao,Robo con fuerza,06/08/2021,Mayabeque,other,other_algo,True,12
+lauren-martinez-ibanez,Lauren Martínez Ibáñez,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+lazara-karenia-gonzalez-fernandez,Lázara Karenia González Fernández,"Desacato,Desórdenes públicos,Resistencia",11/07/2021,Matanzas,A,A_algo,True,1
+lazaro-alejandro-perez-agosto,Lázaro Alejandro Pérez Agosto,Sedición,09/10/2022,Camagüey,B,B_algo,True,0
+lazaro-alejandro-rodriguez-ruiz,Lázaro Alejandro Rodríguez Ruiz,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+lazaro-antonio-rodriguez-jerez,Lázaro Antonio Rodríguez Jerez,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+lazaro-armando-morales-romero,Lázaro Armando Morales Romero,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+lazaro-avila-sierra,Lázaro Ávila Sierra,"Robo con violencia,Terrorismo",10/04/2003,Isla de la Juventud,other,other_algo,True,12
+lazaro-brito-ferrer,Lázaro Brito Ferrer,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+lazaro-daniel-creme-bueno,Lázaro Daniel Cremé Bueno,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+lazaro-esquivel-quijano,Lázaro Esquivel Quijano,"Hurto,Sacrificio ilegal de ganado mayor",22/01/2023,Cienfuegos,other,other_algo,True,12
+lazaro-figueredo-rodriguez,Lázaro Figueredo Rodriguez,"Desacato,Desórdenes públicos",22/05/2025,Granma,A,A_algo,True,1
+lazaro-garcia-herbello,Lázaro García Herbello,Sedición,27/07/2021,Matanzas,B,B_algo,True,0
+lazaro-gregori-velazquez,Lázaro Gregori Velázquez,Instigación a delinquir,15/09/2023,Las Tunas,other,A_algo,False,1
+lazaro-hipolito-lamoth,Lázaro Hipólito Lamoth,"Desacato,Desórdenes públicos,Resistencia",08/08/2022,Holguín,A,A_algo,True,1
+lazaro-jesus-piloto-campos,Lázaro Jesús Piloto Campos,"Desórdenes públicos,Sabotaje",22/07/2021,Mayabeque,A,A_algo,True,1
+lazaro-jesus-valdez-gonzalez-fune,Lázaro Jesús Valdez González-Fune,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+lazaro-juan-herrera-hernandez,Lázaro Juan Herrera Hernández,"Atentado,Daños,Desórdenes públicos,Instigación a delinquir",12/07/2021,La Habana,A,A_algo,True,1
+lazaro-leonardo-rodriguez-betancourt,Lázaro Leonardo Rodríguez Betancourt,Difamación de las instituciones y organizaciones y de los héroes y mártires,26/06/2023,La Habana,other,other_algo,True,11
+lazaro-manuel-hernandez-perez,Lázaro Manuel Hernández Pérez,"Desacato,Propaganda contra el orden constitucional",03/09/2025,Villa Clara,A,A_algo,True,1
+lazaro-manuel-mendoza-caraza,Lázaro Manuel Mendoza Caraza,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+lazaro-mendoza-garcia,Lázaro Mendoza García,"Asociaciones reuniones y manifestaciones ilícitas,Propaganda contra el orden constitucional",14/06/2024,La Habana,other,B_algo,False,0
+lazaro-noel-urgelles-fajardo,Lázaro Noel Urgellés Fajardo,"Hurto,Sedición",11/07/2021,La Habana,B,other_algo,False,12
+lazaro-osmel-salinas-hernandez,Lázaro Osmel Salinas Hernández,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+lazaro-piloto-romero,Lázaro Piloto Romero,Propaganda contra el orden constitucional,14/02/2023,La Habana,other,B_algo,False,0
+lazaro-rafael-leon-lopez,Lázaro Rafael León López,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+lazaro-ramirez-lugo,Lázaro Ramírez Lugo,"Desórdenes públicos,Robo con fuerza",16/07/2021,Mayabeque,A,A_algo,True,1
+lazaro-raul-fleites-gomez,Lázaro Raúl Fleites Gómez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+lazaro-rodriguez-avila,Lázaro Rodríguez Ávila,"Desacato,Desórdenes públicos,Resistencia",12/08/2021,Matanzas,A,A_algo,True,1
+lazaro-romero-hurtado,Lázaro Romero Hurtado,Asesinato en grado de tentativa,12/11/2016,Santiago de Cuba,other,other_algo,True,4
+lazaro-yasmani-rodriguez-serrano,Lázaro Yasmani Rodríguez Serrano,Robo con fuerza,,La Habana,other,other_algo,True,12
+lazaro-yeison-cece-galvez,Lázaro Yeison Cecé Gálvez,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+lazaro-yerson-ramos-salin,Lázaro Yerson Ramos Salín,"Otros actos contra la seguridad del estado,Sabotaje",11/09/2019,La Habana,other,B_algo,False,0
+lazaro-yurisan-sarduy-basaure,Lázaro Yurisan Sarduy Basaure,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+lazaro-yusniel-mesa-prieto,Lázaro Yusniel Mesa Prieto,Desobediencia,19/12/2025,La Habana,other,other_algo,True,11
+lazaro-zamora-gonzalez,Lázaro Zamora González,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+lea-velazquez-ochoa,Lea Velázquez Ochoa,"Desacato,Desórdenes públicos",11/03/2024,Holguín,A,A_algo,True,1
+leandro-cerezo-sirut,Leandro Cerezo Sirut,"Asesinato,Deserción,Infracción de normas de guardia,Intento de salida ilegal del territorio,Uso de armas de fuego y otros medios",03/05/2007,Camagüey,other,other_algo,True,4
+leandro-david-morales-ricondo,Leandro David Morales Ricondo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+leandro-michel-sanchez-abreu,Leandro Michel Sánchez Abreu,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+leandro-pupo-garces-ross,Leandro Pupo Garcés Ross,Difamación de las instituciones y organizaciones y de los héroes y mártires,11/03/2023,Holguín,other,other_algo,True,11
+leidiana-prohia-guevara,Leidiana Prohía Guevara,"Desórdenes públicos,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+leidis-eva-garcia-fuentes,Leidis Eva García Fuentes,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Guantánamo,A,A_algo,True,1
+leoalys-de-la-caridad-valera-vazquez,Leoalys de la Caridad Valera Vázquez,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+leodan-perez-colon,Leodán Pérez Colón,"Asociación para delinquir,Desacato",16/07/2021,Sancti Spíritus,A,A_algo,True,1
+leonard-richard-gonzalez-alfonso,Leonard Richard González Alfonso,"Amenazas,Propaganda contra el orden constitucional",22/06/2025,La Habana,other,other_algo,True,11
+leonardo-manuel-mojena-suarez,Leonardo Manuel Mojena Suarez,"Propaganda enemiga,Terrorismo",,La Habana,other,B_algo,False,0
+leoncio-rodriguez-ponce,Leoncio Rodríguez Ponce,"Atentado,Desacato,Otros,Resistencia",25/02/1988,Holguín,A,A_algo,True,1
+leonel-perez-fonseca,Leonel Pérez Fonseca,"Atentado,Desacato,Difamación de las instituciones y organizaciones y de los héroes y mártires",27/09/2021,La Habana,A,A_algo,True,1
+leonel-trista-garcia__trashed,Leonel Tristá García,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+leosdan-lazaro-garcia-rodriguez,Leosdan Lázaro García Rodríguez,Desacato,05/10/2022,Holguín,A,A_algo,True,1
+lester-ayala-alarcon,Lester Ayala Alarcón,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+lester-miguel-diaz-acevedo,Lester Miguel Díaz Acevedo,"Desórdenes públicos,Ultraje sexual",11/07/2021,Matanzas,A,A_algo,True,1
+leudis-arce-romero,Leudis Arce Romero,"Robo con violencia,Terrorismo",10/04/2003,Isla de la Juventud,other,other_algo,True,12
+levys-gonzalez-piedra,Levys González Piedra,"Atentado,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+lexter-ibanez-alarcon,Léxter Ibáñez Alarcón,"Atentado,Desórdenes públicos",,Mayabeque,A,A_algo,True,1
+leyanis-heredia-salazar,Leyanis Heredia Salazar,"Atentado,Desacato",10/03/2021,Camagüey,A,A_algo,True,1
+leylandis-puentes-vargas,Leylandis Puentes Vargas,"Desacato,Desórdenes públicos",15/07/2021,Matanzas,A,A_algo,True,1
+liandis-marcelino-sogo-martinez,Liandis Marcelino Sogo Martínez,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+liliana-oropesa-ferrer,Liliana Oropesa Ferrer,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+linet-columbie-ramirez,Linet Columbié Ramírez,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+liosnel-lopez-arocha,Liosnel López Arocha,"Atentado,Desórdenes públicos",17/07/2021,Camagüey,A,A_algo,True,1
+lisan-perdomo-estrada,Lisan Perdomo Estrada,"Atentado,Desórdenes públicos,Ultraje sexual",12/07/2021,Matanzas,A,A_algo,True,1
+lisdan-cabrera-batista,Lisdan Cabrera Batista,"Otros actos contra la seguridad del estado,Sedición",20/08/2022,Camagüey,B,B_algo,True,0
+lisdany-rodriguez-isaac,Lisdani Rodríguez Isaac,"Atentado,Desacato,Desórdenes públicos",17/07/2021,Villa Clara,A,A_algo,True,1
+lisdiany-rodriguez-isaac,Lisdiani Rodríguez Isaac,"Atentado,Desacato,Desórdenes públicos",17/07/2021,Villa Clara,A,A_algo,True,1
+liusban-john-utra,Liusban John Utra,Desacato,22/11/2025,Las Tunas,A,A_algo,True,1
+liuvel-mendoza-hernandez,Liuvel Mendoza Hernández,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+livan-hernandez-lago,Liván Hernández Lago,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+livan-mediaceja-heredia,Liván Mediaceja Heredia,"Desacato,Desórdenes públicos,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+livan-viel-de-la-pena,Livan Viel de la Peña,"Desacato,Desórdenes públicos,Sabotaje",,Mayabeque,A,A_algo,True,1
+lizandra-gongora-espinosa,Lizandra Góngora Espinosa,"Atentado,Desórdenes públicos,Sabotaje",22/07/2021,Artemisa,A,A_algo,True,1
+lorenzo-rosales-fajardo,Lorenzo Rosales Fajardo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+loreto-hernandez-garcia,Loreto Hernández García,"Desacato,Desórdenes públicos",15/07/2021,Villa Clara,A,A_algo,True,1
+luis-adrian-pupo-garcia,Luis Adrián Pupo García,"Desacato,Desobediencia",18/10/2024,Santiago de Cuba,A,A_algo,True,1
+luis-alberto-dorta-sanchez,Luis Alberto Dorta Sánchez,"Atentado,Desacato",25/07/2021,Las Tunas,A,A_algo,True,1
+luis-alberto-lopez-marrero,Luis Alberto López Marrero,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+luis-andres-dominguez-sardinas,Luis Andrés Domínguez Sardiñas,"Desacato,Otros actos contra la seguridad del estado,Incumplimiento del deber de denunciar",24/02/2022,La Habana,A,B_algo,False,0
+luis-angel-sergio-pino,Luis Ángel Sergio Pino,"Atentado,Desacato,Desórdenes públicos",14/09/2025,Holguín,A,A_algo,True,1
+luis-armando-cruz-aguilera,Luis Armando Cruz Aguilera,Sedición,21/07/2021,La Habana,B,B_algo,True,0
+luis-arnaldo-leyva-perez,Luis Arnaldo Leyva Pérez,"Atentado,Desórdenes públicos",,Granma,A,A_algo,True,1
+luis-daniel-carrillo-urquiola,Luis Daniel Carrillo Urquiola,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+luis-darien-reyes-romero__trashed,Luis Darién Reyes Romero,"Desobediencia,Impago de multas",11/02/2026,La Habana,other,other_algo,True,11
+luis-emilio-cabrera-diaz,Luis Emilio Cabrera Díaz,"Atentado,Desórdenes públicos",17/07/2021,Camagüey,A,A_algo,True,1
+luis-enrique-alvarez-gonzalez,Luis Enrique Álvarez González,Sabotaje,25/08/2021,Mayabeque,other,B_algo,False,0
+luis-enrique-cepero-hernandez,Luis Enrique Cepero Hernández,Desacato,14/02/2023,La Habana,A,A_algo,True,1
+luis-enrique-mendez-batista,Luis Enrique Méndez Batista,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+luis-enrique-ulloa-jimenez,Luis Enrique Ulloa Jiménez,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+luis-ernesto-medina-pedraza,Luis Ernesto Medina Pedraza,Atentado,10/07/2023,Villa Clara,A,A_algo,True,1
+luis-esteffani-hernandez-valdes,Luís Esteffani Hernández Valdés,Sedición,12/07/2021,Mayabeque,B,B_algo,True,0
+luis-fernando-bazan-hernandez,Luis Fernando Bazán Hernández,"Atentado,Desacato,Desórdenes públicos",,Granma,A,A_algo,True,1
+luis-frometa-compte,Luis Frómeta Compte,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+luis-giraldo-martinez-sierra,Luis Giraldo Martínez Sierra,"Desacato,Desórdenes públicos,Ultraje a los símbolos de la patria",11/07/2021,Artemisa,A,A_algo,True,1
+luis-guillermo-borjas-navarro,Luis Guillermo Borjas Navarro,"Desacato,Desobediencia",,Isla de la Juventud,A,A_algo,True,1
+luis-manuel-otero-alcantara,Luis Manuel Otero Alcántara,"Desacato,Desórdenes públicos,Ultraje a los símbolos de la patria",11/07/2021,La Habana,A,A_algo,True,1
+luis-miguel-alarcon-martinez,Luis Miguel Alarcón Martínez,Instigación a delinquir,06/05/2023,Guantánamo,other,A_algo,False,1
+luis-miguel-valls-perez,Luis Miguel Valls Pérez,"Atentado,Desacato,Desórdenes públicos,Evasión de presos,Instigación a delinquir",20/07/2021,Mayabeque,A,A_algo,True,1
+norge-cuba,Luis Norge Cuba La O,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+luis-osniel-carcases-caballero,Luis Osniel Carcases Caballero,"Asociaciones reuniones y manifestaciones ilícitas,Atentado,Desacato,Desórdenes públicos,Propagación de epidemia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+luis-raclis-padin-lobo,Luis Raclis Padín Lobo,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+luis-yoilan-puebla-polanco,Luis Yoilán Puebla Polanco,Intento de salida ilegal del territorio,31/10/2022,Villa Clara,other,other_algo,True,4
+mackyanis-yosney-roman-rodriguez,Mackyanis Yosney Román Rodríguez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+magdiel-rodriguez-garcia,Magdiel Rodríguez García,Atentado,11/07/2021,Villa Clara,A,A_algo,True,1
+maikel-delgado-aramburo,Maikel Delgado Aramburo,Terrorismo,03/04/2003,La Habana,other,other_algo,True,12
+maikel-gonzalez-mura,Maikel González Mura,"Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+maikel-hill-ramirez,Maikel Hill Ramírez,Propaganda contra el orden constitucional,14/03/2024,Las Tunas,other,B_algo,False,0
+maikel-ojeda-rodriguez,Maikel Ojeda Rodríguez,Desacato,28/05/2024,Cienfuegos,A,A_algo,True,1
+maikel-porro-leyva,Maikel Porro Leyva,"Atentado,Desórdenes públicos",15/07/2021,Camagüey,A,A_algo,True,1
+maikel-puig-bergolla,Maikel Puig Bergolla,"Asesinato en grado de tentativa,Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",12/07/2021,Mayabeque,A,A_algo,True,1
+maikel-rodriguez-del-campo,Maikel Rodríguez del Campo,Sedición,21/07/2021,Holguín,B,B_algo,True,0
+maikiel-armando-pena-suarez,Maikiel Armando Peña Suárez,"Desacato,Desórdenes públicos,Sabotaje",13/07/2021,Mayabeque,A,A_algo,True,1
+maikol-fabian-figueredo-carbonel,Maikol Fabián Figueredo Carbonel,"Atentado,Desórdenes públicos",,Granma,A,A_algo,True,1
+manuel-alberto-bermudez-sardinas,Manuel Alberto Bermúdez Sardiñas,Sedición,,La Habana,B,B_algo,True,0
+manuel-caballero-oduardo,Manuel Caballero Oduardo,"Atentado,Desacato",,Las Tunas,A,A_algo,True,1
+manuel-de-jesus-rodriguez-garcia,Manuel de Jesús Rodríguez García,"Atentado,Desacato,Difamación de las instituciones y organizaciones y de los héroes y mártires,Ultraje sexual",03/08/2016,Pinar del Río,A,A_algo,True,1
+manuel-de-jesus-rodriguez-santiesteban,Manuel de Jesús Rodríguez Santiesteban,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+manuel-diaz-rodriguez-2,Manuel Díaz Rodríguez,"Desacato,Desórdenes públicos",13/07/2021,Artemisa,A,A_algo,True,1
+manuel-santana-vega,Manuel Santana Vega,Desacato,18/01/2023,La Habana,A,A_algo,True,1
+manuel-velazquez-licea,Manuel Velázquez Licea,"Desacato,Desórdenes públicos",17/07/2021,Mayabeque,A,A_algo,True,1
+marcos-antonio-alfonso-breto,Marcos Antonio Alfonso Breto,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+marcos-antonio-junco-acosta,Marcos Antonio Junco Acosta,"Atentado,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+marcos-antonio-pintueles-marrero,Marcos Antonio Pintueles Marrero,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+marcos-daniel-diaz-rodriguez,Marcos Daniel Díaz Rodríguez,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+marcos-de-la-luz-caballero-granados,Marcos de la Luz Caballero Granados,"Desacato,Otros actos contra la seguridad del estado,Propaganda enemiga",12/07/2021,La Habana,A,B_algo,False,0
+marcos-omar-zambrano-cabreja,Marcos Omar Zambrano Cabreja,Portación y tenencia ilegal de armas o explosivos,24/04/2024,Holguín,other,A_algo,False,1
+marcos-raul-fumero-paez,Marcos Raúl Fumero Páez,"Desacato,Desórdenes públicos",10/10/2022,Mayabeque,A,A_algo,True,1
+maria-cristina-garrido-rodriguez,María Cristina Garrido Rodríguez,Atentado,12/07/2021,Mayabeque,A,A_algo,True,1
+maria-de-jesus-terras-diaz,María de Jesús Terrás Díaz,"Desórdenes públicos,Sabotaje",16/07/2021,Matanzas,A,A_algo,True,1
+mariam-martin-taquechel,Mariam Martín Taquechel,"Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,La Habana,A,A_algo,True,1
+mariam-prieto-rodriguez,Mariam Prieto Rodríguez,"Desacato,Propaganda contra el orden constitucional",17/12/2025,Mayabeque,A,A_algo,True,1
+mariel-michel-suarez-munoz,Mariel Michel Suárez Muñoz,"Desórdenes públicos,Sabotaje",12/10/2021,Matanzas,A,A_algo,True,1
+marileidis-hurtado-suarez,Marileidis Hurtado Suárez,"Atentado,Desacato",31/01/2023,Santiago de Cuba,A,A_algo,True,1
+marilyn-gondre-de-la-o,Marilyn Gondre de la O,Desórdenes públicos,17/11/2025,Santiago de Cuba,A,A_algo,True,1
+marina-paz-lavaseno,Marina Paz Lavaseno,Atentado,10/01/2022,Santiago de Cuba,A,A_algo,True,1
+mario-alain-sierra-travieso,Mario Alain Sierra Travieso,"Desórdenes públicos,Sabotaje",28/07/2021,Mayabeque,A,A_algo,True,1
+mario-alberto-hernandez-leyva,Mario Alberto Hernández Leyva,Desobediencia,14/08/2025,La Habana,other,other_algo,True,11
+mario-josue-prieto-ricardo,Mario Josué Prieto Ricardo,Sedición,23/07/2021,Holguín,B,B_algo,True,0
+mario-luis-espinosa-cedeno,Mario Luis Espinosa Cedeño,"Desórdenes públicos,Instigación a delinquir,Resistencia",17/03/2024,Granma,A,A_algo,True,1
+mario-victor-liqui-rodriguez,Mario Victor Liqui Rodríguez,Propaganda enemiga,09/10/2025,La Habana,other,B_algo,False,0
+marizol-martinez-almeida,Marisol Martínez Almeida,Atentado,28/11/2023,Santiago de Cuba,A,A_algo,True,1
+mariurka-diaz-calvo,Mariurka Díaz Calvo,"Desacato,Desórdenes públicos,Instigación a delinquir",15/07/2021,Mayabeque,A,A_algo,True,1
+marlon-brando-diaz-oliva,Marlon Brando Díaz Oliva,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+marlon-david-batista-martinez,Marlon David Batista Martínez,"Atentado,Desacato,Desórdenes públicos",22/07/2021,La Habana,A,A_algo,True,1
+marlon-hitachi-paz-bravo,Marlon Hitachi Paz Bravo,"Atentado,Daños,Desórdenes públicos",21/07/2021,La Habana,A,A_algo,True,1
+marlon-noval-alonso,Marlon Noval Alonso,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+mayelin-diaz-campo,Mayelin Díaz Campo,"Atentado,Desacato,Desórdenes públicos",10/10/2022,Mayabeque,A,A_algo,True,1
+mayelin-rodriguez-prado,Mayelín Rodríguez Prado,"Propaganda enemiga,Sedición",22/08/2022,Camagüey,B,B_algo,True,0
+maykel-armenteros-oramas,Maykel Armenteros Oramas,"Atentado,Resistencia",15/08/2021,Villa Clara,A,A_algo,True,1
+maykel-arnaldo-reyes-alvarez,Maykel Arnaldo Reyes Álvarez,Sedición,26/07/2021,La Habana,B,B_algo,True,0
+maykel-castillo-perez,Maykel Castillo Pérez,"Atentado,Desacato,Desórdenes públicos,Difamación de las instituciones y organizaciones y de los héroes y mártires",18/05/2021,La Habana,A,A_algo,True,1
+maykel-fleites-rivalta,Maykel Fleites Rivalta,"Desacato,Desórdenes públicos,Resistencia",11/07/2021,Villa Clara,A,A_algo,True,1
+maykol-jesus-almendra-perez,Maykol Jesús Almendra Pérez,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+mayra-taquechel-louit,Mayra Taquechel Louit,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+menkel-de-jesus-menendez-vargas,Menkel de Jesús Menéndez Vargas,Sedición,21/08/2022,Camagüey,B,B_algo,True,0
+datos-del-preso-politico-michael-onairan-troya-llinas,Michael Onairan Troya Llinás,Robo con fuerza,12/07/2021,Matanzas,other,other_algo,True,12
+michel-escalona-ramirez,Michel Escalona Ramírez,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",19/08/2022,Camagüey,A,A_algo,True,1
+migdel-martinez-del-toro,Migdel Martínez del Toro,Propaganda enemiga,01/03/2023,La Habana,other,B_algo,False,0
+miguel-alejandro-pantoja-avila,Miguel Alejandro Pantoja Ávila,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+miguel-alfonso-jimenez-marrero,Miguel Alfonso Jiménez Marrero,"Atentado,Sabotaje",11/10/2024,Villa Clara,A,A_algo,True,1
+miguel-alfonso-jimenez-martinez,Miguel Alfonso Jiménez Martínez,"Atentado,Sabotaje",26/05/2024,Villa Clara,A,A_algo,True,1
+miguel-angel-fernandez-marrero,Miguel Ángel Fernández Marrero,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+miguel-angel-rodriguez-batista,Miguel Ángel Rodríguez Batista,"Otros actos contra la seguridad del estado,Sabotaje",11/09/2019,La Habana,other,B_algo,False,0
+miguel-cabrera-rojas,Miguel Cabrera Rojas,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+miguel-diaz-bauza,Miguel Díaz Bauzá,"Motín,Otros actos contra la seguridad del estado",16/10/1994,La Habana,other,B_algo,False,0
+miguel-diaz-sosa,Miguel Díaz Sosa,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Artemisa,A,A_algo,True,1
+miguel-dominguez-antomachin,Miguel Domínguez Antomachín,Sedición,,La Habana,B,B_algo,True,0
+miguel-enrique-giron-velazquez,Miguel Enrique Girón Velázquez,Sedición,13/07/2021,Holguín,B,B_algo,True,0
+miguel-paez-estiven,Miguel Páez Estiven,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+mijail-sanchez-de-la-nuez,Mijaíl Sánchez De La Nuez,"Atentado,Desórdenes públicos,Sabotaje",12/07/2021,Artemisa,A,A_algo,True,1
+mildrey-mederos-soca,Mildrey Mederos Soca,"Atentado,Desacato,Desórdenes públicos",,Matanzas,A,A_algo,True,1
+mileidis-maceo-quinones,Mileidis Maceo Quiñones,"Daños,Desórdenes públicos",15/11/2024,Santiago de Cuba,A,A_algo,True,1
+miner-chaviano-mastache,Miner Chaviano Mastache,"Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+mirdael-matos-gainza,Mirdael Matos Gaínza,"Hurto,Sacrificio ilegal de ganado mayor",13/09/2024,Guantánamo,other,other_algo,True,12
+misael-espinosa-puebla,Misael Espinosa Puebla,"Atentado,Desobediencia",13/07/2021,Granma,A,A_algo,True,1
+misael-pons-blanco,Misael Pons Blanco,"Desórdenes públicos,Instigación a delinquir",17/07/2022,Guantánamo,A,A_algo,True,1
+misleidys-rodriguez-mas,Misleidys Rodríguez Más,Propaganda enemiga,,La Habana,other,B_algo,False,0
+mitzael-diaz-paseiro,Mitzael Díaz Paseiro,"Desacato,Desórdenes públicos,Resistencia",11/07/2021,Villa Clara,A,A_algo,True,1
+nadir-martin-perdomo,Nadir Martín Perdomo,"Atentado,Desacato,Desórdenes públicos",17/07/2021,Mayabeque,A,A_algo,True,1
+nara-kelly-clavijo-jimenez,Nara Kelly Clavijo Jiménez,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",11/07/2021,La Habana,A,A_algo,True,1
+narbiel-torres-lopez,Narbiel Torres López,Desórdenes públicos,20/10/2024,Villa Clara,A,A_algo,True,1
+nelson-amaya-martin,Nelson Amaya Martín,Corrupción de menores,09/07/2015,Camagüey,other,B_algo,False,0
+nelson-caballero-diaz,Nelson Caballero Díaz,"Atentado,Instigación a delinquir",21/10/2024,Camagüey,A,A_algo,True,1
+nelson-labori-noa,Nelson Labori Noa,Desacato,02/04/2022,Isla de la Juventud,A,A_algo,True,1
+nelson-nestor-rivero-garzon,Nelson Néstor Rivero Garzón,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+nelson-zayas-maceo,Nelson Zayas Maceo,Peligrosidad social predelictiva,19/05/2021,Santiago de Cuba,other,other_algo,True,11
+nestor-hechavarria-cintra,Nestor Hechavarría Cintra,"Atentado,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+nidia-bienes-paseiro,Nidia Bienes Paseiro,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Villa Clara,A,A_algo,True,1
+nilo-abrahante-santiago,Nilo Abrahante Santiago,Sabotaje,11/07/2021,Mayabeque,other,B_algo,False,0
+noel-martinez-tapanes,Noel Martínez Tápanes,"Desacato,Desórdenes públicos",14/07/2021,Mayabeque,A,A_algo,True,1
+norberto-dorta-sanchez,Norberto Dorta Sánchez,"Atentado,Desacato,Desobediencia",25/07/2021,Las Tunas,A,A_algo,True,1
+norgavi-hernandez-herrera,Norgavi Hernández Herrera,"Atentado,Desacato,Difamación de las instituciones y organizaciones y de los héroes y mártires",,Cienfuegos,A,A_algo,True,1
+norges-paumier-paumier,Norges Paumier Paumier,"Desórdenes públicos,Instigación a delinquir",17/07/2022,Guantánamo,A,A_algo,True,1
+noslen-ayala-garcia,Noslén Ayala García,"Atentado,Desacato,Negación de auxilio,Resistencia",05/03/2016,Mayabeque,A,A_algo,True,1
+noslen-roque-cordero,Noslén Roque Cordero,"Asesinato en grado de tentativa,Desacato,Desórdenes públicos,Instigación a delinquir",24/07/2021,Mayabeque,A,A_algo,True,1
+nosley-lazaro-dominguez-linares,Nosley Lázaro Domínguez Linares,"Desórdenes públicos,Sabotaje",12/07/2021,Mayabeque,A,A_algo,True,1
+odalys-zamora-rondon,Odalys Zamora Rondón,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+odet-hernandez-cruzata,Odet Hernández Cruzata,Sedición,15/07/2021,La Habana,B,B_algo,True,0
+odrey-rodriguez-lanz,Odrey Rodríguez Lanz,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+ohauri-rondon-rivero,Ohauri Rondón Rivero,"Daños a bienes del patrimonio cultural,Propaganda enemiga",04/11/2023,La Habana,other,other_algo,True,11
+olga-lidia-sardinas-martinez,Olga Lidia Sardiñas Martínez,"Atentado,Desacato",10/10/2022,Mayabeque,A,A_algo,True,1
+olga-lydia-medina-farramola,Olga Lydia Medina Farramola,"Desacato,Desórdenes públicos",,Mayabeque,A,A_algo,True,1
+omar-bravo-cruzata,Omar Bravo Cruzata,Sedición,27/07/2021,La Habana,B,B_algo,True,0
+omar-carlos-hernandez-rivero,Omar Carlos Hernández Rivero,"Desacato,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+omar-gilberto-urriola-vergara,Omar Gilberto Urriola Vergara,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+omar-gonzalez-contreras,Omar González Contreras,Sabotaje,23/09/2022,Villa Clara,other,B_algo,False,0
+omar-hernandez-calzadilla,Omar Hernández Calzadilla,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+omar-herrera-more,Omar Herrera Moré,"Desórdenes públicos,Sabotaje",12/07/2021,Matanzas,A,A_algo,True,1
+omar-martinez-ardin,Omar Martínez Ardín,"Desacato,Desórdenes públicos",13/07/2021,Matanzas,A,A_algo,True,1
+omar-ortega-mendoza,Omar Ortega Mendoza,"Desacato,Instigación a delinquir",27/09/2022,Ciego de Ávila,A,A_algo,True,1
+omar-portieles-camejo,Omar Portieles Camejo,Portación y tenencia ilegal de armas o explosivos,20/11/2022,Matanzas,other,A_algo,False,1
+omar-valenciano-donatien,Omar Valenciano Donatien,"Desacato,Desórdenes públicos,Ultraje a los símbolos de la patria",12/07/2021,Mayabeque,A,A_algo,True,1
+onaikel-infante-abreu,Onaikel Infante Abreu,"Atentado,Desacato,Propaganda contra el orden constitucional",27/10/2023,La Habana,A,A_algo,True,1
+onelkis-llorente-sanchez,Onelkis Llorente Sánchez,"Atentado,Daños,Desórdenes públicos,Instigación a delinquir",12/07/2021,La Habana,A,A_algo,True,1
+oniexis-gerez-perez,Oniexis Gerez Pérez,Atentado,14/01/2022,Santiago de Cuba,A,A_algo,True,1
+orelvis-rene-palenque-gonzalez,Orelvis René Palenque González,"Atentado,Desórdenes públicos",12/07/2021,Matanzas,A,A_algo,True,1
+oriandy-oviedo-acosta,Oriandy Oviedo Acosta,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",13/07/2021,Artemisa,A,A_algo,True,1
+oriol-hernandez-galvez,Oriol Hernández Gálvez,"Atentado,Desórdenes públicos,Sedición",14/07/2021,La Habana,mixed,A_algo,False,1
+orlando-alexis-vazquez-perez,Orlando Alexis Vázquez Pérez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+orlando-almenares-reyes,Orlando Almenares Reyes,Asesinato,,Ciego de Ávila,other,other_algo,True,4
+orlando-carvajal-cabrera,Orlando Carvajal Cabrera,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+orlando-juan-lemes-despaigne,Orlando Juan Lemes Despaigne,"Atentado,Desórdenes públicos",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+orlando-pineda-martinez,Orlando Pineda Martínez,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Villa Clara,A,A_algo,True,1
+orlando-salesa-mauris,Orlando Salesa Mauris,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+orlando-valle-jorge,Orlando Valle Jorge,"Desórdenes públicos,Sabotaje",17/07/2021,Artemisa,A,A_algo,True,1
+orlenis-paumier-blancar,Orlenis Paumier Blancar,"Atentado,Desacato,Desórdenes públicos,Resistencia",17/07/2022,Guantánamo,A,A_algo,True,1
+osaki-rolando-ladrian-arrieta,Osaki Rolando Ladrián Arrieta,Sedición,24/07/2021,Matanzas,B,B_algo,True,0
+oscar-alcibiades-pena-rodriguez,Óscar Alcibíades Peña Rodríguez,Portación y tenencia ilegal de armas o explosivos,29/05/2019,Santiago de Cuba,other,A_algo,False,1
+oscar-bacallao-alfonso,Oscar Bacallao Alfonso,"Atentado,Desórdenes públicos",11/07/2021,Mayabeque,A,A_algo,True,1
+oscar-barbaro-bravo-cruzata,Oscar Bárbaro Bravo Cruzata,Sedición,24/07/2021,La Habana,B,B_algo,True,0
+oscar-castro-moncada,Oscar Castro Moncada,"Atentado,Desacato,Desórdenes públicos",14/07/2021,La Habana,A,A_algo,True,1
+oscar-corria-sanchez,Oscar Corría Sánchez,Desacato,03/10/2025,Santiago de Cuba,A,A_algo,True,1
+oscar-elias-biscet-gonzalez,Oscar Elías Biscet González,Artículo 91,18/03/2003,La Habana,other,other_algo,True,6
+oscar-luis-ortiz-arrovsmeth,Oscar Luis Ortiz Arrovsmeth,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+oscar-sanchez-madan,Oscar Sánchez Madan,Desobediencia,16/02/2024,Matanzas,other,other_algo,True,11
+osdany-antonio-ricardo-aguilar,Osdany Antonio Ricardo Aguilar,"Desacato,Desórdenes públicos",19/07/2021,Artemisa,A,A_algo,True,1
+osdennys-salinas-martinez,Osdennys Salinas Martínez,Robo con fuerza,12/07/2021,Matanzas,other,other_algo,True,12
+osiel-ricardo-ortega,Osiel Ricardo Ortega,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+oslanis-zulueta-hechavarria,Oslanis Zulueta Hechavarría,"Atentado,Daños,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+osmani-paz-hernandez,Osmani Paz Hernández,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+osmany-rojas-flores,Osmany Rojas Flores,Desórdenes públicos,11/07/2021,La Habana,A,A_algo,True,1
+osmeidis-caro-aguilar,Osmeidis Caro Aguilar,Desórdenes públicos,11/07/2021,La Habana,A,A_algo,True,1
+osmel-tamayo-hernandez,Osmel Tamayo Hernández,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+osvaldo-aguero-gutierrez,Osvaldo Agüero Gutiérrez,Desórdenes públicos,20/10/2024,Villa Clara,A,A_algo,True,1
+osvaldo-canto-piedra,Osvaldo Canto Piedra,"Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+osvaldo-lugo-pita,Osvaldo Lugo Pita,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+osvaldo-manuel-ramirez-iglesias,Osvaldo Manuel Ramírez Iglesias,"Asociaciones reuniones y manifestaciones ilícitas,Atentado,Desacato,Desórdenes públicos,Propagación de epidemia",,Santiago de Cuba,A,A_algo,True,1
+osvaldo-nunez-villavicencio,Osvaldo Núñez Villavicencio,"Atentado,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+pablo-carcases-caballero,Pablo Carcases Caballero,"Asociaciones reuniones y manifestaciones ilícitas,Atentado,Desacato,Desórdenes públicos,Propagación de epidemia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+panter-rodriguez-baro,Panter Rodríguez Baró,"Daños a bienes del patrimonio cultural,Difamación de las instituciones y organizaciones y de los héroes y mártires,Tráfico Ilícito de drogas",06/01/2020,La Habana,other,other_algo,True,11
+pastor-dominguez-munoz,Pastor Domínguez Muñoz,Desacato,29/09/2024,Granma,A,A_algo,True,1
+patricia-lazara-acosta-sanchez,Patricia Lázara Acosta Sánchez,"Atentado,Desórdenes públicos",11/07/2021,Mayabeque,A,A_algo,True,1
+patrochiny-jeordany-joseph-arosarena,Patrochiny Jeordany Joseph Arosarena,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+pavel-alberto-rodriguez-napoles,Pável Alberto Rodríguez Nápoles,"Desacato,Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",15/05/2023,Sancti Spíritus,A,A_algo,True,1
+pavel-de-la-caridad-rubio-marrero,Pável de la Caridad Rubio Marrero,"Desacato,Otros actos contra la seguridad del estado,Propagación de epidemia",12/02/2020,La Habana,A,A_algo,True,1
+pavel-torres-rodriguez,Pavel Torres Rodríguez,Propaganda contra el orden constitucional,11/10/2024,Matanzas,other,B_algo,False,0
+pedro-albert-sanchez,Pedro Albert Sánchez,"Desacato,Desórdenes públicos",03/11/2021,La Habana,A,A_algo,True,1
+pedro-caride-santana,Pedro Caride Santana,"Desacato,Desórdenes públicos",30/07/2022,Cienfuegos,A,A_algo,True,1
+carlos-camacho-ochoa,Pedro Carlos Camacho Ochoa,Propaganda contra el orden constitucional,03/04/2024,Las Tunas,other,B_algo,False,0
+pedro-castillo-mauri,Pedro Castillo Mauri,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+pedro-de-jesus-martinez-rivero,Pedro de Jesús Martínez Rivero,"Atentado,Desórdenes públicos",03/04/2024,Granma,A,A_algo,True,1
+pedro-luis-fernandez-peralta,Pedro Luis Fernández Peralta,"Daños,Propaganda enemiga,Sabotaje",12/06/2024,Mayabeque,other,B_algo,False,0
+pedro-luis-zamora-isaac,Pedro Luis Zamora Isaac,"Atentado,Desórdenes públicos",23/05/2025,Granma,A,A_algo,True,1
+pedro-manuel-nicodermo-cabrera,Pedro Manuel Nicodermo Cabrera,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+pedro-nicolas-leon,Pedro Nicolás León,Robo con fuerza,11/07/2021,Matanzas,other,other_algo,True,12
+pedro-perez-ibarra,Pedro Pérez Ibarra,Desórdenes públicos,10/05/2024,Las Tunas,A,A_algo,True,1
+rafael-pulga-fernandez-estupinan,Rafael (Pulga) Fernández Estupiñán,"Desacato,Desobediencia,Desórdenes públicos",29/08/2022,Artemisa,A,A_algo,True,1
+rafael-borrero-torres,Rafael Borrero Torres,Desórdenes públicos,15/11/2024,Santiago de Cuba,A,A_algo,True,1
+rafael-cutino-bazan,Rafael Cutiño Bazán,"Atentado,Desórdenes públicos",14/07/2021,Granma,A,A_algo,True,1
+rafael-espinosa-puebla,Rafael Espinosa Puebla,Tráfico Ilícito de drogas,05/02/2026,Granma,other,other_algo,True,11
+rafael-camacho-herrera,Rafael Javier Camacho Herrera,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+rafael-jesus-nunez-echenique,Rafael Jesús Núñez Echenique,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+rafael-sanchez-burnes,Rafael Sánchez Burnes,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+raibel-segundo-pacheco-santos,Raibel Segundo Pacheco Santos,"Financiación del terrorismo,Terrorismo",26/04/2014,La Habana,other,other_algo,True,12
+raidel-nunez-castro,Raidel Núñez Castro,"Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+raidel-rafael-guerra-godinez,Raidel Rafael Guerra Godínez,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+raidel-sanchez-mayedo,Raidel Sánchez Mayedo,"Otros actos contra la seguridad del estado,Sabotaje",19/09/2019,La Habana,other,B_algo,False,0
+raimel-galindo-sotolongo,Raimel Galindo Sotolongo,Sedición,27/07/2021,La Habana,B,B_algo,True,0
+reymundo-galvan-claro,Raimundo Galbán Claro,Desórdenes públicos,14/09/2025,Holguín,A,A_algo,True,1
+ramon-enrique-montero-merino,Ramón Enrique Montero Meriño,"Atentado,Desórdenes públicos",18/07/2021,Camagüey,A,A_algo,True,1
+ramon-henry-grillo,Ramón Henry Grillo,Terrorismo,02/04/2003,La Habana,other,other_algo,True,12
+ramon-perez-conde,Ramón Pérez Conde,Propaganda enemiga,24/06/2021,La Habana,other,B_algo,False,0
+randey-boyero-cueto,Randey Boyero Cueto,"Desacato,Desórdenes públicos,Robo con fuerza,Sabotaje",04/08/2021,Mayabeque,A,A_algo,True,1
+randy-arteaga-rivera,Randy Arteaga Rivera,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+rangel-miguel-dominguez-reyes,Rangel Miguel Domínguez Reyes,Sedición,17/03/2024,Granma,B,B_algo,True,0
+raudel-saborin-gonzalez,Raudel Saborín González,Sedición,15/07/2021,La Habana,B,B_algo,True,0
+raul-azcuy-ramirez,Raúl Azcuy Ramírez,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+raul-eugenio-olivera-lozano,Raúl Eugenio Olivera Lozano,Cohecho,26/05/2021,La Habana,other,other_algo,True,15
+raul-hermida-fernandez,Raúl Hermida Fernández,"Atentado,Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+raul-llerena-krassitchkov,Raúl Llerena Krassitchkov,Difamación de las instituciones y organizaciones y de los héroes y mártires,08/02/2023,La Habana,other,other_algo,True,11
+raul-montane-herrera,Raúl Montane Herrera,"Atentado,Desórdenes públicos,Resistencia",12/07/2021,La Habana,A,A_algo,True,1
+raul-santana-lopez,Raúl Santana López,"Atentado,Desacato,Desórdenes públicos",,Matanzas,A,A_algo,True,1
+raul-velazquez-valdes,Raúl Velázquez Valdés,"Proxenetismo,Trata de personas",30/04/2018,Artemisa,other,other_algo,True,11
+raxades-arias-rosales,Raxades Arias Rosales,"Atentado,Desacato",14/09/2020,La Habana,A,A_algo,True,1
+raymond-marquez,Raymond Márquez,Asociación para delinquir,,Villa Clara,other,A_algo,False,1
+raymond-martinez-colina,Raymond Martínez Colina,Desórdenes públicos,20/10/2024,Villa Clara,A,A_algo,True,1
+raynel-mayet-frometa,Raynel Mayet Frómeta,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+reicel-crespo-gonzalez,Reicel Crespo González,Desórdenes públicos,13/03/2026,Ciego de Ávila,A,A_algo,True,1
+reinaldo-antonio-gonzalez-batista,Reinaldo Antonio González Batista,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+reinaldo-chala-scull,Reinaldo Chala Scull,"Desacato,Desórdenes públicos,Sabotaje",11/07/2021,Mayabeque,A,A_algo,True,1
+reinier-borrell-lebrigio,Reinier Borrell Lebrigio,"Atentado,Daños,Desórdenes públicos",16/07/2021,La Habana,A,A_algo,True,1
+reinier-oreste-ortigosa-cabale,Reinier Oreste Ortigosa Cabale,"Atentado,Desórdenes públicos",15/01/2021,Camagüey,A,A_algo,True,1
+reinier-reimon-pena,Reinier Reimón Peña,"Desacato,Desórdenes públicos",08/03/2024,Holguín,A,A_algo,True,1
+reinier-reynoso-valdes,Reinier Reynoso Valdés,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+renan-julio-vilches-wong,Renán Julio Vilches Wong,"Atentado,Desacato,Difamación de las instituciones y organizaciones y de los héroes y mártires,Propagación de epidemia",15/07/2021,Mayabeque,A,A_algo,True,1
+rene-aguilera-aguilar,René Aguilera Aguilar,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+rene-fabian-ferrer-reyes,René Fabián Ferrer Reyes,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+rey-alejandro-martinez-tamayo,Rey Alejandro Martínez Tamayo,"Atentado,Desórdenes públicos,Instigación a delinquir",12/07/2021,Matanzas,A,A_algo,True,1
+rey-yunior-coello-casal,Rey Yunior Coello Casal,Propaganda contra el orden constitucional,04/03/2026,La Habana,other,B_algo,False,0
+reydel-canasi-reyes,Reydel Canasí Reyes,"Desórdenes públicos,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+reyna-estela-gell-de-la-cruz,Reyna Estrella Gell de la Cruz,Atentado,08/05/2023,Santiago de Cuba,A,A_algo,True,1
+reyna-mireya-carvajal-barrera,Reyna Mireya Carvajal Barrera,"Desacato,Desórdenes públicos",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+reinaldo-lucas-leyva-romero,Reynaldo Lucas Leyva Romero,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+reynel-pupo-anaya,Reynel Pupo Anaya,Robo con fuerza,,Matanzas,other,other_algo,True,12
+reynier-reinosa-cabrera,Reynier Reinosa Cabrera,Sedición,15/07/2021,La Habana,B,B_algo,True,0
+ricardo-duque-solis,Ricardo Duque Solís,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+ricardo-roman-suarez-marrero,Ricardo Román Suárez Marrero,"Desacato,Espionaje",15/12/2023,Camagüey,A,A_algo,True,1
+richael-cantun-morales,Richael Cantún Morales,Atentado,11/07/2021,Artemisa,A,A_algo,True,1
+richard-conte-betancourt,Richard Conte Betancourt,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",19/08/2022,Camagüey,A,A_algo,True,1
+richard-echavarria-lopez,Richard Echavarría López,"Atentado,Desacato,Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",11/07/2021,La Habana,A,A_algo,True,1
+richard-ernesto-sanchez-saname,Richard Ernesto Sánchez Sanamé,"Desórdenes públicos,Instigación a delinquir",17/07/2022,Guantánamo,A,A_algo,True,1
+richard-jorge-hierrezuelo,Richard Jorge Hierrezuelo,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+rigoberto-pedro-chavez-hernandez,Rigoberto Pedro Chávez Hernández,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+rigoberto-santiago-rodriguez-perez,Rigoberto Santiago Rodríguez Pérez,Desórdenes públicos,11/07/2021,Camagüey,A,A_algo,True,1
+robert-michel-marin-fernandez,Robert Michel Marín Fernández,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+robert-orlando-cairo-diaz,Robert Orlando Cairo Díaz,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+roberto-ceballos-sanchez,Roberto Ceballos Sánchez,Amenazas,30/04/2023,Ciego de Ávila,other,other_algo,True,11
+roberto-diaz-martinez,Roberto Díaz Martínez,"Desórdenes públicos,Robo con fuerza",11/07/2021,Matanzas,A,A_algo,True,1
+roberto-ferrer-gener,Roberto Ferrer Gener,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+roberto-jesus-marin-fernandez,Roberto Jesús Marín Fernández,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+roberto-perez-fonseca,Roberto Pérez Fonseca,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",16/07/2021,Mayabeque,A,A_algo,True,1
+roberto-perez-ortega,Roberto Pérez Ortega,Sedición,17/07/2021,La Habana,B,B_algo,True,0
+roberto-reyes-montenegro,Roberto Reyes Montenegro,"Desórdenes públicos,Otros delitos arbitrarios contra la administración y la jurisdicción",20/08/2022,Camagüey,A,A_algo,True,1
+roberto-sosa-cabrera,Roberto Sosa Cabrera,"Atentado,Desórdenes públicos",12/07/2021,Granma,A,A_algo,True,1
+roche-valentin-ibanez-gonzalez,Roche Valentín Ibáñez González,"Desacato,Desórdenes públicos",30/07/2022,Cienfuegos,A,A_algo,True,1
+rodel-rodriguez-espinosa,Rodel Bárbaro Rodríguez Espinosa,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+rodennis-avila-corujo,Rodennis Ávila Corujo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+rodeo-barbaro-rodriguez-espinosa,Rodeo Bárbaro Rodríguez Espinosa,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+rodisley-martinez-valdes,Rodisley Martínez Valdés,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+rodolfo-alvarez-gonzalez,Rodolfo Álvarez González,Desórdenes públicos,06/05/2023,Guantánamo,A,A_algo,True,1
+rodolfo-aparicio-aleman,Rodolfo Aparicio Alemán,Desacato,12/01/2024,Cienfuegos,A,A_algo,True,1
+rogelian-hernandez-zulueta,Rogelián Hernández Zulueta,"Desacato,Desórdenes públicos,Instigación a delinquir,Portación y tenencia ilegal de armas o explosivos",11/07/2021,La Habana,A,A_algo,True,1
+rogelio-lazaro-dominguez-perez,Rogelio Lázaro Domínguez Pérez,"Daños,Desórdenes públicos",13/07/2021,Mayabeque,A,A_algo,True,1
+roilan-alvarez-rensoler,Roilán Álvarez Rensoler,Propaganda contra el orden constitucional,01/02/2026,Santiago de Cuba,other,B_algo,False,0
+rolando-fernandez-osorio,Rolando Fernández Osorio,"Atentado,Daños,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+rolando-fernando-rojas,Rolando Fernández Rojas,Desacato,,Cienfuegos,A,A_algo,True,1
+rolando-gonzalez-arevalo,Rolando González Arévalo,"Atentado,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+rolando-lopez-rodriguez,Rolando López Rodríguez,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+rolando-sardinas-fernandez,Rolando Sardiñas Fernández «El Koka»,"Desórdenes públicos,Robo con fuerza,Sabotaje",12/07/2021,Matanzas,A,A_algo,True,1
+rolando-vazquez-fleita,Rolando Vázquez Fleita,Sedición,21/07/2021,La Habana,B,B_algo,True,0
+rolando-yusef-perez-morera,Rolando Yusef Pérez Morera,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+roldis-medina-perez,Roldis Medina Pérez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+rolier-salazar-gonzalez,Rolier Salazar González,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+ronald-garcia-sanchez,Ronald García Sánchez,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+ronald-luis-gonzalez-ramos,Ronald Luis González Ramos,"Atentado,Desacato,Desórdenes públicos",13/07/2021,Santiago de Cuba,A,A_algo,True,1
+rosa-eugenia-casal-onate,Rosa Eugenia Casal Oñate,Propaganda contra el orden constitucional,01/03/2026,La Habana,other,B_algo,False,0
+rosa-janis-millo-espinosa,Rosa Janis Millo Espinosa,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+rowland-jesus-castillo-castro,Rowland Jesús Castillo Castro,Sedición,16/07/2021,La Habana,B,B_algo,True,0
+roxana-borrero-zorrilla,Roxana Borrero Zorrilla,"Atentado,Desacato,Desórdenes públicos,Resistencia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+roxana-miriam-perdomo-quesada,Roxana Miriam Perdomo Quesada,"Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+roxana-rojas,Roxana Rojas,"Desacato,Desobediencia",24/05/2025,Isla de la Juventud,A,A_algo,True,1
+ruben-martel,Rubén Martel,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+rudyels-ulloa-lopez,Rudyels Ulloa López,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+sadiel-cintra-de-la-cruz,Sadiel Cintra de la Cruz,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+samuel-gonzalez-ponce,Samuel González Ponce,Desórdenes públicos,15/09/2023,Las Tunas,A,A_algo,True,1
+samuel-torres-duran,Samuel Torres Durán,Sedición,,Holguín,B,B_algo,True,0
+sandalio-mejias-zulueta,Sandalio Mejías Zulueta,Impago de multas,12/05/2022,La Habana,other,other_algo,True,11
+santiago-carmelo-betancourt-ramirez,Santiago Carmelo Betancourt Ramírez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+santiago-emilio-marino-rojas,Santiago Emilio Mariño Rojas,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+santiago-vazquez-leon,Santiago Vázquez León,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+sayli-navarro-alvarez,Sayli Navarro Álvarez,"Atentado,Desacato,Desobediencia,Desórdenes públicos",13/07/2021,Matanzas,A,A_algo,True,1
+seify-carmona-mendez,Seify Carmona Méndez,"Desacato,Desórdenes públicos,Sabotaje",31/07/2022,Cienfuegos,A,A_algo,True,1
+sergey-pozo-tagle,Sergey Pozo Tagle,Propaganda contra el orden constitucional,13/02/2025,Villa Clara,other,B_algo,False,0
+serguey-cobos-ruiz-presos-politicos-en-cuba,Serguey Cobos Ruiz,"Atentado,Sabotaje,Propaganda contra el orden constitucional",,Villa Clara,A,B_algo,False,0
+serguey-perez-hernandez,Serguey Pérez Hernández,Sabotaje,24/07/2021,Mayabeque,other,B_algo,False,0
+silvio-de-la-caridad-quintana-martinez,Silvio de la Caridad Quintana Martínez,Desórdenes públicos,11/04/2026,La Habana,A,A_algo,True,1
+sissi-abascal-zamora,Sissi Abascal Zamora,"Atentado,Desacato,Desórdenes públicos",21/12/2021,Matanzas,A,A_algo,True,1
+sulmira-martinez-perez,Sulmira Martínez Pérez,"Delitos contra el orden constitucional,Desacato",10/01/2023,La Habana,A,A_algo,True,1
+tania-echevarria-menendez,Tania Echevarría Menéndez,"Desacato,Desórdenes públicos",21/08/2021,Matanzas,A,A_algo,True,1
+tomas-nicolas-abad-monferrer,Tomás Nicolás Abad Monferrer,Sedición,02/08/2021,Matanzas,B,B_algo,True,0
+ulises-polanco-lopez,Ulises Polanco López,"Desacato,Propaganda contra el orden constitucional",26/07/2021,La Habana,A,A_algo,True,1
+ubensi-matos-montero,Uvency Matos Montero,"Desórdenes públicos,Instigación a delinquir",16/07/2022,Guantánamo,A,A_algo,True,1
+uziel-david-abreu-martinez,Uziel David Abreu Martínez,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+victor-alejandro-painceira-rodriguez,Victor Alejandro Painceira Rodríguez,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+victor-manuel-cedeno-pinzon,Víctor Manuel Cedeño Pinzón,Propaganda contra el orden constitucional,28/02/2026,La Habana,other,B_algo,False,0
+victor-manuel-hidalgo-cabrales,Víctor Manuel Hidalgo Cabrales,Instigación a delinquir,19/03/2024,Las Tunas,other,A_algo,False,1
+virgen-maria-amita-riviaux,Virgen María Amita Riviaux,Peligrosidad social predelictiva,25/03/2021,Santiago de Cuba,other,other_algo,True,11
+virgilio-mantilla-arango,Virgilio Mantilla Arango,Propaganda contra el orden constitucional,17/10/2025,Granma,other,B_algo,False,0
+vladimir-castillo-llanes,Vladimir Castillo Llanes,"Atentado,Daños,Desacato,Desórdenes públicos",20/07/2021,Mayabeque,A,A_algo,True,1
+vladimir-santana-peraza,Vladimir Santana Peraza,Sabotaje,15/11/2019,Villa Clara,other,B_algo,False,0
+waldo-hernandez-batista,Waldo Hernández Batista,Atentado,23/03/2020,Las Tunas,A,A_algo,True,1
+walfrido-rodriguez-piloto,Walfrido Rodríguez Piloto,"Desacato,Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",17/07/2021,La Habana,A,A_algo,True,1
+walnier-luis-aguilar-rivera,Walnier Luis Aguilar Rivera,Sedición,20/07/2021,La Habana,B,B_algo,True,0
+warnel-ricardo,Warnel Ricardo,"Desacato,Desórdenes públicos",08/03/2024,Holguín,A,A_algo,True,1
+wenceslao-chirino-perez,Wenceslao Chirino Pérez,"Atentado,Desacato,Robo con violencia",29/03/2016,Pinar del Río,A,A_algo,True,1
+wilfredo-castillo-gonzalez,Wilfredo Castillo González,"Desórdenes públicos,Sabotaje",19/07/2021,Matanzas,A,A_algo,True,1
+wilfredo-limonta-mesa,Wilfredo Limonta Mesa,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+wilker-alvarez-ramirez,Wilker Álvarez Ramirez,Encubrimiento,22/08/2022,Camagüey,other,other_algo,True,16
+william-cepero-garcia,William Cepero García,Propaganda contra el orden constitucional,14/02/2023,La Habana,other,B_algo,False,0
+william-manuel-leyva-pupo,William Manuel Leyva Pupo,Sedición,11/07/2021,Holguín,B,B_algo,True,0
+william-sosa-marrero,William Sosa Marrero,Desobediencia,12/11/2025,Las Tunas,other,other_algo,True,11
+wuilmer-sanchez-mojena,Wuilmer Sánchez Mojena,"Desacato,Desórdenes públicos,Instigación a delinquir",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+xiomara-rodriguez-garcia,Xiomara Rodríguez García,Desórdenes públicos,11/07/2021,La Habana,A,A_algo,True,1
+yadiel-granado-casamayor,Yadiel Granado Casamayor,Sabotaje,15/07/2021,La Habana,other,B_algo,False,0
+yadir-alfonso-jimenez,Yadir Alfonso Jiménez,Propaganda contra el orden constitucional,,Villa Clara,other,B_algo,False,0
+yadir-ayala-ibanez,Yadir Ayala Ibáñez,"Atentado,Daños",21/07/2021,Camagüey,A,A_algo,True,1
+yadisley-rodriguez-ramirez,Yadisley Rodríguez Ramírez,"Atentado,Desacato",03/05/2021,Camagüey,A,A_algo,True,1
+yadiuska-dominguez-lambert,Yadiuska Domínguez Lambert,"Corrupción de menores,Desacato,Desórdenes públicos",23/10/2023,Guantánamo,A,A_algo,True,1
+yaimary-de-la-caridad-regalado-fernandez,Yaimary De La Caridad Regalado Fernández,"Atentado,Desacato,Desórdenes públicos,Instigación a delinquir,Propagación de epidemia",19/07/2021,Villa Clara,A,A_algo,True,1
+yainely-perez-gonzalez,Yainely Pérez González,"Desacato,Desórdenes públicos,Sedición",11/07/2021,Matanzas,mixed,A_algo,False,1
+yasmani-noel-pupo-soto,Yamani Noel Pupo Soto,"Desacato,Desórdenes públicos",11/07/2021,Villa Clara,A,A_algo,True,1
+yamilka-perez-naranjo,Yamilka Pérez Naranjo,"Desacato,Desórdenes públicos,Resistencia",11/07/2021,La Habana,A,A_algo,True,1
+yamislan-pozo-aguila,Yamislán Pozo Águila,Propaganda contra el orden constitucional,13/02/2025,Villa Clara,other,B_algo,False,0
+yan-carlos-martinez-bonne,Yan Carlos Martínez Bonne,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yander-manuel-calvo-abreu,Yander Manuel Calvo Abreu,Sabotaje,,La Habana,other,B_algo,False,0
+yander-quin-blanco,Yander Quin Blanco,"Atentado,Propagación de epidemia",23/07/2021,La Habana,A,A_algo,True,1
+yander-rodriguez-iglesias,Yander Rodríguez Iglesias,"Desórdenes públicos,Portación y tenencia ilegal de armas o explosivos",23/07/2021,Artemisa,A,A_algo,True,1
+yandi-dita-rodriguez,Yandi Dita Rodríguez,Sabotaje,,Villa Clara,other,B_algo,False,0
+yandi-hernandez-montes-de-oca,Yandi Hernández Montes de Oca,"Desórdenes públicos,Sabotaje",13/07/2021,Artemisa,A,A_algo,True,1
+yandiel-alberto-fuentes-almaguer,Yandiel Alberto Fuentes Almaguer,"Atentado,Desobediencia,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yandri-torres-quintana,Yandri Torres Quintana,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+yanelis-molina-gonzalez,Yanelis Molina González,Desórdenes públicos,17/11/2025,Santiago de Cuba,A,A_algo,True,1
+yanelys-rosabal-milanes,Yanelys Rosabal Milanés,"Atentado,Desacato,Desórdenes públicos",,Matanzas,A,A_algo,True,1
+yanet-sanchez-cocho,Yanet Sánchez Cocho,"Atentado,Desórdenes públicos",11/07/2021,Mayabeque,A,A_algo,True,1
+yania-suarez-calleyro,Yania Suárez Calleyro,"Difamación,Ejercicio arbitrario de derechos",10/03/2026,La Habana,other,B_algo,False,0
+yaniel-roque-valle,Yaniel Roque Valle,"Desórdenes públicos,Sabotaje",,Matanzas,A,A_algo,True,1
+yaniel-tejeda-medina,Yaniel Tejeda Medina,"Atentado,Desacato,Evasión de presos o detenidos",,Sancti Spíritus,A,A_algo,True,1
+yanier-chamizo-aguila,Yanier Chamizo Águila,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+yanier-santana-diaz,Yanier Santana Díaz,"Desacato,Desórdenes públicos,Instigación a delinquir",13/07/2021,Mayabeque,A,A_algo,True,1
+yankiel-villavicencio-balmaseda,Yankiel Villavicencio Balmaseda,Propaganda contra el orden constitucional,19/09/2023,Villa Clara,other,B_algo,False,0
+yanley-lopez-basulto,Yanley López Basulto,"Atentado,Desórdenes públicos,Sabotaje",12/07/2021,Artemisa,A,A_algo,True,1
+yanquier-sardinas-franco,Yanquier Sardiñas Franco,"Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+yaquelin-castillo-garcia,Yaquelin Castillo García,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+yaquelin-garcia-jaen,Yaquelín García Jaén,Desacato,07/12/2024,Granma,A,A_algo,True,1
+yarelis-mesa-vazquez,Yarelis Mesa Vázquez,Robo con fuerza,12/07/2021,Matanzas,other,other_algo,True,12
+yaroski-amat-salabarria,Yaroski Amat Salabarria,Desórdenes públicos,,Mayabeque,A,A_algo,True,1
+yasbelys-rodriguez-leon,Yasbelys Rodríguez León,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yasdani-benitez-quesada,Yasdani Benítez Quesada,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yaser-garcia-lopez,Yaser García López,"Desacato,Propaganda contra el orden constitucional",18/03/2025,Villa Clara,A,A_algo,True,1
+yaset-zayas-oliva,Yaset Zayas Oliva,Difamación de las instituciones y organizaciones y de los héroes y mártires,15/08/2021,Pinar del Río,other,other_algo,True,11
+yasiel-arnaldo-cordova-rodriguez,Yasiel Arnaldo Córdova Rodríguez,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+yasiel-de-jesus-chinea-solano,Yasiel De Jesus Chinea Solano,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yasiel-hernandez-marquez,Yasiel Hernández Márquez,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yasiel-martinez-carrasco,Yasiel Martínez Carrasco,Sabotaje,28/07/2021,Mayabeque,other,B_algo,False,0
+yasmani-garcia-ramirez,Yasmani García Ramírez,"Atentado,Desacato",19/08/2022,Camagüey,A,A_algo,True,1
+yasmani-luis-solano,Yasmani Luis Solano,"Atentado,Desacato,Desórdenes públicos",15/07/2021,Ciego de Ávila,A,A_algo,True,1
+yasmany-gonzalez-valdes,Yasmany González Valdés «El Libre»,Propaganda contra el orden constitucional,20/04/2023,La Habana,other,B_algo,False,0
+yasmany-porras-perez,Yasmany Porras Pérez,"Atentado,Desórdenes públicos,Robo con fuerza,Sabotaje",16/07/2021,Matanzas,A,A_algo,True,1
+yasmany-scull-cardenas,Yasmany Scull Cárdenas,"Corrupción de menores,Desórdenes públicos,Sabotaje",12/07/2021,Mayabeque,A,B_algo,False,0
+yasmany-yoanqui-burgos-perdomo,Yasmany Yoanqui Burgos Perdomo,"Atentado,Desacato,Desórdenes públicos",,La Habana,A,A_algo,True,1
+yasniel-marino-himely,Yasniel Mariño Himely,"Atentado,Desacato,Desórdenes públicos",13/07/2021,La Habana,A,A_algo,True,1
+yasniel-najarro-hernandez,Yasniel Najarro Hernández,Desórdenes públicos,28/05/2024,Cienfuegos,A,A_algo,True,1
+yassell-guerra-campos,Yassell Guerra Campos,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yasser-fernando-rodriguez-gonzalez,Yasser Fernando Rodríguez González,Instigación a la rebelión,25/11/2020,La Habana,other,other_algo,True,2
+yasser-gonzalez-herrera,Yasser González Herrera,"Atentado,Desórdenes públicos,Resistencia",11/07/2021,La Habana,A,A_algo,True,1
+yasser-ravelo-diaz,Yasser Ravelo Díaz,Amenazas,23/05/2025,Santiago de Cuba,other,other_algo,True,11
+yeidel-carrero-pablo,Yeidel Carrero Pablo,"Desacato,Desórdenes públicos",15/07/2021,Villa Clara,A,A_algo,True,1
+yeinier-buzor-rubio,Yeinier Buzor Rubio,"Atentado,Desórdenes públicos",,La Habana,A,A_algo,True,1
+yeinier-ibanez-boudet,Yeinier Ibáñez Boudet,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+yemni-yak-mena-nuviola,Yemni Yak Mena Nuviola,Sedición,14/10/2021,La Habana,B,B_algo,True,0
+yendri-vidal-limonta,Yendri Vidal Limonta,"Desórdenes públicos,Sabotaje",11/07/2021,Artemisa,A,A_algo,True,1
+yeney-lopez-martinez,Yeney López Martínez,"Desacato,Desórdenes públicos",12/07/2021,Mayabeque,A,A_algo,True,1
+yennys-artola-del-sol,Yennys Artola Del Sol,Propaganda enemiga,08/08/2022,Camagüey,other,B_algo,False,0
+yeral-michel-palacio-roman,Yeral Michel Palacio Román,Sedición,,Holguín,B,B_algo,True,0
+yerandis-rillos-pao,Yerandis Rillos Pao,"Daños,Desórdenes públicos,Sedición",26/07/2021,La Habana,mixed,A_algo,False,1
+yeremin-salcines-jane,Yeremín Salcines Jane,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yeriel-cruz-perez,Yeriel Cruz Pérez,"Atentado,Desacato,Desórdenes públicos,Evasión de presos,Resistencia",13/09/2021,Mayabeque,A,A_algo,True,1
+yeris-curbelo-aguilera,Yeris Curbelo Aguilera,Lesiones,,Pinar del Río,other,other_algo,True,12
+yerismar-velazquez-cruz,Yerismar Velázquez Cruz,"Atentado,Instigación a delinquir",28/03/2024,Santiago de Cuba,A,A_algo,True,1
+yesniel-de-la-osa-miranda,Yesniel De la Osa Miranda,Propaganda enemiga,18/07/2021,Camagüey,other,B_algo,False,0
+yessica-coimbra-noriega,Yéssica Cohímbra Noriega,"Desacato,Desórdenes públicos,Sabotaje",13/07/2021,Mayabeque,A,A_algo,True,1
+yilia-lucia-oramas-garcia,Yilia Lucía Oramas García,"Atentado,Desacato,Resistencia",15/08/2021,Villa Clara,A,A_algo,True,1
+yismel-alfonso-oliva,Yismel Alfonso Oliva,"Atentado,Desórdenes públicos,Sabotaje",12/07/2021,Artemisa,A,A_algo,True,1
+yoan-de-la-cruz-cruz,Yoan De la Cruz Cruz,"Desacato,Desórdenes públicos",23/07/2021,Artemisa,A,A_algo,True,1
+yoan-perez-gomez,Yoan Pérez Gómez,Desórdenes públicos,20/10/2024,Villa Clara,A,A_algo,True,1
+yoan-quesada-fernandez,Yoan Quesada Fernández,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+yoan-ricardo-llerena,Yoan Ricardo Llerena,Desacato a la figura del presidente y otros altos funcionarios públicos,02/12/2024,Las Tunas,other,other_algo,True,3
+yoan-torres-martinez,Yoan Torres Martínez,"Asesinato,Deserción,Infracción de normas de guardia,Intento de salida ilegal del territorio,Uso de armas de fuego y otros medios",03/05/2007,Camagüey,other,other_algo,True,4
+yoandra-mir-cedeno,Yoandra Mir Cedeño,"Desacato,Desobediencia",24/03/2024,Holguín,A,A_algo,True,1
+yoandri-sanchez-gonzalez,Yoandri Sánchez González,Desórdenes públicos,11/07/2021,Villa Clara,A,A_algo,True,1
+yoandry-ramos-duvergel,Yoandry Ramos Duvergel,"Desacato,Desórdenes públicos",10/10/2022,Mayabeque,A,A_algo,True,1
+yoandry-reinier-sayu-silva,Yoandry Reinier Sayu Silva,Sedición,19/07/2021,La Habana,B,B_algo,True,0
+yoandrys-gutierrez-vargas,Yoandrys Gutiérrez Vargas,"Atentado,Desacato,Propagación de epidemia",11/07/2021,Granma,A,A_algo,True,1
+yoandy-ripoll-smith,Yoandy Ripoll Smith,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+duaniel-de-jesus-carmona-verdecia,Yoanier de Jesús Carmona Verdecia,"Desacato,Desórdenes públicos",17/03/2024,Granma,A,A_algo,True,1
+yoanio-bravo-torres,Yoanio Bravo Torres,"Atentado,Desacato",10/02/2021,La Habana,A,A_algo,True,1
+yoanky-baez-albornoz,Yoanky Báez Albornoz,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yoanny-thomas-gonzalez,Yoanny Thomas González,Terrorismo,02/04/2003,Artemisa,other,other_algo,True,12
+yoel-consuegra-avila,Yoel Consuegra Ávila,"Atentado,Daños,Desórdenes públicos",12/07/2021,Granma,A,A_algo,True,1
+yoel-david-ochoa-alvarez,Yoel David Ochoa Álvarez,"Atentado,Desacato,Desórdenes públicos",12/07/2021,Ciego de Ávila,A,A_algo,True,1
+yoel-montano-alpizar,Yoel Montano Alpízar,"Desórdenes públicos,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+yoel-prieto-tamayo,Yoel Prieto Tamayo,"Daños a bienes del patrimonio cultural,Difamación de las instituciones y organizaciones y de los héroes y mártires,Tráfico Ilícito de drogas",06/01/2020,La Habana,other,other_algo,True,11
+yoel-ricardo-sanchez-borjas,Yoel Ricardo Sánchez Borjas,Sedición,,Holguín,B,B_algo,True,0
+yoel-saavedra-gonzalez,Yoel Saavedra González,"Desórdenes públicos,Sabotaje",11/09/2021,Mayabeque,A,A_algo,True,1
+yoel-ylizastigui-betancourt,Yoel Ylizastigui Betancourt,"Atentado,Daños,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+yoendris-estrada-baltar,Yoendris Estrada Baltar,"Desacato,Desórdenes públicos,Instigación a delinquir",12/07/2021,Santiago de Cuba,A,A_algo,True,1
+yoendris-torres-corria,Yoendris Torres Corría,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+yoennis-dominguez-de-la-rosa,Yoennis Domínguez De La Rosa,"Atentado,Desórdenes públicos",15/11/2021,Santiago de Cuba,A,A_algo,True,1
+yoersi-samper-iglesia,Yoersi Samper Iglesia,Otros actos contra la seguridad del estado,24/11/2023,Cienfuegos,other,B_algo,False,0
+yohamed-quintana-lemus,Yohamed Quintana Lemus,"Desacato,Desórdenes públicos",,Matanzas,A,A_algo,True,1
+yohan-carlos-izquierdo-teran,Yohan Carlos Izquierdo Terán,"Otros actos contra la seguridad del estado,Propaganda enemiga",25/02/2022,La Habana,other,B_algo,False,0
+yohandys-leonard-perez,Yohandys Leonard Pérez,"Desacato,Desórdenes públicos",11/07/2021,Matanzas,A,A_algo,True,1
+yoilan-limonta-mojena,Yoilan Limonta Mojena,Sedición,18/07/2021,La Habana,B,B_algo,True,0
+yoirdan-revolta-leyva,Yoirdan Revolta Leyva,Sedición,13/07/2021,Holguín,B,B_algo,True,0
+yonathan-medina-hernandez,Yonathan Medina Hernández,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yonay-moreu-leal,Yonay Moreu Leal,"Desórdenes públicos,Sedición",13/07/2021,Matanzas,mixed,A_algo,False,1
+yoniel-santana-rodriguez,Yoniel Santana Rodríguez,"Desórdenes públicos,Sabotaje",,Matanzas,A,A_algo,True,1
+yonniel-betancourt-goving,Yonniel Betancourt Goving,"Desacato,Desórdenes públicos",,Matanzas,A,A_algo,True,1
+yordan-esteban-brook-amador,Yordan Esteban Brook Amador,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yordan-martinez-perez,Yordan Martínez Pérez,"Atentado,Desacato,Desórdenes públicos",12/07/2021,La Habana,A,A_algo,True,1
+yordan-petiton-villar,Yordán Petitón Villar,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+yordan-puentes-morera,Yordan Puentes Morera,"Desórdenes públicos,Sabotaje",11/07/2021,Matanzas,A,A_algo,True,1
+yordanis-diaz-sanchez,Yordanis Díaz Sánchez,"Desórdenes públicos,Sabotaje",15/07/2021,Camagüey,A,A_algo,True,1
+yordanka-lopez-gonzalez,Yordanka López González,Desórdenes públicos,08/11/2024,Ciego de Ávila,A,A_algo,True,1
+yordanys-irsula-pena,Yordanys Irsula Peña,Robo con fuerza,12/07/2021,Matanzas,other,other_algo,True,12
+yordis-fuentes-perez,Yordis Fuentes Pérez,"Desacato,Desobediencia",17/07/2022,Guantánamo,A,A_algo,True,1
+yosbel-carbajal-de-la-paz,Yosbel Carbajal de la Paz,Trata de personas,28/08/2022,Matanzas,other,other_algo,True,11
+yosdailys-amaro-aldazabal,Yosdailys Amaro Aldazábal,Desórdenes públicos,,Matanzas,A,A_algo,True,1
+yosdell-curbelo-marin,Yosdell Curbelo Marín,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+yoslen-dominguez-victores,Yoslén Domínguez Victores,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yoslien-rodriguez-roa,Yoslien Rodríguez Roa,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yosnel-daniel-castro-fernandez,Yosnel Daniel Castro Fernández,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yosnel-laferte-salazar,Yosnel Laferté Salazar,"Desórdenes públicos,Robo con fuerza",11/07/2021,Artemisa,A,A_algo,True,1
+yosney-emilio-roman-rodriguez,Yosney Emilio Román Rodríguez,"Atentado,Propagación de epidemia,Sedición",12/07/2021,La Habana,mixed,A_algo,False,1
+yosvani-garcia-rusindo,Yosvani García Rusindo,Otros actos contra la seguridad del estado,10/01/2023,Santiago de Cuba,other,B_algo,False,0
+yosvani-ramos-milanes,Yosvani Ramos Milanés,"Atentado,Desórdenes públicos",21/07/2021,Camagüey,A,A_algo,True,1
+yosvani-ulacia-lopez,Yosvani Ulacia López,Peligrosidad social predelictiva,13/12/2019,Villa Clara,other,other_algo,True,11
+yosvany-rosell-garcia-caso,Yosvany Rosell García Caso,Sedición,15/07/2021,Holguín,B,B_algo,True,0
+yosvany-sepulveda-martinez,Yosvany Sepúlveda Martínez,"Atentado,Desacato",,Camagüey,A,A_algo,True,1
+yosvel-alberdi-mirabal,Yosvel Alberdi Mirabal,"Atentado,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+yotuel-de-jesus-munoz-antes,Yotuel de Jesús Muñoz Antes,"Atentado,Desacato,Desórdenes públicos",11/07/2021,Granma,A,A_algo,True,1
+ysoley-santiesteban-diaz,Ysoley Santiesteban Díaz,"Asesinato en grado de tentativa,Atentado,Intento de salida ilegal del territorio,Sabotaje",13/08/2024,La Habana,A,other_algo,False,4
+yudel-diaz-hernandez,Yudel Díaz Hernández,Sedición,14/07/2021,Matanzas,B,B_algo,True,0
+yudislei-patterson-garcia,Yudislei Patterson García,Desórdenes públicos,,La Habana,A,A_algo,True,1
+yulier-aquile-bacallao-mena,Yulier Aquile Bacallao Mena,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+yulier-ramirez-san-juan,Yulier Ramírez San Juan,"Desacato,Desórdenes públicos",08/03/2024,Holguín,A,A_algo,True,1
+yulio-ferrer-bravo,Yulio Ferrer Bravo,Desacato,14/08/2024,La Habana,A,A_algo,True,1
+yulisneis-richard-viel,Yulisneis Richard Viel,Peligrosidad social predelictiva,02/11/2020,Santiago de Cuba,other,other_algo,True,11
+yunaikis-gonzales-perez,Yunaikis Gonzáles Pérez,"Desórdenes públicos,Sabotaje",13/07/2021,Artemisa,A,A_algo,True,1
+yunaiky-de-la-caridad-linares-rodriguez,Yunaiky De La Caridad Linares Rodríguez,Sedición,21/07/2021,La Habana,B,B_algo,True,0
+yunan-gonzalez-terry,Yunan González Terry,Sedición,13/07/2021,La Habana,B,B_algo,True,0
+yunia-jazmin-caballero-oduardo,Yunia Jazmín Caballero Oduardo,"Atentado,Desacato",,Las Tunas,A,A_algo,True,1
+yunia-figueredo-cruz,Yunia Viumara Figueredo Cruz,Propaganda contra el orden constitucional,10/03/2026,La Habana,other,B_algo,False,0
+yuniel-alias-pipo-blanco-jimenez,Yuniel (alias Pipo) Blanco Jiménez,Sedición,11/07/2021,La Habana,B,B_algo,True,0
+yuniel-herrera-rodriguez,Yuniel Herrera Rodríguez,Estrago,24/10/2023,Artemisa,other,other_algo,True,5
+yuniel-jorge-fleitas,Yuniel Jorge Fleitas,"Atentado,Desórdenes públicos",14/07/2021,Artemisa,A,A_algo,True,1
+yuniel-serrano-batista,Yuniel Serrano Batista,Desórdenes públicos,07/10/2025,La Habana,A,A_algo,True,1
+yunier-sanchez-rodriguez,Yunier Sánchez Rodríguez,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yunieski-jackson-mensu,Yunieski Jackson Mensu,"Atentado,Desórdenes públicos",11/07/2021,Camagüey,A,A_algo,True,1
+yunieski-medel-torres,Yunieski Medel Torres,"Atentado,Desacato,Desórdenes públicos,Resistencia",15/08/2021,Granma,A,A_algo,True,1
+yuniesky-lorences-dominguez,Yuniesky Lorences Domínguez,Desórdenes públicos,08/11/2024,Villa Clara,A,A_algo,True,1
+yuniesky-ruiz-rodriguez,Yuniesky Ruiz Rodríguez,Sedición,11/07/2021,Matanzas,B,B_algo,True,0
+yunior-barrera-gutierrez,Yunior Barrera Gutiérrez,"Desacato,Desórdenes públicos",08/03/2024,Holguín,A,A_algo,True,1
+yunior-consuegra-sotolongo,Yunior Consuegra Sotolongo,"Atentado,Desacato,Desórdenes públicos",11/07/2021,La Habana,A,A_algo,True,1
+yunior-garcia-vizcay,Yunior García Vizcay,Sedición,25/07/2021,Artemisa,B,B_algo,True,0
+yunior-jorge-ramos-yera,Yunior Jorge Ramos Yera,"Atentado,Desacato,Desórdenes públicos",14/07/2021,Villa Clara,A,A_algo,True,1
+yunior-medina-ruffin,Yunior Medina Ruffin,"Desórdenes públicos,Sabotaje",12/07/2021,Mayabeque,A,A_algo,True,1
+yunior-perez-lopez,Yunior Pérez López,"Desórdenes públicos,Sabotaje",23/08/2021,Artemisa,A,A_algo,True,1
+yunior-rodriguez-rivero,Yunior Rodríguez Rivero,"Atentado,Desórdenes públicos",17/07/2021,Santiago de Cuba,A,A_algo,True,1
+yunior-sebey-mena,Yunior Sebey Mena,"Desacato,Desórdenes públicos",17/07/2021,Villa Clara,A,A_algo,True,1
+yunisleydis-coa-rodriguez,Yunisleydis Coa Rodríguez,Desórdenes públicos|Desacato,,Granma,other,other_algo,True,10
+yunisleydis-soler-abad,Yunisleydis Soler Abad,Desacato,14/07/2021,La Habana,A,A_algo,True,1
+yurema-ramos-abad,Yurema Ramos Abad,Sedición,12/07/2021,La Habana,B,B_algo,True,0
+yuri-almenares-gonzalez,Yuri Almenares González,"Difusión de noticias falsas,Propaganda enemiga",16/06/2020,La Habana,other,B_algo,False,0
+yurien-rodriguez-ramos,Yurién Rodríguez Ramos,"Desacato,Desórdenes públicos",11/07/2021,Artemisa,A,A_algo,True,1
+yurien-rogelio-mendez-herrera,Yurién Rogelio Méndez Herrera,Sedición,01/11/2021,La Habana,B,B_algo,True,0
+yurisnel-rodriguez-torres,Yurisnel Rodríguez Torres,"Atentado,Desacato,Desórdenes públicos,Evasión de presos o detenidos",09/08/2021,Santiago de Cuba,A,A_algo,True,1
+yusnaira-gonzalez-perez,Yusnaira González Pérez,"Desacato,Desórdenes públicos,Propagación de epidemia",11/07/2021,Santiago de Cuba,A,A_algo,True,1
+yusniel-leyva-gonzalez,Yusniel Leyva González,"Difamación,Propaganda contra el orden constitucional",04/10/2025,Las Tunas,other,B_algo,False,0
+yussuan-villalba-sierra,Yussuan Villalba Sierra,Sedición,15/07/2021,La Habana,B,B_algo,True,0
+yusuan-machado-tellez,Yusuán Machado Téllez,Desórdenes públicos,,Camagüey,A,A_algo,True,1
+juan-alexis-martinez-serna,​Juan Alexis Martínez Serna,"Atentado,Daños",,La Habana,A,A_algo,True,1

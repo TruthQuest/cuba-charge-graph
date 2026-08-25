@@ -1,0 +1,74 @@
+charge,count,community_id,analyst_regime,degree,weighted_degree,degree_centrality,betweenness_centrality,clustering_coefficient
+Desórdenes públicos,554,1,A,26,797,0.361111,0.073979,0.015919
+Desacato,376,1,A,39,633,0.541667,0.248322,0.006698
+Atentado,350,1,A,32,586,0.444444,0.132413,0.009615
+Sabotaje,115,0,other,16,124,0.222222,0.079216,0.010532
+Instigación a delinquir,55,1,other,12,108,0.166667,0.010175,0.021047
+Resistencia,39,1,A,15,99,0.208333,0.059579,0.014109
+Propagación de epidemia,19,1,other,10,62,0.138889,0.00343,0.020813
+Daños,26,1,other,10,55,0.138889,0.049553,0.017066
+Desobediencia,28,11,other,13,39,0.180556,0.055138,0.007316
+Robo con fuerza,33,12,other,10,35,0.138889,0.012288,0.01037
+Sedición,218,0,B,11,34,0.152778,0.054237,0.010879
+Difamación de las instituciones y organizaciones y de los héroes y mártires,15,11,other,11,29,0.152778,0.013157,0.009813
+Propaganda contra el orden constitucional,61,0,other,10,26,0.138889,0.053467,0.005926
+Evasión de presos o detenidos,6,12,other,11,25,0.152778,0.022489,0.009414
+Otros actos contra la seguridad del estado,28,0,other,8,20,0.111111,0.037211,0.004335
+Ultraje sexual,8,11,other,6,20,0.083333,0.004923,0.022417
+Intento de salida ilegal del territorio,9,4,other,7,19,0.097222,0.097772,0.004784
+Portación y tenencia ilegal de armas o explosivos,11,1,other,5,17,0.069444,0.003297,0.027353
+Asesinato,6,4,other,4,16,0.055556,0.0,0.013986
+Uso de armas de fuego y otros medios,4,4,other,4,16,0.055556,0.0,0.013986
+Deserción,4,4,other,4,16,0.055556,0.0,0.013986
+Infracción de normas de guardia,4,4,other,4,16,0.055556,0.0,0.013986
+Propaganda enemiga,22,0,other,9,15,0.125,0.081229,0.002379
+Asociaciones reuniones y manifestaciones ilícitas,6,0,other,5,15,0.069444,0.0,0.021276
+Robo con violencia,8,12,other,9,14,0.125,0.059706,0.005132
+Asesinato en grado de tentativa,5,4,other,6,13,0.083333,0.002482,0.01639
+Evasión de presos,3,1,other,5,10,0.069444,0.001757,0.021735
+Hurto,7,12,other,7,9,0.097222,0.021096,0.002663
+Terrorismo,13,12,other,3,9,0.041667,0.023865,0
+Tráfico Ilícito de drogas,5,11,other,6,8,0.083333,0.04861,0.001555
+Otros delitos arbitrarios contra la administración y la jurisdicción,7,1,other,1,7,0.013889,0.0,0
+Receptación,3,12,other,6,7,0.083333,0.016028,0.003118
+Lesiones,4,12,other,5,6,0.069444,0.013873,0.006091
+Denegación de auxilio y desobediencia,2,0,other,6,6,0.083333,0.048718,0.010798
+Daños a bienes del patrimonio cultural,4,11,other,4,6,0.055556,0.016039,0.002224
+Ultraje a los símbolos de la patria,3,1,other,2,6,0.027778,0.0,0.047919
+Corrupción de menores,5,0,other,4,5,0.055556,0.028243,0.010941
+metales y piedras preciosas,2,8,other,3,5,0.041667,0.0,0.005268
+divisas,2,8,other,3,5,0.041667,0.0,0.005268
+Tráfico ilegal de moneda,2,8,other,3,5,0.041667,0.0,0.005268
+Artículo 91,4,6,other,4,4,0.055556,0.03772,0.010785
+Sacrificio ilegal de ganado mayor,5,12,other,2,4,0.027778,0.0,0.00555
+Desorden penitenciario,2,11,other,4,4,0.055556,0.030506,0.006306
+Amenazas,5,11,other,4,4,0.055556,0.03,0.008051
+Trata de personas,4,11,other,2,3,0.027778,0.0,0.004405
+Financiación del terrorismo,3,12,other,1,3,0.013889,0.0,0
+Proxenetismo,2,11,other,2,3,0.027778,0.0,0.004405
+Otros,1,1,other,3,3,0.041667,0.008725,0.013238
+Negación de auxilio,1,1,other,3,3,0.041667,0.008725,0.013238
+Impago de multas,3,11,other,2,2,0.027778,0.001789,0.006354
+Peligrosidad social predelictiva,5,11,other,2,2,0.027778,0.002052,0.008427
+Malversación,1,1,other,2,2,0.027778,0.003298,0.019557
+Privación de libertad,1,12,other,2,2,0.027778,0.001511,0.004405
+Incumplimiento del deber de denunciar,1,0,other,2,2,0.027778,0.026556,0.00555
+Difamación,2,0,other,2,2,0.027778,0.023865,0
+Espionaje,5,1,other,1,1,0.013889,0.0,0
+Actividades económicas ilícitas,1,6,other,1,1,0.013889,0.0,0
+Obstrucción de la vía pública,1,1,other,1,1,0.013889,0.0,0
+Asociación para delinquir,2,1,other,1,1,0.013889,0.0,0
+Motín,1,0,other,1,1,0.013889,0.0,0
+Delitos contra el orden constitucional,1,1,other,1,1,0.013889,0.0,0
+Ejercicio arbitrario de derechos,1,0,other,1,1,0.013889,0.0,0
+Difusión de noticias falsas,1,0,other,1,1,0.013889,0.0,0
+Coacción,1,7,other,0,0,0.0,0.0,0
+Actos contra la seguridad del Estado,1,9,other,0,0,0.0,0.0,0
+Desórdenes públicos|Desacato,2,10,other,0,0,0.0,0.0,0
+Tenencia de drogas,1,13,other,0,0,0.0,0.0,0
+Tentativa de asesinato,1,14,other,0,0,0.0,0.0,0
+Cohecho,1,15,other,0,0,0.0,0.0,0
+Encubrimiento,1,16,other,0,0,0.0,0.0,0
+Instigación a la rebelión,1,2,other,0,0,0.0,0.0,0
+Desacato a la figura del presidente y otros altos funcionarios públicos,1,3,other,0,0,0.0,0.0,0
+Estrago,1,5,other,0,0,0.0,0.0,0

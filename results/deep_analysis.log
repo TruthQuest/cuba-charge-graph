@@ -1,0 +1,126 @@
+2026-05-16 18:26:24,309 - INFO - ================================================================================
+2026-05-16 18:26:24,310 - INFO - CUBAN POLITICAL PRISONERS: DEEP NETWORK ANALYSIS
+2026-05-16 18:26:24,310 - INFO - ================================================================================
+2026-05-16 18:26:24,310 - INFO - Loading cuban_prisoners_final_skos.ttl
+2026-05-16 18:26:25,153 - INFO - Loaded 29,819 triples
+2026-05-16 18:26:25,208 - INFO - Indices built
+2026-05-16 18:26:25,209 - INFO - 
+================================================================================
+2026-05-16 18:26:25,209 - INFO - ANALYSIS 1: Co-Detention Clusters
+2026-05-16 18:26:25,209 - INFO - ================================================================================
+2026-05-16 18:26:25,209 - INFO - Analyzing co-detention clusters...
+2026-05-16 18:26:25,214 - INFO - Found 1258 prisoners
+2026-05-16 18:26:25,295 - INFO - Found 72 co-detention clusters
+2026-05-16 18:26:25,295 - INFO - Largest cluster: 82 people
+2026-05-16 18:26:25,295 - INFO - Co-detention clusters exported to network_analysis_results/codetention_clusters.csv
+2026-05-16 18:26:25,296 - INFO - 
+================================================================================
+2026-05-16 18:26:25,296 - INFO - ANALYSIS 2: Charge Stacking Patterns
+2026-05-16 18:26:25,296 - INFO - ================================================================================
+2026-05-16 18:26:25,296 - INFO - Analyzing charge stacking patterns...
+2026-05-16 18:26:25,306 - INFO - Charge stacking analysis exported to network_analysis_results/charge_stacking.csv
+2026-05-16 18:26:25,306 - INFO - Top combination: (('Desacato', 'Public Disorder'), 286)
+2026-05-16 18:26:25,306 - INFO - 
+================================================================================
+2026-05-16 18:26:25,306 - INFO - ANALYSIS 3: Arrest Waves
+2026-05-16 18:26:25,306 - INFO - ================================================================================
+2026-05-16 18:26:25,306 - INFO - Analyzing arrest waves...
+2026-05-16 18:26:25,855 - INFO - Found 37 mass arrest days (5+ arrests)
+2026-05-16 18:26:25,855 - INFO - Arrest waves exported to network_analysis_results/arrest_waves.csv
+2026-05-16 18:26:25,855 - INFO - 
+================================================================================
+2026-05-16 18:26:25,855 - INFO - ANALYSIS 4: Geographic Displacement
+2026-05-16 18:26:25,855 - INFO - ================================================================================
+2026-05-16 18:26:25,855 - INFO - Analyzing geographic displacement...
+2026-05-16 18:26:25,865 - INFO - Calculated displacement for 0 prisoners
+2026-05-16 18:26:25,865 - INFO - Geographic displacement exported to network_analysis_results/geographic_displacement.csv
+2026-05-16 18:26:25,865 - INFO - 
+================================================================================
+2026-05-16 18:26:25,865 - INFO - ANALYSIS 5: Multi-Hop Query (Sedition + Torture + July2021)
+2026-05-16 18:26:25,865 - INFO - ================================================================================
+2026-05-16 18:26:25,865 - INFO - Running multi-hop query: Sedition → Torture → July2021...
+2026-05-16 18:26:25,873 - INFO - Found 0 people matching: Sedition + Torture Facility + July 2021
+2026-05-16 18:26:25,873 - INFO - Multi-hop query results exported to network_analysis_results/sedition_torture_july2021.csv
+2026-05-16 18:26:25,873 - INFO - 
+================================================================================
+2026-05-16 18:26:25,873 - INFO - Generating Summary Report
+2026-05-16 18:26:25,873 - INFO - ================================================================================
+2026-05-16 18:26:25,873 - INFO - Generating summary report...
+2026-05-16 18:26:25,879 - INFO - Summary report exported to network_analysis_results/SUMMARY_REPORT.txt
+2026-05-16 18:26:25,880 - INFO - 
+================================================================================
+2026-05-16 18:26:25,880 - INFO - ANALYSIS COMPLETE
+2026-05-16 18:26:25,880 - INFO - ================================================================================
+2026-05-16 18:26:25,880 - INFO - 
+Results directory: /Users/weisheit/pythonProject/PoliticalPrisoners/network_analysis_results
+2026-05-16 18:26:25,880 - INFO - 
+Generated files:
+2026-05-16 18:26:25,880 - INFO -   - arrest_waves.csv
+2026-05-16 18:26:25,880 - INFO -   - SUMMARY_REPORT.txt
+2026-05-16 18:26:25,880 - INFO -   - sedition_torture_july2021.csv
+2026-05-16 18:26:25,880 - INFO -   - codetention_clusters.csv
+2026-05-16 18:26:25,880 - INFO -   - charge_stacking.csv
+2026-05-16 18:26:25,880 - INFO -   - geographic_displacement.csv
+2026-05-23 12:45:27,068 - INFO - ================================================================================
+2026-05-23 12:45:27,068 - INFO - CUBAN POLITICAL PRISONERS: DEEP NETWORK ANALYSIS
+2026-05-23 12:45:27,068 - INFO - ================================================================================
+2026-05-23 12:45:27,068 - INFO - Loading cuban_prisoners_v2_1.ttl
+2026-05-23 12:45:27,510 - INFO - Loaded 29,836 triples
+2026-05-23 12:45:27,541 - INFO - Indices built
+2026-05-23 12:45:27,541 - INFO - 
+================================================================================
+2026-05-23 12:45:27,541 - INFO - ANALYSIS 1: Co-Detention Clusters
+2026-05-23 12:45:27,541 - INFO - ================================================================================
+2026-05-23 12:45:27,541 - INFO - Analyzing co-detention clusters...
+2026-05-23 12:45:27,545 - INFO - Found 1258 prisoners
+2026-05-23 12:45:27,589 - INFO - Found 72 co-detention clusters
+2026-05-23 12:45:27,589 - INFO - Largest cluster: 82 people
+2026-05-23 12:45:27,591 - INFO - Co-detention clusters exported to network_analysis_results/codetention_clusters.csv
+2026-05-23 12:45:27,591 - INFO - 
+================================================================================
+2026-05-23 12:45:27,591 - INFO - ANALYSIS 2: Charge Stacking Patterns
+2026-05-23 12:45:27,591 - INFO - ================================================================================
+2026-05-23 12:45:27,591 - INFO - Analyzing charge stacking patterns...
+2026-05-23 12:45:27,601 - INFO - Charge stacking analysis exported to network_analysis_results/charge_stacking.csv
+2026-05-23 12:45:27,601 - INFO - Top combination: (('Contempt', 'Desórdenes Públicos'), 286)
+2026-05-23 12:45:27,601 - INFO - 
+================================================================================
+2026-05-23 12:45:27,601 - INFO - ANALYSIS 3: Arrest Waves
+2026-05-23 12:45:27,601 - INFO - ================================================================================
+2026-05-23 12:45:27,601 - INFO - Analyzing arrest waves...
+2026-05-23 12:45:28,015 - INFO - Found 37 mass arrest days (5+ arrests)
+2026-05-23 12:45:28,015 - INFO - Arrest waves exported to network_analysis_results/arrest_waves.csv
+2026-05-23 12:45:28,015 - INFO - 
+================================================================================
+2026-05-23 12:45:28,015 - INFO - ANALYSIS 4: Geographic Displacement
+2026-05-23 12:45:28,015 - INFO - ================================================================================
+2026-05-23 12:45:28,015 - INFO - Analyzing geographic displacement...
+2026-05-23 12:45:28,025 - INFO - Calculated displacement for 0 prisoners
+2026-05-23 12:45:28,025 - INFO - Geographic displacement exported to network_analysis_results/geographic_displacement.csv
+2026-05-23 12:45:28,025 - INFO - 
+================================================================================
+2026-05-23 12:45:28,025 - INFO - ANALYSIS 5: Multi-Hop Query (Sedition + Torture + July2021)
+2026-05-23 12:45:28,025 - INFO - ================================================================================
+2026-05-23 12:45:28,025 - INFO - Running multi-hop query: Sedition → Torture → July2021...
+2026-05-23 12:45:28,033 - INFO - Found 0 people matching: Sedition + Torture Facility + July 2021
+2026-05-23 12:45:28,033 - INFO - Multi-hop query results exported to network_analysis_results/sedition_torture_july2021.csv
+2026-05-23 12:45:28,033 - INFO - 
+================================================================================
+2026-05-23 12:45:28,033 - INFO - Generating Summary Report
+2026-05-23 12:45:28,033 - INFO - ================================================================================
+2026-05-23 12:45:28,033 - INFO - Generating summary report...
+2026-05-23 12:45:28,040 - INFO - Summary report exported to network_analysis_results/SUMMARY_REPORT.txt
+2026-05-23 12:45:28,040 - INFO - 
+================================================================================
+2026-05-23 12:45:28,040 - INFO - ANALYSIS COMPLETE
+2026-05-23 12:45:28,040 - INFO - ================================================================================
+2026-05-23 12:45:28,040 - INFO - 
+Results directory: /Users/weisheit/pythonProject/PoliticalPrisoners/network_analysis_results
+2026-05-23 12:45:28,040 - INFO - 
+Generated files:
+2026-05-23 12:45:28,040 - INFO -   - arrest_waves.csv
+2026-05-23 12:45:28,040 - INFO -   - SUMMARY_REPORT.txt
+2026-05-23 12:45:28,040 - INFO -   - sedition_torture_july2021.csv
+2026-05-23 12:45:28,040 - INFO -   - codetention_clusters.csv
+2026-05-23 12:45:28,040 - INFO -   - charge_stacking.csv
+2026-05-23 12:45:28,040 - INFO -   - geographic_displacement.csv

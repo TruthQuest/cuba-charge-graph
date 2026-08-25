@@ -1,0 +1,20 @@
+# Core
+networkx>=3.2
+rdflib>=7.0
+python-louvain>=0.16
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
+
+# Scraping
+playwright>=1.40
+beautifulsoup4>=4.12
+lxml>=4.9
+aiofiles>=23.0
+rich>=13.0
+
+# Analysis
+matplotlib>=3.7
+
+# Optional: for ontology reasoning
+owlready2>=0.45
