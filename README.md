@@ -1,8 +1,8 @@
-# cuba-prisoners-ontology
+# cuba-charge-graph
 
-![Post-Soviet institutional style artwork](images/u5771898551_In_the_style_of_Anna_Jerves_post-Soviet_instituti_5370d816-79da-4276-a8d9-0aca0cbb0461_0.png)
+![Cuba Charge Graph](images/u5771898551_In_the_style_of_Anna_Jerves_post-Soviet_instituti_5370d816-79da-4276-a8d9-0aca0cbb0461_0.png)
 
-A formal ontology and reproducible analysis pipeline over the public registry of 1,258 Cuban political prisoners maintained by [Prisoners Defenders](https://www.prisonersdefenders.org/). Produces statistical evidence that the Cuban state operates two entirely disjoint prosecutorial charging regimes for political cases.
+A formal ontology and reproducible analysis pipeline over the public registry of 1,172 Cuban political prisoners maintained by [Prisoners Defenders](https://www.prisonersdefenders.org/). Produces statistical evidence that the Cuban state operates two entirely disjoint prosecutorial charging regimes for political cases.
 
 The primary finding, tested under a permutation null model (n=5,000, p<0.001), is that low-severity charges (Contempt, Public Disorder, Assault, Resistance) cluster into a "street-protest bundle" applied to demonstrators, while high-severity charges (Sedition, Sabotage, Enemy Propaganda) are applied as standalone charges to individuals the state characterizes as regime threats. The two clusters do not overlap. The pattern is stable across the five-year observation window and across every Cuban province.
 
@@ -30,34 +30,38 @@ Everything here is derivative of Prisoners Defenders' underlying documentation. 
 ## What's in the repository
 
 ```
-cuba-prisoners-ontology/
+cuba-charge-graph/
 ├── ontology/
-│   ├── cuban_prisoners_tbox_v3.ttl         # T-Box (schema)
-│   ├── cuban_prisoners_charge_types.ttl    # SKOS vocabulary for the Cuban Penal Code
-│   └── cuban_prisoners_abox.ttl            # A-Box (1,258 individuals)
+│   ├── cuban_prisoners_tbox_v3.ttl        # T-Box (schema)
+│   ├── cuban_prisoners_charge_types.ttl   # SKOS vocabulary for the Cuban Penal Code
+│   └── cuban_prisoners_abox.ttl           # A-Box (1,172 individuals)
 ├── shapes/
-│   └── cuban_prisoners_shapes.ttl          # SHACL validation
+│   └── cuban_prisoners_shapes.ttl         # SHACL validation
 ├── policy/
-│   └── cuban_prisoners_policy.ttl          # DPV + ODRL ethics overlay
+│   └── cuban_prisoners_policy.ttl         # DPV + ODRL ethics overlay
 ├── scripts/
-│   ├── 01_scrape_prisoners.py              # Data collection (Prisoners Defenders)
-│   ├── 02_scrape_perpetrators.py           # Data collection (Represores Cubanos)
-│   ├── 03_build_abox.py                    # CSV/JSONL to RDF
-│   ├── 04_run_pipeline.py                  # Load, validate, infer
-│   └── 05_analyze.py                       # Statistical analysis + CSV output
+│   ├── 01_scrape_prisoners.py             # Data collection (Prisoners Defenders)
+│   ├── 02_scrape_perpetrators.py          # Data collection (Represores Cubanos)
+│   ├── 03_build_abox.py                   # CSV/JSONL to RDF
+│   ├── 04_run_pipeline.py                 # Load, validate, infer
+│   ├── 06_enrich_profiles.py              # Brave Search API enrichment
+│   ├── 06b_verify_findings.py             # False-positive scoring
+│   ├── 07_build_profile_ttl.py            # Enrichment to RDF
+│   ├── 08_analyze_selection.py              # Statistical analysis
+│   └── 09_community_detection.py             # Louvain independent validation
 ├── data/
-│   ├── prisoners.jsonl                     # Raw scraped records
-│   └── merged.ttl                          # Fully loaded and inferred graph
+│   ├── prisoners.jsonl                    # Raw scraped records
+│   └── merged.ttl                         # Fully loaded and inferred graph
 ├── results/
-│   ├── charge_stacking.csv                 # Per-pair co-occurrence with p-values
+│   ├── charge_stacking.csv                # Per-pair co-occurrence with p-values
 │   ├── facility_colocation.csv
 │   ├── arrest_waves.csv
 │   └── geographic_displacement.csv
 ├── submissions/
-│   ├── wgad_submission.md                  # UN Working Group on Arbitrary Detention
-│   ├── iachr_thematic_report.md            # Inter-American Commission
-│   └── upr_submission.md                   # Universal Periodic Review, Fifth Cycle
-├── two_regimes.html                        # Public-facing report
+│   ├── wgad_submission.md                 # UN Working Group on Arbitrary Detention
+│   ├── iachr_thematic_report.md           # Inter-American Commission
+│   └── upr_submission.md                  # Universal Periodic Review, Fifth Cycle
+├── two_regimes.html                       # Public-facing report
 └── README.md
 ```
 
@@ -76,8 +80,8 @@ The pipeline is deterministic. The same input produces the same output.
 Requires Python 3.11 or later.
 
 ```bash
-git clone https://github.com/[your-username]/cuba-prisoners-ontology.git
-cd cuba-prisoners-ontology
+git clone https://github.com/TruthQuest/cuba-charge-graph.git
+cd cuba-charge-graph
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 playwright install chromium
@@ -91,14 +95,15 @@ python scripts/03_build_abox.py \
     --input data/prisoners.jsonl \
     --output ontology/cuban_prisoners_abox.ttl
 python scripts/04_run_pipeline.py               # SHACL validation + wave inference
-python scripts/05_analyze.py                    # ~1 min, writes CSVs to results/
+python scripts/08_analyze_selection.py                    # ~1 min, writes CSVs to results/
+python scripts/09_community_detection.py prisoners.csv    # Independent validation via Louvain
 ```
 
 To reproduce the reported results against the version-locked data snapshot bundled in this repo:
 
 ```bash
 python scripts/04_run_pipeline.py
-python scripts/05_analyze.py
+python scripts/08_analyze_selection.py
 ```
 
 The `results/` directory will be overwritten with fresh output. Compare against `results/reference/` to verify reproducibility.
@@ -107,7 +112,7 @@ The `results/` directory will be overwritten with fresh output. Compare against 
 
 ## Key statistics from the current corpus
 
-- **1,258** documented individuals
+- **1,172** documented individuals
 - **2,264** charges filed
 - **158** detention facilities named
 - **44,725** RDF triples in the merged graph before inference; **46,876** after wave inference
@@ -115,6 +120,9 @@ The `results/` directory will be overwritten with fresh output. Compare against 
 - **~14%** of prisoners held outside their home province
 - **6 of 6** charge pairs within the street-protest bundle exceed the 99.9th percentile of the null distribution
 - **2 of 2** charge pairs testing Sedition-with-street-bundle co-occurrence fall below the 5th percentile of the null distribution
+- **100/100** stability on blind Louvain community detection (Step 09)
+- **97.2%** Regime A prisoner classification agreement between analyst and algorithm
+- **98.0%** Regime B prisoner classification agreement
 
 ---
 
@@ -122,7 +130,7 @@ The `results/` directory will be overwritten with fresh output. Compare against 
 
 Modelling the corpus as a formal ontology is not a design choice for its own sake. Three things become possible that a flat table does not support:
 
-**1. Separating the state's terminology from analytical assessment.** The SKOS vocabulary distinguishes `skos:prefLabel` (the state's charge name) from `skos:editorialNote` (analytical commentary tying the charge to international human rights standards). This matters for legal use: quoting the state's language accurately is required for admissibility; conflating it with analysis is not.
+**1. Separating the state's terminology from analytical assessment.** The SKOS vocabulary distinguishes `skos:prefLabel` (the state's charge name) from `skos:editorialNote` (analytical commentary tying the charge to international human rights standards). Cuba has signed but not ratified the ICCPR, so all legal arguments route through the UDHR and customary international law per WGAD Deliberation No. 9. This matters for legal use: quoting the state's language accurately is required for admissibility; conflating it with analysis is not.
 
 **2. Provenance on every claim.** Every fact in the graph carries a `prov:wasDerivedFrom` link to its source, and SHACL rejects any assertion of abuse or state practice that lacks such provenance. This is what makes the graph usable as evidence rather than as advocacy.
 
@@ -166,6 +174,15 @@ If you are affiliated with a named individual and want your record reviewed, con
 - Resolution 39/2020 (José Daniel Ferrer)
 - Others as documented per case
 
+**Verified WGAD Cuba opinions cited in submissions** (2021-2025):
+
+- Opinion 41/2021 (Denis Solís + Robles Elizástigui)
+- Opinion 63/2021 (Maykel Castillo Pérez: "recurrent pattern" language)
+- Opinion 52/2022 (11J protesters including Otero Alcántara)
+- Opinion 51/2023 (Otero Alcántara + Lavastida)
+- Opinion 13/2024 (17 named 11J protesters)
+- Opinions 37/2022, 66/2024, 46/2025, 57/2025
+
 ---
 
 ## Reproducibility statement
@@ -194,7 +211,7 @@ Open an issue before undertaking large changes. Coordinate with Prisoners Defend
 
 If you use this ontology, data, or analysis in academic, journalistic, or advocacy work, please cite as:
 
-> Brattin, E. (2026). *cuba-prisoners-ontology: A formal ontology and analysis of Cuban political prisoner charging patterns.* Version [X.Y.Z]. Zenodo. https://doi.org/[DOI]
+> Brattin, E. (2026). *cuba-charge-graph: A formal ontology and analysis of Cuban political prisoner charging patterns.* Trace Origin LLC. https://github.com/TruthQuest/cuba-charge-graph
 
 And cite the underlying data source:
 
@@ -204,21 +221,19 @@ And cite the underlying data source:
 
 ## License
 
-- **Ontology, SHACL shapes, and analysis code:** [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html)
-- **Instance data (A-Box):** Derivative of Prisoners Defenders' publicly-maintained registry; attribution to Prisoners Defenders required for any re-use
-- **HTML report and submission documents:** [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- **Ontology, SHACL shapes, and analysis code:** All Rights Reserved (© 2026 Trace Origin LLC)
+- **Instance data (A-Box):** derivative of Prisoners Defenders' publicly-maintained registry; attribution to Prisoners Defenders required for any re-use
+- **HTML report and submission documents:** All Rights Reserved (© 2026 Trace Origin LLC)
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-Additional restrictions on commercial reuse, machine learning training on individual records, and privacy boundaries are strictly enforced via the ODRL policy overlay in `policy/cuban_prisoners_policy.ttl`.
+© 2026 Trace Origin LLC. All rights reserved. Non-commercial academic citation and journalistic quotation permitted under standard fair use. Commercial use, redistribution, or derivative works require prior written permission. Commercial use is also prohibited under the ODRL policy overlay in `policy/cuban_prisoners_policy.ttl` regardless of the CC BY-4.0 default. Machine learning training use on individual records is prohibited.
 
 ---
 
 ## Contact
 
-**Eric Brattin**
-- Email: [ofcourseitscorrelated@gmail.com](mailto:ofcourseitscorrelated@gmail.com)
-- LinkedIn: [www.linkedin.com/in/ericbrattin](https://www.linkedin.com/in/ericbrattin)
+Eric Brattin
+ebrattin@traceoriginresearch.com
+https://www.linkedin.com/in/ericbrattin
 
 For questions about the underlying case data, contact Prisoners Defenders directly. For questions about the ontology, analysis method, or how to extend the pipeline for a related jurisdiction, open an issue or write.
 
@@ -226,4 +241,4 @@ For questions about the underlying case data, contact Prisoners Defenders direct
 
 ## Disclosures
 
-The author has no institutional affiliation with the Government of Cuba, any Cuban opposition organization, any foreign government, or any of the human rights organizations whose prior work is cited above. This project is self-funded. No compensation is received for its production or dissemination.
+The author is the founder of Trace Origin LLC and has no institutional affiliation with the Government of Cuba, any Cuban opposition organization, any foreign government, or any of the human rights organizations whose prior work is cited above. This project is self-funded by Trace Origin LLC. No compensation is received for its production or dissemination.
