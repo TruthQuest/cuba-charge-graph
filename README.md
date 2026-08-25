@@ -6,7 +6,7 @@ A formal ontology and reproducible analysis pipeline over the public registry of
 
 The primary finding, tested under a permutation null model (n=5,000, p<0.001), is that low-severity charges (Contempt, Public Disorder, Assault, Resistance) cluster into a "street-protest bundle" applied to demonstrators, while high-severity charges (Sedition, Sabotage, Enemy Propaganda) are applied as standalone charges to individuals the state characterizes as regime threats. The two clusters do not overlap. The pattern is stable across the five-year observation window and across every Cuban province.
 
-Full report and interpretation: [`two_regimes.html`](./two_regimes.html) (also viewable at [project site]).
+Full report and interpretation: [Two Regimes: How Cuba Prosecutes Political Dissent](https://truthquest.github.io/cuba-charge-graph/reports/two-regimes-cuba-prisoners-report.html)
 
 Formal submissions to human rights bodies drawing on this analysis are in [`submissions/`](./submissions/).
 
