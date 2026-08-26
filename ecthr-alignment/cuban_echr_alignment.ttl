@@ -1,0 +1,302 @@
+@prefix :         <http://prisoners.defenders.org/alignment#> .
+@prefix pd:       <http://prisoners.defenders.org/ontology#> .
+@prefix echr:     <http://prisoners.defenders.org/echr#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+
+# ============================================================================
+# ONTOLOGY METADATA
+# ============================================================================
+
+<http://prisoners.defenders.org/alignment>
+    a owl:Ontology ;
+    dcterms:title "Cuban Criminal Charges to ECHR Articles: Doctrinal Alignment"@en ;
+    dcterms:description
+        "SKOS-based alignment mapping the 8 canonical Cuban Código Penal charge types used against political prisoners onto the corresponding European Convention on Human Rights articles. Alignment is doctrinal and thematic, not conceptual identity. Weights indicate mapping strength for retrieval scoring. Doctrinal bases cite the reasoning; Strasbourg authorities cite exemplar case-law."@en ;
+    dcterms:created "2026-08-26"^^xsd:date ;
+    dcterms:modified "2026-08-26"^^xsd:date ;
+    owl:versionIRI <http://prisoners.defenders.org/alignment/1.0> ;
+    owl:versionInfo "1.0 - Initial alignment covering 8 Cuban ChargeTypes present in v2.1 data" ;
+    owl:imports <http://prisoners.defenders.org/echr> ,
+                <http://prisoners.defenders.org/ontology> .
+
+# ============================================================================
+# ALIGNMENT VOCABULARY
+# ============================================================================
+
+:Alignment
+    a owl:Class ;
+    rdfs:label "Doctrinal Alignment"@en ;
+    rdfs:comment "A reified mapping from a Cuban ChargeType to an ECHR concept, annotated with weight, doctrinal basis, and cited Strasbourg authorities."@en .
+
+:sourceCharge
+    a owl:ObjectProperty ;
+    rdfs:label "source charge"@en ;
+    rdfs:domain :Alignment ;
+    rdfs:range pd:ChargeType .
+
+:targetConcept
+    a owl:ObjectProperty ;
+    rdfs:label "target ECHR concept"@en ;
+    rdfs:domain :Alignment ;
+    rdfs:range skos:Concept .
+
+:mappingRelation
+    a owl:ObjectProperty ;
+    rdfs:label "SKOS mapping relation"@en ;
+    rdfs:comment "The SKOS mapping predicate that would be asserted between source and target: skos:closeMatch, skos:relatedMatch, or skos:broadMatch."@en .
+
+:weight
+    a owl:DatatypeProperty ;
+    rdfs:label "mapping weight"@en ;
+    rdfs:comment "Mapping strength on [0.0, 1.0]. 1.0 = primary doctrinal analogue; lower = secondary or contextual."@en ;
+    rdfs:range xsd:decimal .
+
+:doctrinalBasis
+    a owl:DatatypeProperty ;
+    rdfs:label "doctrinal basis"@en ;
+    rdfs:comment "Short human-readable justification for the mapping, typically citing the ICCPR/ECHR correspondence and any relevant Strasbourg standard."@en .
+
+:citedAuthority
+    a owl:DatatypeProperty ;
+    rdfs:label "cited authority"@en ;
+    rdfs:comment "Exemplar Strasbourg case-law authorities supporting the mapping. Free text; multiple values allowed."@en .
+
+# ============================================================================
+# ALIGNMENTS
+#
+# Each ChargeType receives (a) direct SKOS mapping triples for standard
+# consumers, and (b) reified :Alignment instances carrying the retrieval
+# weight, doctrinal basis, and cited authorities.
+# ============================================================================
+
+# ---- Sedición (Art. 100) --------------------------------------------------
+
+pd:SedicionType skos:closeMatch    echr:Article_10 ;
+                skos:relatedMatch  echr:Article_11 ;
+                skos:relatedMatch  echr:Article_18 ;
+                skos:relatedMatch  echr:Article_6 .
+
+:map_Sedicion_Art10 a :Alignment ;
+    :sourceCharge pd:SedicionType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:closeMatch ; :weight "1.0"^^xsd:decimal ;
+    :doctrinalBasis "ICCPR Art 19 / ECHR Art 10 expression. Sedición prosecutions target speech and organizing that advocates political change. Strasbourg treats criminalization of peaceful advocacy of political change as Art 10 violation." ;
+    :citedAuthority "Ceylan v Turkey (App. 23556/94)" ,
+                    "Gül and Others v Turkey (App. 4870/02)" ,
+                    "Otegi Mondragon v Spain (App. 2034/07)" .
+
+:map_Sedicion_Art11 a :Alignment ;
+    :sourceCharge pd:SedicionType ; :targetConcept echr:Article_11 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.9"^^xsd:decimal ;
+    :doctrinalBasis "When Sedición covers protest participation or opposition organizing, Art 11 assembly is the closer analogue than pure expression." ;
+    :citedAuthority "Kudrevičius and Others v Lithuania (Grand Chamber, App. 37553/05)" .
+
+:map_Sedicion_Art18 a :Alignment ;
+    :sourceCharge pd:SedicionType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.7"^^xsd:decimal ;
+    :doctrinalBasis "Aggressive stacking of political-crime charges is the paradigm Art 18 scenario: legitimate-looking restriction (detention pending trial) applied for ulterior political purpose." ;
+    :citedAuthority "Merabishvili v Georgia (Grand Chamber, App. 72508/13)" ,
+                    "Navalnyy v Russia (Grand Chamber, App. 29580/12)" .
+
+:map_Sedicion_Art6 a :Alignment ;
+    :sourceCharge pd:SedicionType ; :targetConcept echr:Article_6 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Cuban military-tribunal or summary procedures for Sedición frequently violate independence, impartiality, and equality of arms." .
+
+# ---- Desacato (Art. 144) --------------------------------------------------
+
+pd:DesacatoType skos:closeMatch    echr:Article_10 ;
+                skos:relatedMatch  echr:Article_6 ,
+                                    echr:Article_18 .
+
+:map_Desacato_Art10 a :Alignment ;
+    :sourceCharge pd:DesacatoType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:closeMatch ; :weight "1.0"^^xsd:decimal ;
+    :doctrinalBasis "Criminal contempt-of-authority statutes have been consistently held incompatible with Art 10, particularly where they protect public officials from criticism above ordinary citizens." ;
+    :citedAuthority "Colombani and Others v France (App. 51279/99)" ,
+                    "Otegi Mondragon v Spain (App. 2034/07)" ,
+                    "Lehideux and Isorni v France (Grand Chamber, App. 24662/94)" .
+
+:map_Desacato_Art6 a :Alignment ;
+    :sourceCharge pd:DesacatoType ; :targetConcept echr:Article_6 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.4"^^xsd:decimal ;
+    :doctrinalBasis "Fair-trial concerns arise where the truth defence is excluded, as is standard in Cuban Desacato prosecutions." .
+
+:map_Desacato_Art18 a :Alignment ;
+    :sourceCharge pd:DesacatoType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Where Desacato is applied to political dissidents rather than genuine cases of official insult, the restriction is pursued for an ulterior political purpose. Pattern documented consistently in Prisoners Defenders casework." ;
+    :citedAuthority "Merabishvili v Georgia (Grand Chamber, App. 72508/13)" ,
+                    "Kavala v Türkiye No. 2 (App. 28749/18)" .
+
+# ---- Desórdenes Públicos (Art. 200) --------------------------------------
+
+pd:DesordenesPublicosType skos:closeMatch    echr:Article_11 ;
+                          skos:relatedMatch  echr:Article_10 ,
+                                              echr:Article_18 .
+
+:map_DesordenesPublicos_Art11 a :Alignment ;
+    :sourceCharge pd:DesordenesPublicosType ; :targetConcept echr:Article_11 ;
+    :mappingRelation skos:closeMatch ; :weight "1.0"^^xsd:decimal ;
+    :doctrinalBasis "Public-disorder charges for participation in unauthorised demonstrations map directly to Art 11 assembly analysis: legality, legitimate aim, and proportionality of restriction." ;
+    :citedAuthority "Kudrevičius and Others v Lithuania (Grand Chamber, App. 37553/05)" ,
+                    "Navalnyy v Russia (Grand Chamber, App. 29580/12)" .
+
+:map_DesordenesPublicos_Art10 a :Alignment ;
+    :sourceCharge pd:DesordenesPublicosType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "When speech-related conduct dominates (e.g. chanting slogans, holding placards) over pure assembly, Art 10 lens applies alongside Art 11." .
+
+:map_DesordenesPublicos_Art18 a :Alignment ;
+    :sourceCharge pd:DesordenesPublicosType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "Systematic application of public-disorder charges to peaceful opposition demonstrations (e.g. Damas de Blanco Sunday marches, 11J protests) evidences use of the restriction for an ulterior political purpose." ;
+    :citedAuthority "Navalnyy v Russia (Grand Chamber, App. 29580/12)" ,
+                    "Merabishvili v Georgia (Grand Chamber, App. 72508/13)" .
+
+# ---- Atentado (Art. 142) --------------------------------------------------
+
+pd:AtentadoType skos:closeMatch    echr:Article_6 ,
+                                    echr:Article_5 ;
+                skos:relatedMatch  echr:Article_3 ,
+                                    echr:Article_18 ,
+                                    echr:Article_11 .
+
+:map_Atentado_Art6 a :Alignment ;
+    :sourceCharge pd:AtentadoType ; :targetConcept echr:Article_6 ;
+    :mappingRelation skos:closeMatch ; :weight "0.9"^^xsd:decimal ;
+    :doctrinalBasis "Pretextual assault-on-officer charges commonly used to legitimize arbitrary detention. Strasbourg addresses these under fair-trial review of the evidentiary basis." ;
+    :citedAuthority "Lutsenko v Ukraine (App. 6492/11)" ,
+                    "Ilgar Mammadov v Azerbaijan (App. 15172/13)" .
+
+:map_Atentado_Art5 a :Alignment ;
+    :sourceCharge pd:AtentadoType ; :targetConcept echr:Article_5 ;
+    :mappingRelation skos:closeMatch ; :weight "0.9"^^xsd:decimal ;
+    :doctrinalBasis "Where the Atentado charge is fabricated to justify a detention that would otherwise lack Art 5(1) grounds, the deprivation of liberty is arbitrary from inception." ;
+    :citedAuthority "Gusinskiy v Russia (App. 70276/01)" ,
+                    "Ilgar Mammadov v Azerbaijan (App. 15172/13)" .
+
+:map_Atentado_Art3 a :Alignment ;
+    :sourceCharge pd:AtentadoType ; :targetConcept echr:Article_3 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Atentado arrests frequently accompanied by beatings at the point of arrest, giving rise to substantive-aspect Art 3 claims and procedural-aspect duty to investigate." .
+
+:map_Atentado_Art18 a :Alignment ;
+    :sourceCharge pd:AtentadoType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.7"^^xsd:decimal ;
+    :doctrinalBasis "Atentado is the most explicit pretextual charge in Cuban political prosecutions: fabricated to convert a peaceful arrest into a serious offence justifying pretrial detention. Textbook Art 18 ulterior-purpose scenario." ;
+    :citedAuthority "Kavala v Türkiye No. 2 (App. 28749/18)" ,
+                    "Merabishvili v Georgia (Grand Chamber, App. 72508/13)" ,
+                    "Navalnyy v Russia (Grand Chamber, App. 29580/12)" .
+
+:map_Atentado_Art11 a :Alignment ;
+    :sourceCharge pd:AtentadoType ; :targetConcept echr:Article_11 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "When Atentado is applied to conduct occurring at demonstrations, the underlying restricted conduct is peaceful assembly, engaging Art 11 review of the charge's proportionality." ;
+    :citedAuthority "Frumkin v Russia (App. 74568/12)" ,
+                    "Navalnyy v Russia (Grand Chamber, App. 29580/12)" .
+
+# ---- Resistencia (Art. 143) ----------------------------------------------
+
+pd:ResistenciaType skos:closeMatch    echr:Article_5 ;
+                   skos:relatedMatch  echr:Article_6 ,
+                                       echr:Article_3 ,
+                                       echr:Article_18 ,
+                                       echr:Article_11 .
+
+:map_Resistencia_Art5 a :Alignment ;
+    :sourceCharge pd:ResistenciaType ; :targetConcept echr:Article_5 ;
+    :mappingRelation skos:closeMatch ; :weight "0.8"^^xsd:decimal ;
+    :doctrinalBasis "Charge typically appended to justify use of force during arrest and to legitimize the underlying detention. Same Art 5 pretext analysis as Atentado, weaker signal." .
+
+:map_Resistencia_Art6 a :Alignment ;
+    :sourceCharge pd:ResistenciaType ; :targetConcept echr:Article_6 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "Evidentiary weakness of the resistance narrative goes to fair-trial guarantees." .
+
+:map_Resistencia_Art3 a :Alignment ;
+    :sourceCharge pd:ResistenciaType ; :targetConcept echr:Article_3 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Substantive-aspect ill-treatment often documented in resistance-charge arrests." .
+
+:map_Resistencia_Art18 a :Alignment ;
+    :sourceCharge pd:ResistenciaType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Charge appended to political arrests for the ulterior purpose of adding a serious offence to what would otherwise be a peaceful-assembly arrest." .
+
+:map_Resistencia_Art11 a :Alignment ;
+    :sourceCharge pd:ResistenciaType ; :targetConcept echr:Article_11 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Where the underlying arrest is at a demonstration, the true restricted conduct is Art 11 protected assembly." ;
+    :citedAuthority "Frumkin v Russia (App. 74568/12)" .
+
+# ---- Propaganda Enemiga (1987 Código Penal, Art. 103) --------------------
+
+pd:PropagandaEnemigaType skos:closeMatch    echr:Article_10 ;
+                          skos:relatedMatch  echr:Article_18 .
+
+:map_PropagandaEnemiga_Art10 a :Alignment ;
+    :sourceCharge pd:PropagandaEnemigaType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:closeMatch ; :weight "1.0"^^xsd:decimal ;
+    :doctrinalBasis "Cold-war era statute criminalizing 'enemy propaganda,' repurposed for dissident speech. Direct Art 10 analogue with essentially identical facts to Sürek/Ceylan Turkey line." ;
+    :citedAuthority "Sürek v Turkey (No. 1) (Grand Chamber, App. 26682/95)" ,
+                    "Ceylan v Turkey (App. 23556/94)" .
+
+:map_PropagandaEnemiga_Art18 a :Alignment ;
+    :sourceCharge pd:PropagandaEnemigaType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "Statute's national-security framing masks a political-suppression purpose, engaging Art 18 ulterior-purpose analysis." .
+
+# ---- Propaganda Contra el Orden Constitucional (2022 Código Penal) -------
+
+pd:PropagandaContraOrdenType skos:closeMatch    echr:Article_10 ;
+                              skos:relatedMatch  echr:Article_18 ,
+                                                  echr:Article_11 .
+
+:map_PropagandaContraOrden_Art10 a :Alignment ;
+    :sourceCharge pd:PropagandaContraOrdenType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:closeMatch ; :weight "1.0"^^xsd:decimal ;
+    :doctrinalBasis "2022 successor to Propaganda Enemiga. Broader statutory reach (covers digital dissemination), but the Art 10 doctrinal analysis is identical." ;
+    :citedAuthority "Sürek v Turkey (No. 1) (Grand Chamber, App. 26682/95)" ,
+                    "Perinçek v Switzerland (Grand Chamber, App. 27510/08)" .
+
+:map_PropagandaContraOrden_Art18 a :Alignment ;
+    :sourceCharge pd:PropagandaContraOrdenType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "'Constitutional-order' framing is textbook ulterior-purpose masking." .
+
+:map_PropagandaContraOrden_Art11 a :Alignment ;
+    :sourceCharge pd:PropagandaContraOrdenType ; :targetConcept echr:Article_11 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "Frequently applied against opposition organizing, engaging assembly/association analysis." .
+
+# ---- Sabotaje ------------------------------------------------------------
+
+pd:SabotajeType skos:closeMatch    echr:Article_6 ;
+                skos:relatedMatch  echr:Article_5 ,
+                                    echr:Article_10 ,
+                                    echr:Article_18 .
+
+:map_Sabotaje_Art6 a :Alignment ;
+    :sourceCharge pd:SabotajeType ; :targetConcept echr:Article_6 ;
+    :mappingRelation skos:closeMatch ; :weight "0.8"^^xsd:decimal ;
+    :doctrinalBasis "Sabotage charges applied to protest-adjacent property damage or symbolic acts frequently rest on tenuous evidentiary bases and long pretrial detention." .
+
+:map_Sabotaje_Art5 a :Alignment ;
+    :sourceCharge pd:SabotajeType ; :targetConcept echr:Article_5 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.7"^^xsd:decimal ;
+    :doctrinalBasis "Sabotage is a serious offence enabling extended pretrial detention (Art 5-3) even where the underlying acts are minor." .
+
+:map_Sabotaje_Art10 a :Alignment ;
+    :sourceCharge pd:SabotajeType ; :targetConcept echr:Article_10 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.5"^^xsd:decimal ;
+    :doctrinalBasis "When applied to symbolic expressive acts (defacement of state signage, symbolic vandalism), engages Art 10 analysis." .
+
+:map_Sabotaje_Art18 a :Alignment ;
+    :sourceCharge pd:SabotajeType ; :targetConcept echr:Article_18 ;
+    :mappingRelation skos:relatedMatch ; :weight "0.6"^^xsd:decimal ;
+    :doctrinalBasis "Escalation from minor property offences to sabotage charge indicates ulterior political purpose." .

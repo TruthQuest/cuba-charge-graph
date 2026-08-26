@@ -1,0 +1,198 @@
+@prefix :        <http://prisoners.defenders.org/echr#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# ============================================================================
+# ONTOLOGY METADATA
+# ============================================================================
+
+<http://prisoners.defenders.org/echr>
+    a owl:Ontology ;
+    dcterms:title
+        "European Convention on Human Rights - Article Concept Scheme"@en ,
+        "Convenio Europeo de Derechos Humanos - Esquema de Conceptos de Artículos"@es ;
+    dcterms:description
+        "A SKOS concept scheme for the substantive articles of the European Convention on Human Rights and its Protocols, scoped to those Cuba-analogically relevant for political-prisoner retrieval. Concepts represent articles at the granularity used in HUDOC coding, which is normally the article number (paragraph and aspect are downstream refinements)."@en ;
+    dcterms:created "2026-08-26"^^xsd:date ;
+    dcterms:modified "2026-08-26"^^xsd:date ;
+    owl:versionIRI <http://prisoners.defenders.org/echr/1.0> ;
+    owl:versionInfo "1.0 - Initial scoped scheme (12 articles) for Prisoners Defenders retrieval prototype" ;
+    rdfs:comment "Coverage is not exhaustive. Only articles relevant to the Cuban political-prisoner Cuba-to-Strasbourg analogy are included. Extend as needed."@en .
+
+# ============================================================================
+# CONCEPT SCHEME
+# ============================================================================
+
+:ECHRScheme
+    a skos:ConceptScheme ;
+    dcterms:title
+        "European Convention on Human Rights"@en ,
+        "Convenio Europeo de Derechos Humanos"@es ;
+    skos:prefLabel "ECHR"@en ;
+    dcterms:source <https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=005> ;
+    skos:hasTopConcept
+        :Article_3 , :Article_5 , :Article_6 , :Article_8 ,
+        :Article_10 , :Article_11 , :Article_13 , :Article_14 , :Article_18 ,
+        :Protocol1_Article_1 , :Protocol4_Article_2 , :Protocol7_Article_4 .
+
+# ============================================================================
+# ARTICLES (Convention core)
+# ============================================================================
+
+:Article_3
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 3" ;
+    skos:prefLabel
+        "Article 3 - Prohibition of torture"@en ,
+        "Artículo 3 - Prohibición de la tortura"@es ;
+    skos:definition
+        "No one shall be subjected to torture or to inhuman or degrading treatment or punishment."@en ;
+    skos:scopeNote
+        "Absolute right. Non-derogable. Has substantive aspect (state committed the act) and procedural aspect (state failed to investigate credible allegations)."@en .
+
+:Article_5
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 5" ;
+    skos:prefLabel
+        "Article 5 - Right to liberty and security"@en ,
+        "Artículo 5 - Derecho a la libertad y a la seguridad"@es ;
+    skos:definition
+        "Everyone has the right to liberty and security of person. No one shall be deprived of his liberty save in specified cases and in accordance with a procedure prescribed by law."@en ;
+    skos:scopeNote
+        "Six enumerated lawful grounds for detention (paragraphs 1(a)-(f)). Also protects rights of arrested persons (paras 2-5)."@en .
+
+:Article_6
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 6" ;
+    skos:prefLabel
+        "Article 6 - Right to a fair trial"@en ,
+        "Artículo 6 - Derecho a un proceso equitativo"@es ;
+    skos:definition
+        "In the determination of civil rights and obligations or of any criminal charge, everyone is entitled to a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law."@en ;
+    skos:scopeNote
+        "Dominant article by HUDOC volume. Includes 6-1 (general fair trial), 6-2 (presumption of innocence), 6-3 (defence rights: notification, time, defence, examination of witnesses, interpretation)."@en .
+
+:Article_8
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 8" ;
+    skos:prefLabel
+        "Article 8 - Right to respect for private and family life"@en ,
+        "Artículo 8 - Derecho al respeto a la vida privada y familiar"@es ;
+    skos:definition
+        "Everyone has the right to respect for his private and family life, his home and his correspondence."@en .
+
+:Article_10
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 10" ;
+    skos:prefLabel
+        "Article 10 - Freedom of expression"@en ,
+        "Artículo 10 - Libertad de expresión"@es ;
+    skos:definition
+        "Everyone has the right to freedom of expression. This right shall include freedom to hold opinions and to receive and impart information and ideas without interference by public authority."@en ;
+    skos:scopeNote
+        "Primary Convention correlate of ICCPR Art 19. Standard analogue for Cuban Desacato, Propaganda Enemiga, Difamación, Ultraje statutes."@en .
+
+:Article_11
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 11" ;
+    skos:prefLabel
+        "Article 11 - Freedom of assembly and association"@en ,
+        "Artículo 11 - Libertad de reunión y asociación"@es ;
+    skos:definition
+        "Everyone has the right to freedom of peaceful assembly and to freedom of association with others, including the right to form and to join trade unions."@en ;
+    skos:scopeNote
+        "Standard analogue for Cuban Desórdenes Públicos and Asociación para delinquir charges when applied to protest or opposition organizing."@en .
+
+:Article_13
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 13" ;
+    skos:prefLabel
+        "Article 13 - Right to an effective remedy"@en ,
+        "Artículo 13 - Derecho a un recurso efectivo"@es ;
+    skos:definition
+        "Everyone whose rights and freedoms as set forth in this Convention are violated shall have an effective remedy before a national authority."@en ;
+    skos:scopeNote
+        "Almost always pled 'in conjunction with' another article (e.g. Art. 13+3, Art. 13+8). Requires the remedy to be effective in practice, not merely on paper."@en .
+
+:Article_14
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 14" ;
+    skos:prefLabel
+        "Article 14 - Prohibition of discrimination"@en ,
+        "Artículo 14 - Prohibición de discriminación"@es ;
+    skos:definition
+        "The enjoyment of the rights and freedoms set forth in this Convention shall be secured without discrimination on any ground."@en ;
+    skos:scopeNote
+        "Accessory article. Requires linkage to another Convention right. Distinct from freestanding Protocol 12 non-discrimination."@en .
+
+:Article_18
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "Art. 18" ;
+    skos:prefLabel
+        "Article 18 - Limitation on use of restrictions on rights"@en ,
+        "Artículo 18 - Limitación de la aplicación de las restricciones de derechos"@es ;
+    skos:definition
+        "The restrictions permitted under this Convention to the said rights and freedoms shall not be applied for any purpose other than those for which they have been prescribed."@en ;
+    skos:scopeNote
+        "The doctrinally sharpest article for political persecution. A finding of Art. 18 violation is a Strasbourg determination that the state used an otherwise legitimate restriction (typically Art. 5 detention) for an ulterior political purpose. Rare and grave. Merabishvili v Georgia (Grand Chamber 2017) is the leading standard-of-proof authority. Directly maps to the WGAD arbitrary-detention Category V framework."@en .
+
+# ============================================================================
+# PROTOCOLS
+# ============================================================================
+
+:Protocol1_Article_1
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "P1-1" ;
+    skos:prefLabel
+        "Protocol 1, Article 1 - Protection of property"@en ,
+        "Protocolo 1, Artículo 1 - Protección de la propiedad"@es ;
+    skos:definition
+        "Every natural or legal person is entitled to the peaceful enjoyment of his possessions."@en .
+
+:Protocol4_Article_2
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "P4-2" ;
+    skos:prefLabel
+        "Protocol 4, Article 2 - Freedom of movement"@en ,
+        "Protocolo 4, Artículo 2 - Libertad de circulación"@es ;
+    skos:definition
+        "Everyone lawfully within the territory of a State shall, within that territory, have the right to liberty of movement and freedom to choose his residence. Everyone shall be free to leave any country, including his own."@en ;
+    skos:scopeNote
+        "Cuba analogue: internal exile (destierro), house arrest as a form of freedom-of-movement restriction, and travel bans (regulación migratoria)."@en .
+
+:Protocol7_Article_4
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "P7-4" ;
+    skos:prefLabel
+        "Protocol 7, Article 4 - Right not to be tried or punished twice"@en ,
+        "Protocolo 7, Artículo 4 - Derecho a no ser juzgado o castigado dos veces"@es ;
+    skos:definition
+        "No one shall be liable to be tried or punished again in criminal proceedings under the jurisdiction of the same State for an offence for which he has already been finally acquitted or convicted."@en .
+
+# ============================================================================
+# PLACEHOLDER for procedural verdicts (Art. 41 just satisfaction etc.)
+# ============================================================================
+
+:ProceduralVerdict
+    a skos:Concept ;
+    skos:inScheme :ECHRScheme ;
+    skos:notation "PROC" ;
+    skos:prefLabel "Procedural verdict"@en ;
+    skos:definition
+        "Non-substantive dispositions such as just satisfaction (Art. 41), friendly settlement, strike-out, and admissibility rulings. Emitted by the conclusion parser for tuple completeness but excluded from retrieval vectors."@en .
